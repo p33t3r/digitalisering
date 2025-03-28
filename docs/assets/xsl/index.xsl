@@ -72,11 +72,11 @@
                                 <div class="col-sm">
                                     <article id="details">
                                       <p>
-                                        <strong>Author:</strong><br/>
+                                        <strong>Författare:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                       </p>
                                       <p>
-                                        <strong>Transcription by:</strong><br/>
+                                        <strong>Transkriberat av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
                                     </article>
@@ -93,7 +93,7 @@
                   			</a>
                   		</div>
                   		<div class="copyright_text">
-                         2022 Wout Dillen.
+                         2025 Emilia, Peeter och Rebecca.
                       </div>
                     </div>
                 </div>

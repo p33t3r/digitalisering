@@ -41,12 +41,12 @@
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Images</h3>
+                                <h3>Bilder</h3>
                             </div>
                             <div class="col-sm">
                             </div>
                             <div class="col-sm">
-                                <h3>Transcription</h3>
+                                <h3>Transkription</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
@@ -103,7 +103,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2025 Emilia, Peeter och Rebecca.
                       </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
 
-    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <!-- we turn the tei head element (headline) into an html h2 element-->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
