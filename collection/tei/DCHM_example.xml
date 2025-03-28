@@ -32,44 +32,116 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="sida1">
          <figure>
-            <label>Post-It Front</label>
+            <label>Sida 1</label>
             <figDesc>
                A photograph of the front of a post-it with a simple banana phrase.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="sida1_full" url="assets/img/documents/tal1sida1.tif"/>
+            <graphic xml:id="sida1_thumb" url="assets/img/documents/tal1sida1.jpeg"/>
          </figure>
       </surface>
-      <surface xml:id="postit02">
+      <surface xml:id="sida2">
          <figure>
-            <label>Post-It Back</label>
+            <label>Sida 2</label>
             <figDesc>
                A photograph of the back a post-it with a simple orange phrase.
             </figDesc>
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            <graphic xml:id="sida2_full" url="assets/img/documents/tal1sida2.jpeg"/>
+            <graphic xml:id="sida2_thumb" url="assets/img/documents/tal1sida2.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida3">
+         <figure>
+            <label>Sida 3</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple orange phrase.
+            </figDesc>
+            <graphic xml:id="sida3_full" url="assets/img/documents/tal1sida3.jpeg"/>
+            <graphic xml:id="sida3_thumb" url="assets/img/documents/tal1sida3.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida4">
+         <figure>
+            <label>Sida 4</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple orange phrase.
+            </figDesc>
+            <graphic xml:id="sida4_full" url="assets/img/documents/tal1sida4.jpeg"/>
+            <graphic xml:id="sida4_thumb" url="assets/img/documents/tal1sida4.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida5">
+         <figure>
+            <label>Sida 5</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple orange phrase.
+            </figDesc>
+            <graphic xml:id="sida5_full" url="assets/img/documents/tal1sida5.jpeg"/>
+            <graphic xml:id="sida5_thumb" url="assets/img/documents/tal1sida5.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida6">
+         <figure>
+            <label>Sida 6</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple orange phrase.
+            </figDesc>
+            <graphic xml:id="sida6_full" url="assets/img/documents/tal1sida6.jpeg"/>
+            <graphic xml:id="sida6_thumb" url="assets/img/documents/tal1sida6.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida7">
+         <figure>
+            <label>Sida 7</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple orange phrase.
+            </figDesc>
+            <graphic xml:id="sida7_full" url="assets/img/documents/tal1sida7.jpeg"/>
+            <graphic xml:id="sida7_thumb" url="assets/img/documents/tal1sida7.jpeg"/>
          </figure>
       </surface>
    </facsimile>
+   
    <text>
       <body>
-         <div type="page" facs="#postit01">
-            <head>
-               <hi rend="u">DCHM Template</hi>
-            </head>
+         <div type="page" facs="#sida1">
             <p>
-               A <del>silly</del> <add>small</add> example
-               <lb/>text.
+               <name type="place">Nora</name>, 1 <choice><orig>Maj</orig><reg>maj</reg></choice> 1910.
+            </p>
+            <p>
+               Demonstranter!
+            </p>
+            <p>
+               Efter det svåraste år, som <choice><orig>Sverges</orig><reg>Sveriges</reg></choice>
+               <lb/><choice><abbr>klassm.</abbr><expan>klassmedvetna</expan></choice> arbetare utstått, lockout- och
+               <lb/>storstrejkåret, samlas de åter på sin
+               <lb/><choice><abbr>int.</abbr><expan>internationella</expan></choice> mönstringsdag för att <add place="above">än en gång</add> fordra sina
+               <lb/>förhållna <choice><abbr>mänskl.</abbr><expan>mänskliga</expan></choice> rättigheter.
+            </p>
+            <p>
+               Ett tjog gånger väl <choice><orig>ha</orig><reg>har</reg></choice> vi nu lytt
+               <lb/>parollen <choice><abbr>fr.</abbr><expan>från</expan></choice> <choice><abbr>int.</abbr><expan>internationella</expan></choice> <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kongressen i <name type="place">Paris</name>
+               <lb/>1899 att <emph>demonstrera</emph>
+               <lb/>för lagstadgad 8-timmars arbetsdag.
             </p>
          </div>
-         <div type="page" facs="#postit02">
-         <p>
-            The back
-            <lb/>of my
-            <lb/>Post-it
-         </p>
+         
+         <div type="page" facs="#sida2">
+            <p>
+               <unclear>Även</unclear> i <name type="place">Nora</name>
+               <lb/><abbr>dem.</abbr> <choice><abbr>tillr.</abbr><expan>tillräckligt</expan></choice>
+               <lb/>många gånger för
+               <lb/>att inte huvudtemat
+               <lb/>just skall kunna
+               <lb/>varieras. Endast
+               <lb/>talar<emph><choice><orig>ne</orig><reg>na</reg></choice></emph> omväxla.
+               <lb/><choice><abbr>Arb. rörelsens</abbr><expan>Arbetarrörelsens</expan></choice> berättigande
+               <lb/>och styrka framväxer ur
+               <lb/>kapitalismen själv! Ur
+               <lb/>vinst- och lönesystemet.
+            </p>
       </div>
       </body>
    </text>

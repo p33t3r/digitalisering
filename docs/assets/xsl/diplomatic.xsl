@@ -157,7 +157,28 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
+    
+    <!-- do not show expanded abbreviations-->
+    <xsl:template match="tei:expan">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
+    <!-- do not show regularized spellings-->
+    <xsl:template match="tei:reg">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!-- transform tei emph into underlines-->
+    <xsl:template match="tei:emph">
+        <span style="text-decoration:underline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend = 'u']">
