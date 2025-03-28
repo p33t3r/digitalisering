@@ -6,13 +6,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template</title>
-            <author corresp="#WD">Wout Dillen</author>
-            <principal>Wout Dillen</principal>
+            <title>Elma Danielssons tal</title>
+            <author corresp="#ED">Elma Danielsson</author>
+            <principal>Peeter Sällström Randsalu</principal>
          </titleStmt>
          <publicationStmt>
             <publisher>University of Borås</publisher>
-            <date>March 2022</date>
+            <date>March 2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
