@@ -36,7 +36,7 @@
          <figure>
             <label>Post-It Front</label>
             <figDesc>
-               A photograph of the front of a post-it with a simple example phrase.
+               A photograph of the front of a post-it with a simple banana phrase.
             </figDesc>
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
@@ -46,7 +46,7 @@
          <figure>
             <label>Post-It Back</label>
             <figDesc>
-               A photograph of the back a post-it with a simple example phrase.
+               A photograph of the back a post-it with a simple orange phrase.
             </figDesc>
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
