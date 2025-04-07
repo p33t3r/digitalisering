@@ -10,9 +10,8 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    DCHM Template: Home
+                    <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"

@@ -10,9 +10,8 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    DCHM Template: Diplomatic View
+                    <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Diplomatic View
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -56,7 +55,7 @@
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
-                                    <article>
+                                    <!-- <article> unnecessary? -->
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -72,6 +71,10 @@
                                                   we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
+                                            <!-- create an id for each image, so that other pages can link to a specific image --> 
+                                            <xsl:attribute name="id">
+                                                <xsl:value-of select="replace(//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label, ' ', '')"/>
+                                            </xsl:attribute>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
@@ -82,13 +85,15 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                    </article>
+                                    <!-- </article> unnecessary? -->
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
-                                    <article class="transcription">
-                                            <xsl:apply-templates/>                                      
-                                    </article>
+                                    <!-- <article class="transcription"> unnecessary? -->
+                                        <!-- add page numbers -->
+                                        <p>[<xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>]</p>
+                                        <xsl:apply-templates/>                                      
+                                    <!-- </article> unnecessary? -->
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -121,29 +126,55 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
-    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
-
     <!-- we turn the tei head element (headline) into an html h2 element-->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
             <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:apply-templates/><!-- select="@* | node()"-->
+        </p>
+    </xsl:template>
+    
+    <!-- transform indented paragraphs -->
+    <xsl:template match="tei:p[@rend='indent']">
+        <p class="indent">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
+    <!-- transform right-justified paragraphs -->
+    <xsl:template match="tei:p[@rend='right']">
+        <p class="right">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <!-- Match @rend attributes and transform into @class attributes
+    <xsl:template match="@*">
+        <xsl:attribute name="class">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>-->
+    
+    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    <!-- note: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
+    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
+    apply to the nodes nested within it.-->
+    
+    <!-- turn <lb rend="something"> into <span class="something"> after linebreak-->
+    <xsl:template match="tei:lb[@rend='indent']">
+        <br/><span class="indent" />
+    </xsl:template>
+    
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
         <del>
@@ -158,34 +189,42 @@
         </sup>
     </xsl:template>
     
-    <!-- do not show expanded abbreviations-->
-    <xsl:template match="tei:expan">
-        <span style="display:none">
-            <xsl:apply-templates/>
-        </span>
+    <!-- transform tei unclear to brackets -->
+    <xsl:template match="tei:unclear">
+        [<xsl:apply-templates/>]?
     </xsl:template>
+    
+    <!-- do not show expanded abbreviations -->
+     <xsl:template match="tei:expan" />
 
-    <!-- do not show regularized spellings-->
-    <xsl:template match="tei:reg">
-        <span style="display:none">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
+    <!-- do not show regularized spellings -->
+    <xsl:template match="tei:reg" />
     
-    <!-- transform tei emph into underlines-->
+    <!-- do not show editorial corrections -->
+    <xsl:template match="tei:corr" />
+    
+    <!-- do not show editorial notes -->
+    <xsl:template match="tei:note" />
+    
+    <!-- transform tei emph into underlines -->
     <xsl:template match="tei:emph">
-        <span style="text-decoration:underline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
         <u>
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-
+    
+    <!-- transform tei emph into double underlines-->
+    <xsl:template match="tei:emph[@rend='double']">
+      <u class="double">
+            <xsl:apply-templates/>
+      </u>
+    </xsl:template>
+    
+    <!-- transform tei emph into triple underlines-->
+    <xsl:template match="tei:emph[@rend='triple']">
+        <u class="triple">
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
 
 </xsl:stylesheet>

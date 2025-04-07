@@ -10,9 +10,8 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    DCHM Template: Top Layer
+                    <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Top Layer
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -119,11 +118,11 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <!-- we turn the tei head element (headline) into an html h3 element-->
     <xsl:template match="tei:head">
-        <h2>
+        <h3>
             <xsl:apply-templates/>
-        </h2>
+        </h3>
     </xsl:template>
 
     <!-- transform tei paragraphs into html paragraphs -->
@@ -133,27 +132,52 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    <!-- transform tei unclear to brackets-->
+    <xsl:template match="tei:unclear">
+        [<xsl:apply-templates/>]?
+    </xsl:template>
 
-    <!-- do not show del in toplayer transcription-->
-    <xsl:template match="tei:del">
-        <span style="display:none">
+    <!-- make choices into spans with class:choice and only show the relevant choice-->
+    <xsl:template match="tei:choice">
+        <span class="choice" data-title="{tei:abbr}">
+            <xsl:apply-templates select="tei:expan"/>
+        </span>
+        <span class="choice" data-title="{tei:orig}">
+            <xsl:apply-templates select="tei:reg"/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note">
+        <span class="note">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     
-    <!-- do not show original spellings in toplayer transcription-->
+    <!-- do not show del in toplayer transcription-->
+    <xsl:template match="tei:del"/>
+
+    <!-- do not show superfluous characters in toplayer transcription-->
+    <xsl:template match="tei:pc"/>
+    
+    <!-- add corrections in toplayer transcription -->
+    <xsl:template match="tei:corr">
+        [<xsl:apply-templates/>]
+    </xsl:template>
+
+    <!-- do not show original spellings in toplayer transcription
     <xsl:template match="tei:orig">
         <span style="display:none">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template>-->
     
-    <!-- do not show abbreviations in toplayer transcription-->
+    <!-- do not show abbreviations in toplayer transcription
     <xsl:template match="tei:abbr">
-        <span style="display:none">
+        <span class="display:none">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template>-->
 
     <!-- transform tei emph into html emphasis-->
     <xsl:template match="tei:emph">
@@ -162,13 +186,15 @@
         </em>
     </xsl:template>
     
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
-            <xsl:apply-templates/>
-        </u>
+    <!-- remove hyphens and line breaks if <lb> has break="no"-->
+    <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break='no']]]">
+        <!--<span style="color:green">
+            <xsl:value-of select="substring(string(), 1, string-length()-1)"/>
+            <xsl:value-of select="substring-before(string(), '-')"/>
+            </span>-->
+            <!--
+            <xsl:value-of select="(substring-before(string(), '-'))"/></span>
+        <span style="color:green"><xsl:value-of select="(substring-before(string(), '='))"/></span>-->
     </xsl:template>
-
-
-</xsl:stylesheet>
+    
+ </xsl:stylesheet>

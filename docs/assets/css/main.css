@@ -1,22 +1,45 @@
-
+html {
+	background-color: #F5F5F5;
+}
 
 body {
-	padding: 1vw;
-	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+    font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
-	font-size: 1vw;
-  width: 100%;
-	}
+	font-size: 1.1vw;
+}
 
-h1, h2, h3, nav, footer {
-    text-align: center;
+header {
+    padding: 3vw;
+    position: fixed;
+    z-index: 1;
+    background-color: inherit;
+    width: 100%;
 }
 
 nav {
+    position: fixed;
+    top: 8vw;
+    z-index: 1;
+    background-color: inherit;
     margin-bottom: 1vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+    width: 100%;
+}
+
+main {
+    padding-top: 12vw;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
+
+h1, h2, h3, nav, footer {
+    text-align: center;
 }
 
 h2 {
@@ -26,19 +49,42 @@ h2 {
 h3 {
     font-weight: bold;
     padding: 1vw;
-    
+}
+
+u.double {
+    text-decoration-style: double;
+}
+
+u.triple {
+	border-bottom: 3px double;
+	line-height: 1.8em;
+}
+
+p.indent {
+    text-indent: 2em;
+}
+
+p.right {
+    margin-left: 10em;
+}
+
+span.indent {
+    margin-left: 2em;
+    color: red;
+}
+
+span.note {
+    padding-left: 20vw;
+}
+
+.pencil {
+    color: gray;
 }
 
 #details {
     padding: 2vw;
     margin: 1vw;
     text-align: center;    
-}
-
-footer {
-    border-top: 1px solid black;
-    padding-top: 1vw;
-    margin-top: 1vw;
 }
 
 .copyright {
@@ -61,17 +107,131 @@ footer {
 
 
 #collection {
-    display: flex;
+    display: fixed;
+    width: 200%;
 }
 
 .thumbnail {
     margin: 5px;
     border: 1px solid black;
-    width: 100px;
+    width: 200px;
 }
 
 .img-full {
     margin: 5px;
     border: 1px solid black;
     width: 500px;
+}
+
+/*create tooltips from choice elements*/
+.choice {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: #3bb4e5;
+  border-bottom: 0.05em dotted #3bb4e5;
+  box-sizing: border-box;
+  font-style: normal;
+  transition:all .25s ease-in-out
+}
+
+.choice:hover {
+    color:#069;border-bottom:0.05em dotted #069;
+}
+
+/*the tip*/
+.choice:before {
+  content: attr(data-title);
+  font-size: 14px;
+  position: absolute;
+  background: rgba(10, 20, 30, 0.85);
+  color: #fff;
+  line-height: 1.2em;
+  padding: 0.5em;
+  font-style: normal;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  min-width: 120px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 600
+}
+.choice:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  content: '';
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out
+}
+.choice:hover:before,
+.choice:hover:after {
+  visibility: visible;
+  opacity: 1
+}
+/*top*/
+.choice:before {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, calc(-100% - 8px));
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.choice:after {
+  border-width: 8px 8px 0 8px;
+  border-color: rgba(10, 20, 30, 0.85) transparent transparent transparent;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*bottom*/
+.tooltip.bottom:before {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, calc(100% + 8px));
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.tooltip.bottom:after {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent rgba(10, 20, 30, 0.85) transparent;
+  bottom: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*left*/
+.tooltip.left:before {
+  left: 0;
+  top: 50%;
+  transform: translate(calc(-100% - 8px), -50%);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.tooltip.left:after {
+  border-width: 8px 0 8px 8px;
+  border-color: transparent transparent transparent rgba(10, 20, 30, 0.85);
+  left: -8px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+/*right*/
+.tooltip.right:before {
+  right: 0;
+  top: 50%;
+  transform: translate(calc(100% + 8px), -50%);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.tooltip.right:after {
+  border-width: 8px 8px 8px 0;
+  border-color: transparent rgba(10, 20, 30, 0.85) transparent transparent;
+  right: -8px;
+  top: 50%;
+  transform: translate(0, -50%);
 }

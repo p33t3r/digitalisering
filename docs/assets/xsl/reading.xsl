@@ -10,9 +10,8 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    DCHM Template: Reading Text
+                    <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Reading Text
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -85,6 +84,8 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
                                     <article class="transcription">
+                                        <!-- add page numbers -->
+                                        <p>[<xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>]</p>
                                         <xsl:apply-templates/>                                      
                                     </article>
                                 </div>
@@ -148,34 +149,44 @@
         </sup>
     </xsl:template>
     
-    <!-- do not show expanded abbreviations-->
-    <xsl:template match="tei:expan">
-        <span style="display:none">
-            <xsl:apply-templates/>
-        </span>
+    <!-- transform tei unclear-->
+    <xsl:template match="tei:unclear">
+        [<xsl:apply-templates/>]?
     </xsl:template>
     
+    <!-- do not show expanded abbreviations-->
+    <xsl:template match="tei:expan" />
+    
     <!-- do not show regularized spellings-->
-    <xsl:template match="tei:reg">
-        <span style="display:none">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
+    <xsl:template match="tei:reg" />
+    
+    <!-- do not show editorial notes -->
+    <xsl:template match="tei:note" />
     
     <!-- transform tei emph into underlines-->
     <xsl:template match="tei:emph">
-        <span style="text-decoration:underline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
         <u>
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-
-
+    
+    <!-- transform tei emph into double underlines-->
+    <xsl:template match="tei:emph[@rend='double']">
+        <u class="double">
+            <xsl:apply-templates/>
+        </u>    
+    </xsl:template>
+    
+    <!-- transform tei emph into triple underlines-->
+    <xsl:template match="tei:emph[@rend='triple']">
+        <u class="triple">
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
+    <!-- remove hyphens and line breaks if <lb> has break="no"-->
+    <xsl:template match="tei:pc[not(@force='weak')]"/>
+    
+    <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break='no']]]" />
+    
 </xsl:stylesheet>
