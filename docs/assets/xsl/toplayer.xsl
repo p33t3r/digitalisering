@@ -47,13 +47,14 @@
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
+                        <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
+                        <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
+                            
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-">
-                                    <article>
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
                                         <img class="thumbnail">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -69,7 +70,7 @@
                                                   we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
-                                            <xsl:attribute name="src">
+                                            <!-- <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -77,15 +78,30 @@
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute> -->
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                    </article>
+                                    <p class="number"><xsl:value-of
+                                        select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                    </p>
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
-                                    <article class="transcription">
+                                    <div class="toplayer">
                                         <xsl:apply-templates/>                                      
-                                    </article>
+                                    </div>
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -105,9 +121,9 @@
                     </div>
                 </div>
                 </footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
             </body>
         </html>
     </xsl:template>
@@ -133,6 +149,18 @@
         </p>
     </xsl:template>
     
+    <!-- transform tei lg and l into html linebreaks -->
+    <xsl:template match="tei:lg">
+        <span class="verse">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:l">
+        <br/>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <!-- transform tei unclear to brackets-->
     <xsl:template match="tei:unclear">
         [<xsl:apply-templates/>]?
@@ -140,12 +168,23 @@
 
     <!-- make choices into spans with class:choice and only show the relevant choice-->
     <xsl:template match="tei:choice">
-        <span class="choice" data-title="{tei:abbr}">
-            <xsl:apply-templates select="tei:expan"/>
-        </span>
-        <span class="choice" data-title="{tei:orig}">
-            <xsl:apply-templates select="tei:reg"/>
-        </span>
+        <xsl:choose>
+            <xsl:when test="tei:abbr">
+                <span class="choice" data-title="{tei:abbr}">
+                    <xsl:apply-templates select="tei:expan"/>
+                </span>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <span class="choice" data-title="{tei:orig}">
+                    <xsl:apply-templates select="tei:reg"/>
+                </span>
+            </xsl:when>
+            <xsl:when test="tei:sic">
+                <span class="choice" data-title="{tei:sic}">
+                    <xsl:apply-templates select="tei:corr"/>
+                </span>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:note">
@@ -160,9 +199,11 @@
     <!-- do not show superfluous characters in toplayer transcription-->
     <xsl:template match="tei:pc"/>
     
-    <!-- add corrections in toplayer transcription -->
-    <xsl:template match="tei:corr">
-        [<xsl:apply-templates/>]
+    <!-- add editorially supplied amendments in toplayer transcription -->
+    <xsl:template match="tei:supplied">
+        <span class="choice" data-title="Saknas i originalet">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 
     <!-- do not show original spellings in toplayer transcription

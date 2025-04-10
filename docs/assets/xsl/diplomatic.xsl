@@ -20,7 +20,6 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -55,7 +54,6 @@
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
-                                    <!-- <article> unnecessary? -->
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -72,7 +70,7 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <!-- create an id for each image, so that other pages can link to a specific image --> 
-                                            <xsl:attribute name="id">
+                                            <!-- <xsl:attribute name="id">
                                                 <xsl:value-of select="replace(//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label, ' ', '')"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="src">
@@ -83,17 +81,30 @@
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute> -->
+                                            <xsl:attribute name="id">
+                                                <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                    <!-- </article> unnecessary? -->
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
-                                    <!-- <article class="transcription"> unnecessary? -->
                                         <!-- add page numbers -->
-                                        <p>[<xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>]</p>
+                                    <p>[<xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>]</p>
                                         <xsl:apply-templates/>                                      
-                                    <!-- </article> unnecessary? -->
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -113,9 +124,9 @@
                     </div>
                 </div>
                 </footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
             </body>
         </html>
     </xsl:template>
@@ -136,32 +147,28 @@
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
-            <xsl:apply-templates/><!-- select="@* | node()"-->
-        </p>
-    </xsl:template>
-    
-    <!-- transform indented paragraphs -->
-    <xsl:template match="tei:p[@rend='indent']">
-        <p class="indent">
+            <xsl:choose>
+                <xsl:when test="@rend">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="@rend"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="tei:lg">
+                    <xsl:attribute name="class">verse</xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     
-    <!-- transform right-justified paragraphs -->
-    <xsl:template match="tei:p[@rend='right']">
-        <p class="right">
+    <!-- transform tei l into html linebreaks -->
+    <xsl:template match="tei:l">
+        <br/>
+        <span class="indent">
             <xsl:apply-templates/>
-        </p>
+        </span>
     </xsl:template>
-    
-    <!-- Match @rend attributes and transform into @class attributes
-    <xsl:template match="@*">
-        <xsl:attribute name="class">
-            <xsl:value-of select="."/>
-        </xsl:attribute>
-    </xsl:template>-->
-    
+        
     <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
         <br/>
@@ -205,6 +212,9 @@
     
     <!-- do not show editorial notes -->
     <xsl:template match="tei:note" />
+    
+    <!-- do not show editorially supplied amendments -->
+    <xsl:template match="tei:supplied" />
     
     <!-- transform tei emph into underlines -->
     <xsl:template match="tei:emph">

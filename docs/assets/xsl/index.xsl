@@ -20,7 +20,6 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -41,8 +40,14 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                                <article id="collection">
                                     <xsl:for-each select="//tei:surface">
+                                        <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
+                                        <xsl:variable name="facs" select="@facs"/>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:text>diplomatic.html&#35;</xsl:text>
+                                                <xsl:value-of select="$facs"/>
+                                            </xsl:attribute>
                                         <img class="thumbnail">
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
@@ -53,23 +58,20 @@
                                          <xsl:attribute name="alt">
                                              <xsl:value-of select="tei:figure/tei:figDesc"/>
                                          </xsl:attribute>
-                                     </img>                              
+                                     </img>
+                                            </a>
                                     </xsl:for-each>
-                                </article>
                             </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element
                             <div class="col-sm">
-                                <article id="description">
                                   <p>
                                     <strong>Description:</strong> &#160;
                                     <xsl:apply-templates select="//tei:sourceDesc"/>
                                   </p>
-                                </article>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                                 <div class="col-sm">
-                                    <article id="details">
                                       <p>
                                         <strong>Författare:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
@@ -78,7 +80,6 @@
                                         <strong>Transkriberat av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
-                                    </article>
                                 </div>
                         </div>
                     </div>
@@ -97,9 +98,9 @@
                     </div>
                 </div>
                 </footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
             </body>
         </html>
     </xsl:template>

@@ -68,9 +68,13 @@ p.right {
     margin-left: 10em;
 }
 
+p.number {
+    text-align: center;
+    font-size: smaller;
+}
+
 span.indent {
     margin-left: 2em;
-    color: red;
 }
 
 span.note {
@@ -79,6 +83,27 @@ span.note {
 
 .pencil {
     color: gray;
+}
+
+/* make sure that <emph> inside a <choice> gets italicized when needed */
+em, em .choice {
+    font-style: italic;
+}
+
+div.dindex  {
+    display: none;
+}
+
+div.toplayer p:has(+ p.func) {
+    display: inline;
+}
+
+div.toplayer p.func {
+    display: inline;
+}
+
+div.toplayer p(+ p.func) {
+    display: block;
 }
 
 #details {
@@ -132,7 +157,7 @@ span.note {
   border-bottom: 0.05em dotted #3bb4e5;
   box-sizing: border-box;
   font-style: normal;
-  transition:all .25s ease-in-out
+  transition:all .5s ease-in-out
 }
 
 .choice:hover {

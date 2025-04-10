@@ -20,7 +20,6 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -47,13 +46,13 @@
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
+                        <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
+                            <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-">
-                                    <article>
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
                                         <img class="thumbnail">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -70,6 +69,17 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            <!-- <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -77,17 +87,71 @@
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
+                                            </xsl:attribute> -->
                                         </img>
-                                    </article>
+                                    <p class="number"><xsl:value-of
+                                        select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                    </p>
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
-                                    <article class="transcription">
-                                        <!-- add page numbers -->
-                                        <p>[<xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>]</p>
-                                        <xsl:apply-templates/>                                      
-                                    </article>
+                                    <xsl:apply-templates/>                                      
+                                </div>
+                            </div>
+                        </xsl:for-each>
+                        
+                        <!-- same for verso pages -->
+                        
+                        <xsl:for-each select="//tei:div[ends-with(@n, 'v')]">
+                            <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
+                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
+                            <xsl:variable name="facs" select="@facs"/>
+                            <div class="row">
+                                <!-- fill the first column with this page's image -->
+                                <div class="col-">
+                                    <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
+                                    <img class="thumbnail">
+                                        <!-- give this HTML <img> attribute three more attributes:
+                                                    @src to locate the image file
+                                                    @title for a mouse-over effect
+                                                    @alt for alternative text (in case the image fails to load, 
+                                                        and so people with a visual impairment can still understant what the image displays 
+                                                  
+                                                  in the XPath expressions below, we use the variable $facs (declared above) 
+                                                        so we can use this page's @facs element with to find the corresponding <surface>
+                                                        (because it matches with the <surface's @xml:id) 
+                                            
+                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                        we want to disregard the hashtag in the @facs attribute-->
+                                        
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                        </xsl:attribute>
+                                        <!-- <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute> -->
+                                    </img>
+                                    <p class="number"><xsl:value-of
+                                        select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                    </p>
+                                </div>
+                                <!-- fill the second column with our transcription -->
+                                <div class='col-md'>
+                                    <xsl:apply-templates/>                                      
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -130,9 +194,26 @@
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:choose>
+                <xsl:when test="@rend">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="@rend"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="tei:lg">
+                    <xsl:attribute name="class">verse</xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    
+    <!-- transform tei l into html linebreaks -->
+    <xsl:template match="tei:l">
+        <br/>
+        <span class="indent">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 
     <!-- transform tei del into html del -->
@@ -163,6 +244,9 @@
     <!-- do not show editorial notes -->
     <xsl:template match="tei:note" />
     
+    <!-- do not show editorially supplied amendments -->
+    <xsl:template match="tei:supplied" />
+    
     <!-- transform tei emph into underlines-->
     <xsl:template match="tei:emph">
         <u>
@@ -184,7 +268,9 @@
         </u>
     </xsl:template>
     
-    <!-- remove hyphens and line breaks if <lb> has break="no"-->
+    <!-- remove hyphens and line breaks if <lb> has break="no"
+        needs to be fixed to not remove hyphens at page breaks -->
+   
     <xsl:template match="tei:pc[not(@force='weak')]"/>
     
     <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break='no']]]" />
