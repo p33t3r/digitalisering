@@ -28,9 +28,10 @@
                 </header>
 
                 <nav id="sitenav">
-                    <a href="test.html">Home</a> | <a href="diplomatic.html">Diplomatic
-                        Transcription</a> | <a href="reading.html">Reading Text</a> | <a
-                        href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Hem</a> |
+                    <a href="diplomatic.html">Diplomatarisk transkription</a> |
+                    <a href="reading.html">Lästext</a> |
+                    <a href="test.html">Test</a> |
                 </nav>
 
                 <main id="manuscript">
@@ -153,7 +154,7 @@
 
                         <!-- for toplayer, etc - select only right-hand (recto) pages -->
 
-                        <div class="toplayer">
+                        <div class="reading">
                             <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
                                 <xsl:apply-templates/>
                             </xsl:for-each>
@@ -225,11 +226,11 @@
     <xsl:template match="tei:p">
         <p>
             <xsl:choose>
-                <!-- <xsl:when test="@rend">
+                <xsl:when test="@rend='func'">
                     <xsl:attribute name="class">
                         <xsl:value-of select="@rend"/>
                     </xsl:attribute>
-                </xsl:when> -->
+                </xsl:when>
                 <xsl:when test="tei:lg">
                     <xsl:attribute name="class">verse</xsl:attribute>
                 </xsl:when>
@@ -278,27 +279,27 @@
         </span>
     </xsl:template>
 
-    <!-- do not show del in toplayer transcription -->
+    <!-- do not show del in reading transcription -->
     <xsl:template match="tei:del"/>
 
-    <!-- do not show superfluous characters in toplayer transcription -->
+    <!-- do not show superfluous characters in reading transcription -->
     <xsl:template match="tei:pc"/>
 
-    <!-- add editorially supplied amendments in toplayer transcription -->
+    <!-- add editorially supplied amendments in reading transcription -->
     <xsl:template match="tei:supplied">
         <span class="choice" data-title="Saknas i originalet">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-    <!-- do not show original spellings in toplayer transcription
+    <!-- do not show original spellings in reading transcription
     <xsl:template match="tei:orig">
         <span style="display:none">
             <xsl:apply-templates/>
         </span>
     </xsl:template>-->
 
-    <!-- do not show abbreviations in toplayer transcription
+    <!-- do not show abbreviations in reading transcription
     <xsl:template match="tei:abbr">
         <span class="display:none">
             <xsl:apply-templates/>

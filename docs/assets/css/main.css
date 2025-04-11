@@ -28,15 +28,6 @@ nav {
     width: 100%;    
 }
 
-.vl {
-  border-right: 1px solid black;
-  height: 500px;
-  position: absolute;
-  left: 80%;
-  margin-left: -3px;
-  top: 0;
-}
-
 main {
     padding-top: 12vw;
 }
@@ -103,15 +94,15 @@ em, em .choice {
     font-style: italic;
 }
 
-div.dindex  {
+div.index, div.diplomatic  {
     display: none;
 }
 
-div.toplayer p:has(+ p.func) {
+div.reading p:has(+ p.func) {
     display: inline;
 }
 
-div.toplayer p.func {
+div.reading p.func {
     display: inline;
 }
 

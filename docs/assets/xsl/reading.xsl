@@ -10,8 +10,8 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
-                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Reading Text
+                    <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Top Layer
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -20,6 +20,7 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
                 <header>
@@ -28,12 +29,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Hem</a> |
+                    <a href="diplomatic.html">Diplomatarisk transkription</a> |
+                    <a href="reading.html">Lästext</a> |
                 </nav>
-                <main id="manuscript">
+                <main>
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
@@ -47,7 +47,8 @@
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
-                            <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
+                        <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
+                            
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
@@ -68,17 +69,6 @@
                                                   we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of
-                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of
-                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
                                             <!-- <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
@@ -88,6 +78,19 @@
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute> -->
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
                                         </img>
                                     <p class="number"><xsl:value-of
                                         select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
@@ -95,63 +98,9 @@
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
-                                    <xsl:apply-templates/>                                      
-                                </div>
-                            </div>
-                        </xsl:for-each>
-                        
-                        <!-- same for verso pages -->
-                        
-                        <xsl:for-each select="//tei:div[ends-with(@n, 'v')]">
-                            <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
-                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <xsl:variable name="facs" select="@facs"/>
-                            <div class="row">
-                                <!-- fill the first column with this page's image -->
-                                <div class="col-">
-                                    <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                    <img class="thumbnail">
-                                        <!-- give this HTML <img> attribute three more attributes:
-                                                    @src to locate the image file
-                                                    @title for a mouse-over effect
-                                                    @alt for alternative text (in case the image fails to load, 
-                                                        and so people with a visual impairment can still understant what the image displays 
-                                                  
-                                                  in the XPath expressions below, we use the variable $facs (declared above) 
-                                                        so we can use this page's @facs element with to find the corresponding <surface>
-                                                        (because it matches with the <surface's @xml:id) 
-                                            
-                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                        we want to disregard the hashtag in the @facs attribute-->
-                                        
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of
-                                                select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of
-                                                select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
-                                        </xsl:attribute>
-                                        <!-- <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute> -->
-                                    </img>
-                                    <p class="number"><xsl:value-of
-                                        select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
-                                    </p>
-                                </div>
-                                <!-- fill the second column with our transcription -->
-                                <div class='col-md'>
-                                    <xsl:apply-templates/>                                      
+                                    <div class="toplayer">
+                                        <xsl:apply-templates/>                                      
+                                    </div>
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -171,9 +120,9 @@
                     </div>
                 </div>
                 </footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
             </body>
         </html>
     </xsl:template>
@@ -184,22 +133,22 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <!-- we turn the tei head element (headline) into an html h3 element-->
     <xsl:template match="tei:head">
-        <h2>
+        <h3>
             <xsl:apply-templates/>
-        </h2>
+        </h3>
     </xsl:template>
 
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
             <xsl:choose>
-                <xsl:when test="@rend">
+                <!-- <xsl:when test="@rend">
                     <xsl:attribute name="class">
                         <xsl:value-of select="@rend"/>
                     </xsl:attribute>
-                </xsl:when>
+                </xsl:when> -->
                 <xsl:when test="tei:lg">
                     <xsl:attribute name="class">verse</xsl:attribute>
                 </xsl:when>
@@ -215,64 +164,82 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
     
-    <!-- transform tei unclear-->
+    <!-- transform tei unclear to brackets-->
     <xsl:template match="tei:unclear">
         [<xsl:apply-templates/>]?
     </xsl:template>
+
+    <!-- make choices into spans with class:choice and only show the relevant choice-->
+    <xsl:template match="tei:choice">
+        <xsl:choose>
+            <xsl:when test="tei:abbr">
+                <span class="choice" data-title="{tei:abbr}">
+                    <xsl:apply-templates select="tei:expan"/>
+                </span>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <span class="choice" data-title="{tei:orig}">
+                    <xsl:apply-templates select="tei:reg"/>
+                </span>
+            </xsl:when>
+            <xsl:when test="tei:sic">
+                <span class="choice" data-title="{tei:sic}">
+                    <xsl:apply-templates select="tei:corr"/>
+                </span>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
     
-    <!-- do not show expanded abbreviations-->
-    <xsl:template match="tei:expan" />
+    <xsl:template match="tei:note">
+        <span class="note">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
-    <!-- do not show regularized spellings-->
-    <xsl:template match="tei:reg" />
+    <!-- do not show del in toplayer transcription-->
+    <xsl:template match="tei:del"/>
+
+    <!-- do not show superfluous characters in toplayer transcription-->
+    <xsl:template match="tei:pc"/>
     
-    <!-- do not show editorial notes -->
-    <xsl:template match="tei:note" />
+    <!-- add editorially supplied amendments in toplayer transcription -->
+    <xsl:template match="tei:supplied">
+        <span class="choice" data-title="Saknas i originalet">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- do not show original spellings in toplayer transcription
+    <xsl:template match="tei:orig">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>-->
     
-    <!-- do not show editorially supplied amendments -->
-    <xsl:template match="tei:supplied" />
-    
-    <!-- transform tei emph into underlines-->
+    <!-- do not show abbreviations in toplayer transcription
+    <xsl:template match="tei:abbr">
+        <span class="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>-->
+
+    <!-- transform tei emph into html emphasis-->
     <xsl:template match="tei:emph">
-        <u>
+        <em>
             <xsl:apply-templates/>
-        </u>
+        </em>
     </xsl:template>
     
-    <!-- transform tei emph into double underlines-->
-    <xsl:template match="tei:emph[@rend='double']">
-        <u class="double">
-            <xsl:apply-templates/>
-        </u>    
+    <!-- remove hyphens and line breaks if <lb> has break="no"-->
+    <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break='no']]]">
+        <!--<span style="color:green">
+            <xsl:value-of select="substring(string(), 1, string-length()-1)"/>
+            <xsl:value-of select="substring-before(string(), '-')"/>
+            </span>-->
+            <!--
+            <xsl:value-of select="(substring-before(string(), '-'))"/></span>
+        <span style="color:green"><xsl:value-of select="(substring-before(string(), '='))"/></span>-->
     </xsl:template>
     
-    <!-- transform tei emph into triple underlines-->
-    <xsl:template match="tei:emph[@rend='triple']">
-        <u class="triple">
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>
-    
-    <!-- remove hyphens and line breaks if <lb> has break="no"
-        needs to be fixed to not remove hyphens at page breaks -->
-   
-    <xsl:template match="tei:pc[not(@force='weak')]"/>
-    
-    <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break='no']]]" />
-    
-</xsl:stylesheet>
+ </xsl:stylesheet>
