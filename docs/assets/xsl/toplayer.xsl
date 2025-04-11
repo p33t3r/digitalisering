@@ -144,21 +144,26 @@
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:choose>
+                <!-- <xsl:when test="@rend">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="@rend"/>
+                    </xsl:attribute>
+                </xsl:when> -->
+                <xsl:when test="tei:lg">
+                    <xsl:attribute name="class">verse</xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     
-    <!-- transform tei lg and l into html linebreaks -->
-    <xsl:template match="tei:lg">
-        <span class="verse">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
+    <!-- transform tei l into html linebreaks -->
     <xsl:template match="tei:l">
         <br/>
-        <xsl:apply-templates/>
+        <span class="indent">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
     <!-- transform tei unclear to brackets-->

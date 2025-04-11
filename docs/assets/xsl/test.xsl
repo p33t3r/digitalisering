@@ -30,7 +30,8 @@
                 <nav id="sitenav">
                     <a href="test.html">Home</a> | <a href="diplomatic.html">Diplomatic
                         Transcription</a> | <a href="reading.html">Reading Text</a> | <a
-                        href="toplayer.html">Top Layer</a> | </nav>
+                        href="toplayer.html">Top Layer</a> |
+                </nav>
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -224,11 +225,11 @@
     <xsl:template match="tei:p">
         <p>
             <xsl:choose>
-                <xsl:when test="@rend">
+                <!-- <xsl:when test="@rend">
                     <xsl:attribute name="class">
                         <xsl:value-of select="@rend"/>
                     </xsl:attribute>
-                </xsl:when>
+                </xsl:when> -->
                 <xsl:when test="tei:lg">
                     <xsl:attribute name="class">verse</xsl:attribute>
                 </xsl:when>

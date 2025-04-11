@@ -25,7 +25,16 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
-    width: 100%;
+    width: 100%;    
+}
+
+.vl {
+  border-right: 1px solid black;
+  height: 500px;
+  position: absolute;
+  left: 80%;
+  margin-left: -3px;
+  top: 0;
 }
 
 main {
@@ -71,6 +80,10 @@ p.right {
 p.number {
     text-align: center;
     font-size: smaller;
+}
+
+p.verse {
+
 }
 
 span.indent {
