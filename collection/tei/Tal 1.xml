@@ -25,8 +25,8 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="ED" medium="pencil">Original text in pencil, written by Elma
-               Danielsson.</handNote>
+            <handNote xml:id="ink" medium="black ink">Original text in black ink, written by Elma Danielsson.</handNote>
+            <handNote xml:id="pencil" medium="pencil">Original text in pencil, written by Elma Danielsson.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>

@@ -54,7 +54,12 @@
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-">
-                                        <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
+                                    <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="'./diplomatic.html#'"/>
+                                            <xsl:value-of select="$facs"/>
+                                        </xsl:attribute>
                                         <img class="thumbnail">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
@@ -92,6 +97,7 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </a>
                                     <p class="number"><xsl:value-of
                                         select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
                                     </p>

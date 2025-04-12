@@ -27,7 +27,7 @@
                     </h1>
                 </header>
 
-                <nav id="sitenav">
+                <nav id="sitenav">|
                     <a href="index.html">Hem</a> |
                     <a href="diplomatic.html">Diplomatarisk transkription</a> |
                     <a href="reading.html">Lästext</a> |
@@ -47,14 +47,10 @@
                                     <!-- <xsl:for-each select="//tei:surface"> -->
                                     <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
                                         <!-- save the value of each page's @facs attribute in a variable -->
-                                        <xsl:variable name="facs" select="@facs"/>
-                                        
-                                            
-                                        <a>
+                                        <xsl:variable name="facs" select="@facs"/> <!-- form sida01 -->
+                                        <a> 
                                             <xsl:attribute name="href">
-                                                <xsl:text>&#35;</xsl:text>
-                                                <!-- <xsl:value-of
-                                                  select="replace(tei:figure/tei:label, ' ', '')"/> -->
+                                                <xsl:value-of select="'./diplomatic.html#'"/>
                                                 <xsl:value-of select="$facs"/>
                                             </xsl:attribute>
                                             <img class="thumbnail">
@@ -98,8 +94,8 @@
                                 
                             <!--<xsl:for-each select="//tei:div[ends-with(@n, 'r')]">-->
                                 <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                                <xsl:variable name="facs" select="@facs"/>
-                                <xsl:variable name="number" select="substring(@n, 1, 2)"/>
+                                <xsl:variable name="facs" select="@facs"/> <!-- form soda01 -->
+                                <xsl:variable name="number" select="substring(@n, 1, 2)"/> <!-- form 01 -->
                                 <div class="row">
 
                                     <!-- fill the first column with this page's image -->
@@ -152,7 +148,7 @@
                             </xsl:for-each>
                         </div>
 
-                        <!-- for toplayer, etc - select only right-hand (recto) pages -->
+                        <!-- for reading, etc - select only right-hand (recto) pages -->
 
                         <div class="reading">
                             <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
@@ -210,6 +206,14 @@
         <h2>
             <xsl:apply-templates/>
         </h2>
+    </xsl:template>
+    
+    <xsl:template match="tei:div[@hand]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@hand"/>
+            </xsl:attribute>
+        </span>
     </xsl:template>
 
     <!-- <xsl:template match="tei:div[@type = 'page']">
@@ -271,12 +275,6 @@
                 </span>
             </xsl:when>
         </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="tei:note">
-        <span class="note">
-            <xsl:apply-templates/>
-        </span>
     </xsl:template>
 
     <!-- do not show del in reading transcription -->

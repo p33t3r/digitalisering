@@ -82,7 +82,8 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute> -->
                                             <xsl:attribute name="id">
-                                                <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/>
+                                                <!-- <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/> -->
+                                                <xsl:value-of select="$facs"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of

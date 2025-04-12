@@ -39,27 +39,28 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                                    <xsl:for-each select="//tei:surface">
-                                        <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
-                                        <xsl:variable name="facs" select="@facs"/>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:text>diplomatic.html&#35;</xsl:text>
-                                                <xsl:value-of select="$facs"/>
-                                            </xsl:attribute>
-                                        <img class="thumbnail">
-                                         <xsl:attribute name="src">
-                                             <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="title">
-                                             <xsl:value-of select="tei:figure/tei:label"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="alt">
-                                             <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                         </xsl:attribute>
-                                     </img>
-                                            </a>
-                                    </xsl:for-each>
+                                <!-- <xsl:for-each select="//tei:surface"> -->
+                                    <xsl:for-each select="//tei:div[@type='page']">
+                                    <xsl:variable name="facs" select="@facs"/>
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="'./diplomatic.html#'"/>
+                                            <xsl:value-of select="$facs"/>
+                                        </xsl:attribute>
+                                       <img class="thumbnail">
+                                       <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:graphic[2]/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                        </xsl:attribute>
+                                           </img>
+                                    </a>
+                                </xsl:for-each>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element
                             <div class="col-sm">
