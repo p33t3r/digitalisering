@@ -6,18 +6,12 @@
 
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
-        <html lang="en" xml:lang="en">
+         <html lang="en" xml:lang="en">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Diplomatic View
                 </title>
-                <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
-                <link rel="stylesheet"
-                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                    crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
             </head>
@@ -54,7 +48,10 @@
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full">
+                                    <div class="click-zoom">
+                                        <label>
+                                            <input type="checkbox"/>
+                                            <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
@@ -87,7 +84,7 @@
                                             </xsl:attribute>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
-                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"
+                                                    select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[1]/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -99,6 +96,8 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </label>
+                                    </div>
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
@@ -201,21 +200,6 @@
         [<xsl:apply-templates/>]?
     </xsl:template>
     
-    <!-- do not show expanded abbreviations -->
-     <xsl:template match="tei:expan" />
-
-    <!-- do not show regularized spellings -->
-    <xsl:template match="tei:reg" />
-    
-    <!-- do not show editorial corrections -->
-    <xsl:template match="tei:corr" />
-    
-    <!-- do not show editorial notes -->
-    <xsl:template match="tei:note" />
-    
-    <!-- do not show editorially supplied amendments -->
-    <xsl:template match="tei:supplied" />
-    
     <!-- transform tei emph into underlines -->
     <xsl:template match="tei:emph">
         <u>
@@ -225,9 +209,9 @@
     
     <!-- transform tei emph into double underlines-->
     <xsl:template match="tei:emph[@rend='double']">
-      <u class="double">
+        <u class="double">
             <xsl:apply-templates/>
-      </u>
+        </u>
     </xsl:template>
     
     <!-- transform tei emph into triple underlines-->
@@ -236,5 +220,51 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
+    <!-- add sidenotes -->
+    <xsl:template match="tei:note">
+        <label>
+            <xsl:attribute name="for">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle sidenote-number</xsl:text>
+            </xsl:attribute>
+        </label>
+        <input>
+            <xsl:attribute name="type">
+                <xsl:text>checkbox</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle</xsl:text>
+            </xsl:attribute>
+        </input>
+        <span class="sidenote">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!-- make delSpan into a span with class delSpan - a bit of a kludge, but works -->
+    <xsl:template match="tei:delSpan">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delSpan"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:anchor">
+        <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
+    </xsl:template>
+    
+    <!-- do not show expanded abbreviations -->
+     <xsl:template match="tei:expan" />
 
+    <!-- do not show regularized spellings -->
+    <xsl:template match="tei:reg" />
+    
+    <!-- do not show editorial corrections -->
+    <xsl:template match="tei:corr" />
+    
+    <!-- do not show editorially supplied amendments -->
+    <xsl:template match="tei:supplied" />
+    
 </xsl:stylesheet>

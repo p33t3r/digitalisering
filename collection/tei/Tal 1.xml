@@ -37,7 +37,7 @@
             <label>Sida 1</label>
             <figDesc>Den inskannade första sidan från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida1_full" url="assets/img/documents/tal1sida01.jpeg"/>
-            <graphic xml:id="sida1_thumb" url="assets/img/documents/tal1sida01.jpeg"/>
+            <graphic xml:id="sida1_thumb" url="assets/img/thumbs/tal1sida01.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida02">
@@ -45,7 +45,7 @@
             <label>Sida 2</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida2_full" url="assets/img/documents/tal1sida02.jpeg"/>
-            <graphic xml:id="sida2_thumb" url="assets/img/documents/tal1sida02.jpeg"/>
+            <graphic xml:id="sida2_thumb" url="assets/img/thumbs/tal1sida02.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida03">
@@ -53,7 +53,7 @@
             <label>Sida 3</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida3_full" url="assets/img/documents/tal1sida03.jpeg"/>
-            <graphic xml:id="sida3_thumb" url="assets/img/documents/tal1sida03.jpeg"/>
+            <graphic xml:id="sida3_thumb" url="assets/img/thumbs/tal1sida03.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida04">
@@ -61,7 +61,7 @@
             <label>Sida 4</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida4_full" url="assets/img/documents/tal1sida04.jpeg"/>
-            <graphic xml:id="sida4_thumb" url="assets/img/documents/tal1sida04.jpeg"/>
+            <graphic xml:id="sida4_thumb" url="assets/img/thumbs/tal1sida04.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida05">
@@ -69,7 +69,7 @@
             <label>Sida 5</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida5_full" url="assets/img/documents/tal1sida05.jpeg"/>
-            <graphic xml:id="sida5_thumb" url="assets/img/documents/tal1sida05.jpeg"/>
+            <graphic xml:id="sida5_thumb" url="assets/img/thumbs/tal1sida05.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida06">
@@ -77,7 +77,7 @@
             <label>Sida 6</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida6_full" url="assets/img/documents/tal1sida06.jpeg"/>
-            <graphic xml:id="sida6_thumb" url="assets/img/documents/tal1sida06.jpeg"/>
+            <graphic xml:id="sida6_thumb" url="assets/img/thumbs/tal1sida06.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida07">
@@ -85,7 +85,7 @@
             <label>Sida 7</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida7_full" url="assets/img/documents/tal1sida07.jpeg"/>
-            <graphic xml:id="sida7_thumb" url="assets/img/documents/tal1sida07.jpeg"/>
+            <graphic xml:id="sida7_thumb" url="assets/img/thumbs/tal1sida07.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida08">
@@ -93,7 +93,7 @@
             <label>Sida 8</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida8_full" url="assets/img/documents/tal1sida08.jpeg"/>
-            <graphic xml:id="sida8_thumb" url="assets/img/documents/tal1sida08.jpeg"/>
+            <graphic xml:id="sida8_thumb" url="assets/img/thumbs/tal1sida08.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida09">
@@ -101,7 +101,7 @@
             <label>Sida 9</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida9_full" url="assets/img/documents/tal1sida09.jpeg"/>
-            <graphic xml:id="sida9_thumb" url="assets/img/documents/tal1sida09.jpeg"/>
+            <graphic xml:id="sida9_thumb" url="assets/img/thumbs/tal1sida09.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida10">
@@ -109,7 +109,7 @@
             <label>Sida 10</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida10_full" url="assets/img/documents/tal1sida10.jpeg"/>
-            <graphic xml:id="sida10_thumb" url="assets/img/documents/tal1sida10.jpeg"/>
+            <graphic xml:id="sida10_thumb" url="assets/img/thumbs/tal1sida10.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida11">
@@ -117,7 +117,7 @@
             <label>Sida 11</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida11_full" url="assets/img/documents/tal1sida11.jpeg"/>
-            <graphic xml:id="sida11_thumb" url="assets/img/documents/tal1sida11.jpeg"/>
+            <graphic xml:id="sida11_thumb" url="assets/img/thumbs/tal1sida11.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida12">
@@ -125,7 +125,7 @@
             <label>Sida 12</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida12_full" url="assets/img/documents/tal1sida12.jpeg"/>
-            <graphic xml:id="sida12_thumb" url="assets/img/documents/tal1sida12.jpeg"/>
+            <graphic xml:id="sida12_thumb" url="assets/img/thumbs/tal1sida12.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida13">
@@ -133,7 +133,7 @@
             <label>Sida 13</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida13_full" url="assets/img/documents/tal1sida13.jpeg"/>
-            <graphic xml:id="sida13_thumb" url="assets/img/documents/tal1sida13.jpeg"/>
+            <graphic xml:id="sida13_thumb" url="assets/img/thumbs/tal1sida13.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida14">
@@ -141,7 +141,7 @@
             <label>Sida 14</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida14_full" url="assets/img/documents/tal1sida14.jpeg"/>
-            <graphic xml:id="sida14_thumb" url="assets/img/documents/tal1sida14.jpeg"/>
+            <graphic xml:id="sida14_thumb" url="assets/img/thumbs/tal1sida14.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida15">
@@ -149,7 +149,7 @@
             <label>Sida 15</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida15_full" url="assets/img/documents/tal1sida15.jpeg"/>
-            <graphic xml:id="sida15_thumb" url="assets/img/documents/tal1sida15.jpeg"/>
+            <graphic xml:id="sida15_thumb" url="assets/img/thumbs/tal1sida15.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida16">
@@ -157,7 +157,7 @@
             <label>Sida 16</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida16_full" url="assets/img/documents/tal1sida16.jpeg"/>
-            <graphic xml:id="sida16_thumb" url="assets/img/documents/tal1sida16.jpeg"/>
+            <graphic xml:id="sida16_thumb" url="assets/img/thumbs/tal1sida16.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida17">
@@ -165,7 +165,7 @@
             <label>Sida 17</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida17_thumb" url="assets/img/documents/tal1sida17.jpeg"/>
-            <graphic xml:id="sida17_full" url="assets/img/documents/tal1sida17.jpeg"/>
+            <graphic xml:id="sida17_full" url="assets/img/thumbs/tal1sida17.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida18">
@@ -173,7 +173,7 @@
             <label>Sida 18</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida18_full" url="assets/img/documents/tal1sida18.jpeg"/>
-            <graphic xml:id="sida18_thumb" url="assets/img/documents/tal1sida18.jpeg"/>
+            <graphic xml:id="sida18_thumb" url="assets/img/thumbs/tal1sida18.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida19">
@@ -181,7 +181,7 @@
             <label>Sida 19</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida19_full" url="assets/img/documents/tal1sida19.jpeg"/>
-            <graphic xml:id="sida19_thumb" url="assets/img/documents/tal1sida19.jpeg"/>
+            <graphic xml:id="sida19_thumb" url="assets/img/thumbs/tal1sida19.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida20">
@@ -189,7 +189,7 @@
             <label>Sida 20</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts och svart bläck.</figDesc>
             <graphic xml:id="sida20_full" url="assets/img/documents/tal1sida20.jpeg"/>
-            <graphic xml:id="sida20_thumb" url="assets/img/documents/tal1sida20.jpeg"/>
+            <graphic xml:id="sida20_thumb" url="assets/img/thumbs/tal1sida20.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida21">
@@ -197,7 +197,7 @@
             <label>Sida 21</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida21_full" url="assets/img/documents/tal1sida21.jpeg"/>
-            <graphic xml:id="sida21_thumb" url="assets/img/documents/tal1sida21.jpeg"/>
+            <graphic xml:id="sida21_thumb" url="assets/img/thumbs/tal1sida21.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida22">
@@ -205,7 +205,7 @@
             <label>Sida 22</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida22_full" url="assets/img/documents/tal1sida22.jpeg"/>
-            <graphic xml:id="sida22_thumb" url="assets/img/documents/tal1sida22.jpeg"/>
+            <graphic xml:id="sida22_thumb" url="assets/img/thumbs/tal1sida22.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida23">
@@ -213,7 +213,7 @@
             <label>Sida 23</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida23_full" url="assets/img/documents/tal1sida23.jpeg"/>
-            <graphic xml:id="sida23_thumb" url="assets/img/documents/tal1sida23.jpeg"/>
+            <graphic xml:id="sida23_thumb" url="assets/img/thumbs/tal1sida23.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida24">
@@ -221,7 +221,7 @@
             <label>Sida 24</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida24_full" url="assets/img/documents/tal1sida24.jpeg"/>
-            <graphic xml:id="sida24_thumb" url="assets/img/documents/tal1sida24.jpeg"/>
+            <graphic xml:id="sida24_thumb" url="assets/img/thumbs/tal1sida24.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida25">
@@ -229,7 +229,7 @@
             <label>Sida 25</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida25_full" url="assets/img/documents/tal1sida25.jpeg"/>
-            <graphic xml:id="sida25_thumb" url="assets/img/documents/tal1sida25.jpeg"/>
+            <graphic xml:id="sida25_thumb" url="assets/img/thumbs/tal1sida25.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida26">
@@ -237,7 +237,7 @@
             <label>Sida 26</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida26_full" url="assets/img/documents/tal1sida26.jpeg"/>
-            <graphic xml:id="sida26_thumb" url="assets/img/documents/tal1sida26.jpeg"/>
+            <graphic xml:id="sida26_thumb" url="assets/img/thumbs/tal1sida26.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida27">
@@ -245,7 +245,7 @@
             <label>Sida 27</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida27_full" url="assets/img/documents/tal1sida27.jpeg"/>
-            <graphic xml:id="sida27_thumb" url="assets/img/documents/tal1sida27.jpeg"/>
+            <graphic xml:id="sida27_thumb" url="assets/img/thumbs/tal1sida27.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida28">
@@ -253,7 +253,7 @@
             <label>Sida 28</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida28_full" url="assets/img/documents/tal1sida28.jpeg"/>
-            <graphic xml:id="sida28_thumb" url="assets/img/documents/tal1sida28.jpeg"/>
+            <graphic xml:id="sida28_thumb" url="assets/img/thumbs/tal1sida28.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida29">
@@ -261,7 +261,7 @@
             <label>Sida 29</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida29_full" url="assets/img/documents/tal1sida29.jpeg"/>
-            <graphic xml:id="sida29_thumb" url="assets/img/documents/tal1sida29.jpeg"/>
+            <graphic xml:id="sida29_thumb" url="assets/img/thumbs/tal1sida29.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida30">
@@ -269,7 +269,7 @@
             <label>Sida 30</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida30_full" url="assets/img/documents/tal1sida30.jpeg"/>
-            <graphic xml:id="sida30_thumb" url="assets/img/documents/tal1sida30.jpeg"/>
+            <graphic xml:id="sida30_thumb" url="assets/img/thumbs/tal1sida30.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida35">
@@ -277,7 +277,7 @@
             <label>Sida 35</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida35_full" url="assets/img/documents/tal1sida35.jpeg"/>
-            <graphic xml:id="sida35_thumb" url="assets/img/documents/tal1sida35.jpeg"/>
+            <graphic xml:id="sida35_thumb" url="assets/img/thumbs/tal1sida35.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida36">
@@ -285,7 +285,7 @@
             <label>Sida 36</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts och svart bläck.</figDesc>
             <graphic xml:id="sida36_full" url="assets/img/documents/tal1sida36.jpeg"/>
-            <graphic xml:id="sida36_thumb" url="assets/img/documents/tal1sida36.jpeg"/>
+            <graphic xml:id="sida36_thumb" url="assets/img/thumbs/tal1sida36.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida37">
@@ -293,7 +293,7 @@
             <label>Sida 37</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida37_full" url="assets/img/documents/tal1sida37.jpeg"/>
-            <graphic xml:id="sida37_thumb" url="assets/img/documents/tal1sida37.jpeg"/>
+            <graphic xml:id="sida37_thumb" url="assets/img/thumbs/tal1sida37.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida38">
@@ -301,7 +301,7 @@
             <label>Sida 38</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida38_full" url="assets/img/documents/tal1sida38.jpeg"/>
-            <graphic xml:id="sida38_thumb" url="assets/img/documents/tal1sida38.jpeg"/>
+            <graphic xml:id="sida38_thumb" url="assets/img/thumbs/tal1sida38.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida39">
@@ -309,7 +309,7 @@
             <label>Sida 39</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida39_full" url="assets/img/documents/tal1sida39.jpeg"/>
-            <graphic xml:id="sida39_thumb" url="assets/img/documents/tal1sida39.jpeg"/>
+            <graphic xml:id="sida39_thumb" url="assets/img/thumbs/tal1sida39.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida40">
@@ -317,14 +317,14 @@
             <label>Sida 40</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida40_full" url="assets/img/documents/tal1sida40.jpeg"/>
-            <graphic xml:id="sida40_thumb" url="assets/img/documents/tal1sida40.jpeg"/>
+            <graphic xml:id="sida40_thumb" url="assets/img/thumbs/tal1sida40.jpeg"/>
          </figure>
       </surface><surface xml:id="sida41">
          <figure>
             <label>Sida 41</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida41_full" url="assets/img/documents/tal1sida41.jpeg"/>
-            <graphic xml:id="sida41_thumb" url="assets/img/documents/tal1sida41.jpeg"/>
+            <graphic xml:id="sida41_thumb" url="assets/img/thumbs/tal1sida41.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida42">
@@ -332,7 +332,7 @@
             <label>Sida 42</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida42_full" url="assets/img/documents/tal1sida42.jpeg"/>
-            <graphic xml:id="sida42_thumb" url="assets/img/documents/tal1sida42.jpeg"/>
+            <graphic xml:id="sida42_thumb" url="assets/img/thumbs/tal1sida42.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida43">
@@ -340,7 +340,7 @@
             <label>Sida 43</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida43_full" url="assets/img/documents/tal1sida43.jpeg"/>
-            <graphic xml:id="sida43_thumb" url="assets/img/documents/tal1sida43.jpeg"/>
+            <graphic xml:id="sida43_thumb" url="assets/img/thumbs/tal1sida43.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida44">
@@ -348,7 +348,7 @@
             <label>Sida 44</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida44_full" url="assets/img/documents/tal1sida44.jpeg"/>
-            <graphic xml:id="sida44_thumb" url="assets/img/documents/tal1sida44.jpeg"/>
+            <graphic xml:id="sida44_thumb" url="assets/img/thumbs/tal1sida44.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida45">
@@ -356,7 +356,7 @@
             <label>Sida 45</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida45_full" url="assets/img/documents/tal1sida45.jpeg"/>
-            <graphic xml:id="sida45_thumb" url="assets/img/documents/tal1sida45.jpeg"/>
+            <graphic xml:id="sida45_thumb" url="assets/img/thumbs/tal1sida45.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida46">
@@ -364,7 +364,7 @@
             <label>Sida 46</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida46_full" url="assets/img/documents/tal1sida46.jpeg"/>
-            <graphic xml:id="sida46_thumb" url="assets/img/documents/tal1sida46.jpeg"/>
+            <graphic xml:id="sida46_thumb" url="assets/img/thumbs/tal1sida46.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida47">
@@ -372,7 +372,7 @@
             <label>Sida 47</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida47_full" url="assets/img/documents/tal1sida47.jpeg"/>
-            <graphic xml:id="sida47_thumb" url="assets/img/documents/tal1sida47.jpeg"/>
+            <graphic xml:id="sida47_thumb" url="assets/img/thumbs/tal1sida47.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida48">
@@ -380,7 +380,7 @@
             <label>Sida 48</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida48_full" url="assets/img/documents/tal1sida48.jpeg"/>
-            <graphic xml:id="sida48_thumb" url="assets/img/documents/tal1sida48.jpeg"/>
+            <graphic xml:id="sida48_thumb" url="assets/img/thumbs/tal1sida48.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida49">
@@ -388,7 +388,7 @@
             <label>Sida 49</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
             <graphic xml:id="sida49_full" url="assets/img/documents/tal1sida49.jpeg"/>
-            <graphic xml:id="sida49_thumb" url="assets/img/documents/tal1sida49.jpeg"/>
+            <graphic xml:id="sida49_thumb" url="assets/img/thumbs/tal1sida49.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida50">
@@ -396,7 +396,7 @@
             <label>Sida 50</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida50_full" url="assets/img/documents/tal1sida50.jpeg"/>
-            <graphic xml:id="sida50_thumb" url="assets/img/documents/tal1sida50.jpeg"/>
+            <graphic xml:id="sida50_thumb" url="assets/img/thumbs/tal1sida50.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida51">
@@ -404,7 +404,7 @@
             <label>Sida 51</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida51_full" url="assets/img/documents/tal1sida51.jpeg"/>
-            <graphic xml:id="sida51_thumb" url="assets/img/documents/tal1sida51.jpeg"/>
+            <graphic xml:id="sida51_thumb" url="assets/img/thumbs/tal1sida51.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida52">
@@ -412,7 +412,7 @@
             <label>Sida 52</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida52_full" url="assets/img/documents/tal1sida52.jpeg"/>
-            <graphic xml:id="sida52_thumb" url="assets/img/documents/tal1sida52.jpeg"/>
+            <graphic xml:id="sida52_thumb" url="assets/img/thumbs/tal1sida52.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida53">
@@ -420,7 +420,7 @@
             <label>Sida 53</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida53_full" url="assets/img/documents/tal1sida53.jpeg"/>
-            <graphic xml:id="sida53_thumb" url="assets/img/documents/tal1sida53.jpeg"/>
+            <graphic xml:id="sida53_thumb" url="assets/img/thumbs/tal1sida53.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida54">
@@ -428,7 +428,7 @@
             <label>Sida 54</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida54_full" url="assets/img/documents/tal1sida54.jpeg"/>
-            <graphic xml:id="sida54_thumb" url="assets/img/documents/tal1sida54.jpeg"/>
+            <graphic xml:id="sida54_thumb" url="assets/img/thumbs/tal1sida54.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida55">
@@ -436,7 +436,7 @@
             <label>Sida 55</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida55_full" url="assets/img/documents/tal1sida55.jpeg"/>
-            <graphic xml:id="sida55_thumb" url="assets/img/documents/tal1sida55.jpeg"/>
+            <graphic xml:id="sida55_thumb" url="assets/img/thumbs/tal1sida55.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida56">
@@ -444,7 +444,7 @@
             <label>Sida 56</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida56_full" url="assets/img/documents/tal1sida56.jpeg"/>
-            <graphic xml:id="sida56_thumb" url="assets/img/documents/tal1sida56.jpeg"/>
+            <graphic xml:id="sida56_thumb" url="assets/img/thumbs/tal1sida56.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida57">
@@ -452,14 +452,14 @@
             <label>Sida 57</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida57_full" url="assets/img/documents/tal1sida57.jpeg"/>
-            <graphic xml:id="sida57_thumb" url="assets/img/documents/tal1sida57.jpeg"/>
+            <graphic xml:id="sida57_thumb" url="assets/img/thumbs/tal1sida57.jpeg"/>
          </figure>
       </surface><surface xml:id="sida58">
          <figure>
             <label>Sida 58</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida58_full" url="assets/img/documents/tal1sida58.jpeg"/>
-            <graphic xml:id="sida58_thumb" url="assets/img/documents/tal1sida58.jpeg"/>
+            <graphic xml:id="sida58_thumb" url="assets/img/thumbs/tal1sida58.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida59">
@@ -467,7 +467,7 @@
             <label>Sida 59</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida59_full" url="assets/img/documents/tal1sida59.jpeg"/>
-            <graphic xml:id="sida59_thumb" url="assets/img/documents/tal1sida59.jpeg"/>
+            <graphic xml:id="sida59_thumb" url="assets/img/thumbs/tal1sida59.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida60">
@@ -475,7 +475,7 @@
             <label>Sida 60</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida60_full" url="assets/img/documents/tal1sida60.jpeg"/>
-            <graphic xml:id="sida60_thumb" url="assets/img/documents/tal1sida60.jpeg"/>
+            <graphic xml:id="sida60_thumb" url="assets/img/thumbs/tal1sida60.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida61">
@@ -483,7 +483,7 @@
             <label>Sida 61</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
             <graphic xml:id="sida61_full" url="assets/img/documents/tal1sida61.jpeg"/>
-            <graphic xml:id="sida61_thumb" url="assets/img/documents/tal1sida61.jpeg"/>
+            <graphic xml:id="sida61_thumb" url="assets/img/thumbs/tal1sida61.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida62">
@@ -491,7 +491,7 @@
             <label>Sida 62</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida62_full" url="assets/img/documents/tal1sida62.jpeg"/>
-            <graphic xml:id="sida62_thumb" url="assets/img/documents/tal1sida62.jpeg"/>
+            <graphic xml:id="sida62_thumb" url="assets/img/thumbs/tal1sida62.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida63">
@@ -499,7 +499,7 @@
             <label>Sida 63</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida63_full" url="assets/img/documents/tal1sida63.jpeg"/>
-            <graphic xml:id="sida63_thumb" url="assets/img/documents/tal1sida63.jpeg"/>
+            <graphic xml:id="sida63_thumb" url="assets/img/thumbs/tal1sida63.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida64">
@@ -507,7 +507,7 @@
             <label>Sida 64</label>
             <figDesc>Den inskannade tomma sista sidan från ett gulnat häfte.</figDesc>
             <graphic xml:id="sida64_full" url="assets/img/documents/tal1sida64.jpeg"/>
-            <graphic xml:id="sida64_thumb" url="assets/img/documents/tal1sida64.jpeg"/>
+            <graphic xml:id="sida64_thumb" url="assets/img/thumbs/tal1sida64.jpeg"/>
          </figure>
       </surface>
    </facsimile>
@@ -526,7 +526,7 @@
                
                <p rend="indent">Ett tjog gånger väl <choice><orig>ha</orig><reg>har</reg></choice> vi nu lytt
                   <lb/>parollen <choice><abbr>fr.</abbr><expan>från</expan></choice> <choice><abbr>int.</abbr><expan>internationella</expan></choice> <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kongressen i <name type="place">Paris</name>
-                  <lb/>1899 att <emph>demonstrera</emph>
+                  <lb/>1899<note type="sn-01">Felskrivning för internationella socialistiska kongressen i Paris 1889?</note> att <emph>demonstrera</emph>
                   <lb rend="indent"/>för lagstadgad 8-timmars arbetsdag.</p>
             </div>
 
@@ -605,8 +605,7 @@
             <div type="page" n="07r" facs="sida07">
                <p rend="func">en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
-                  <lb/>i <name type="place">Hjulsjö</name>. <delSpan spanTo="#a5"
-                     rend="strikethrough"/>Alla <del>människor sjöngo hans</del>
+                  <lb/>i <name type="place">Hjulsjö</name>. <delSpan spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
                   <lb/>hans dagsverkare och hyttarbetare
                   <lb/>och alla andra människor med <choice><orig>sjön<pc>-</pc>
                      <lb break="no"/>go</orig><reg>sjöng</reg></choice> hans lov från morgon till kväll.
@@ -614,7 +613,7 @@
                   <lb/>och det var <choice><orig>sannt</orig><reg>sant</reg></choice>, och jag vill
                   <lb/>inte säga något ont om honom, jag tar
                   <lb/>honom
-                  <lb rend="indent"/><emph>endast som <choice><orig>Typ</orig><reg>typ</reg></choice>!</emph><anchor xml:id="a5"/></p>
+                  <lb rend="indent"/><emph>endast som <choice><orig>Typ</orig><reg>typ</reg></choice>!</emph><anchor xml:id="a7"/><note type="sn-07">Överkorsat med blyerts från "Alla människor…" till "…endast som Typ!"</note></p>
                
                <p rend="indent">Han gav folk arbete! Nå, men
                   <lb/>han gav <del>sig</del> väl <choice><orig>nå'nting</orig><reg>nånting</reg></choice> åt sig själv
@@ -627,8 +626,8 @@
             </div>
             
             <div type="page" n="09r" facs="sida09">
-               <p rend="func">honom, när han så där ”gav” folk <choice><orig>arb.</orig><reg>arbete</reg></choice>!
-                  <lb/>Och de där <choice><orig>pängarna</orig><reg>pengarna</reg></choice> både till vinst åt
+               <p rend="func">honom, när han så där ”gav” folk <choice><orig>arb.</orig><reg>arbete</reg></choice>!</p>
+                  <p>Och de där <choice><orig>pängarna</orig><reg>pengarna</reg></choice> både till vinst åt
                   <lb/>honom själv och ”lön” åt folket – sådan
                   <lb/>lönen var på den tiden! – <choice><orig>härflöto</orig><reg>härflöt</reg></choice>
                   <lb/>väl ur deras <emph>gemensamma</emph> ansträng<pc>=</pc>
@@ -638,7 +637,7 @@
                         <abbr>L. L.</abbr><expan>Lars Larsson</expan></choice></name> hade mycket
                   <lb/>skog uppåt <name type="place">Falutrakten</name>! Men ändå hette
                   <lb/>det så ödmjukt och tacksamt: <emph rend="double">han gav
-                     <lb/>arbete!</emph>
+                     <lb/>arbete!</emph><note type="sn-09">Två lodräta linjer i blyerts över hela detta stycke. Det verkar dock inte betyda att stycket ska strykas, då texten fortsätter i nästa stycke.</note>
                   <lb/>Nej, säger jag, han <emph rend="double">köpte</emph> det, för
                   <lb/>sin egen vinnings skull. Och
                   <lb/><del>tillfälle för</del>
@@ -667,7 +666,7 @@
                <p rend="func">slumpen, <del>åt barmhärtigheten eller</del>
                   <lb/>eller barmhärtigheten eller sniken<pc>-</pc>
                   <lb break="no"/>heten hos den <choice><orig>enskillde</orig><reg>enskilde</reg></choice>:
-                  <lb rend="indent"/><emph rend="double">Stat och kommun skulle ge arbete.</emph>
+                  <lb rend="indent"/><emph rend="double">Stat och kommun skall ge arbete.</emph>
                   <lb/>Därför gör också den <abbr>social.</abbr> kritiken
                   <lb/>slut på den idyllen om den ädle
                   <lb/><choice><abbr>arbetsgiv.</abbr><expan>arbetsgivaren</expan></choice> och förklarar i stället:
@@ -725,9 +724,9 @@
                   <lb/>grova föraktade arbetet, hur det
                   <lb/>är detta, varpå det i första hand kom<pc>-</pc>
                   <lb break="no"/>mer an, <choice><orig>lära</orig><reg>lär</reg></choice> vi <choice><abbr>t. o. m.</abbr><expan>till och med</expan></choice> av
-                  <lb/>vår gamle äventyrshjälte
-                  <lb/><name type="person">Robinson Kruse</name>.
-                  <lb/>På sin obebodda <supplied>ö</supplied> var han full<pc>-</pc></p>
+                  <lb rend="indent"/>vår gamle äventyrshjälte
+                  <lb rend="indent"/><name type="person">Robinson Kruse</name>.
+                  <lb rend="indent"/>På sin obebodda <supplied>ö</supplied> var han full<pc>-</pc></p>
             </div>
 
             <div type="page" n="16v" facs="sida16">
@@ -784,7 +783,10 @@
             </div>
 
             <div type="page" n="20v" facs="sida20">
-               <p rend="right">Högre lön – kortare
+               <p><handShift medium="pencil"/>Snus
+                  <lb/>ny sänghalm</p>
+                  
+               <p rend="right"><handShift medium="black ink"/>Högre lön – kortare
                   <lb/>dag!</p>
                
                <p rend="right">Arb. männ. lever
@@ -805,7 +807,8 @@
                
                <p> Arbetare, människan lever inte för <supplied>att</supplied>
                   <lb/><emph>arbeta</emph> utan hon arbetar för att
-                  <lb/><emph rend="double">leva!</emph> Kom väl ihåg den förnuftiga och naturliga satsen!</p>
+                  <lb/><emph rend="double">leva!</emph> Kom väl ihåg den förnuftiga 
+                  <lb/>och naturliga satsen!</p>
                
                <p rend="indent"> Alla skäl, som <choice><orig>tala</orig><reg>talar</reg></choice> för <choice><abbr>förk.</abbr><expan>förkortning</expan></choice> av
                   <lb/>arbetstiden, <choice><orig>äro</orig><reg>är</reg></choice> säkert omtuggade
@@ -846,10 +849,10 @@
                   <lb rend="indent"/><emph rend="double">industriarbetare</emph>, <emph>och så
                      <lb/>fullt av faror</emph>! Ett liv om dagen
                   <lb/><choice><orig>släppa</orig><reg>släpper</reg></choice> ni till, utom alla skador
-                  <lb/>som inte direkt <choice><orig>medföra</orig><reg>medför</reg></choice> <del/><add>döden:</add>
+                  <lb/>som inte direkt <choice><orig>medföra</orig><reg>medför</reg></choice> <del><unclear></unclear></del><add>döden:</add>
                   <lb/>men åtminstone invaliditet! Detta
                   <lb/>mitt korta, farliga liv är det
-                  <lb/>enda, (TRASIGT PAPPER)
+                  <lb/>enda,<note type="sn-25">Trasigt papper, måste skannas om!</note>
                   <lb rend="indent"/><emph rend="double">varom jag vet någonting med
                      <lb rend="indent"/>visshet</emph>! Må det bjuda mig något.</p>
                
@@ -870,7 +873,7 @@
                   <lb/>som <choice><orig>gå</orig><reg>går</reg></choice> för sig själva på lands<pc>-</pc>
                   <lb break="no"/>vägarna, vi <choice><orig>ha</orig><reg>har</reg></choice> telefonen, tändstickan,
                   <lb/>vattenledning, elektriskt ljus, löständer,
-                  <lb/>paraplyer, och klockor och galoscher.
+                  <lb/>paraplyer, <del>och</del> klockor och galoscher.
                   <lb/>Gumman <choice><orig>sa'</orig><reg>sa</reg></choice> när hon såg tåget
                   <lb/>första gången och <del>skulle</del> hörde att
                   <lb/>det skulle gå: Det går aldrig! Och så
@@ -892,12 +895,12 @@
                   <lb break="no"/>ska säger alltså: Jag vill inte bara
                   <lb/>slita ut mig i ett enformigt och tungt
                   <lb/>arbete för dålig betalning. Jag vill
-                  <lb/><emph rend="double">inte bara</emph> <emph rend="triple">så</emph><add>,</add>
-                  <lb/><emph rend="triple">jag vill också skörda!</emph></p>
+                  <lb/><emph rend="double">inte bara</emph> <emph rend="triple">så</emph><supplied>,</supplied>
+                  <lb rend="indent"/><emph rend="triple">jag vill också skörda!</emph></p>
                
                <p>Lönen <emph rend="triple">är</emph> inte <del>en</del> bara en <choice><orig>pänning</orig><reg>penning</reg></choice><pc>-</pc>
                   <lb break="no"/>lön, den är något mer, något högre.
-                  <lb/>Min verkliga <emph rend="double">lön</emph> är min <emph rend="double">andel</emph><emph rend="double">i</emph>
+                  <lb/>Min verkliga <emph rend="double">lön</emph> är min <emph rend="triple">andel</emph> <emph rend="triple">i</emph>
                   <lb/><emph rend="triple">den mänskliga kulturens framsteg.</emph>
                   <lb/>Och i kulturens framsteg, <lb rend="indent"/>arbetare, kom ihåg, <choice><orig>ha</orig><reg>har</reg></choice> <choice><orig>icke</orig><reg>inte</reg></choice></p>
             </div>
@@ -916,14 +919,18 @@
                   <lb/>svält, till permanent arbetslös<pc>-</pc>
                   <lb break="no"/>het, till landsflykt och vräk<pc>-</pc>
                   <lb break="no"/>ning mitt i vintern –
-                  <lb/>i kulturens framsteg, säger
+                  <lb rend="indent"/>i kulturens framsteg, säger
                   <lb/><unclear>jag</unclear>, <choice><orig>ha</orig><reg>har</reg></choice> inte <add>de</add> någon <unclear>insats</unclear>, någon
                   <lb/>merit! Men de <choice> <orig>kunna</orig><reg>kan</reg></choice> utestänga
                   <lb/><choice><orig>Er</orig><reg>er</reg></choice> från dem ändå. Min verkliga</p>
             </div>
 
             <div type="page" n="36v" facs="sida36">
-               <p rend="right">Exempel på min 
+               <p><handShift medium="pencil"/>Snus,
+                  <lb/>ny sänghalm
+                  <lb/>och jolpäron</p>
+                  
+               <p rend="right"><handShift medium="black ink"/>Exempel på min 
                   <lb/>verkliga lön!
                   <lb/>Ett bokskåp med
                   <lb/><emph rend="double">goda böcker</emph>, inte
@@ -1045,7 +1052,7 @@
                   <lb rend="indent"/>Var inte så 
                   <lb/>anspråkslösa!</p>
                
-               <p rend="right">Snoilsky!
+               <p rend="right | indent">Snoilsky!
                   <lb/>Vetensk</p>
             </div>
             
@@ -1061,7 +1068,7 @@
                   <lb/>det allra knappaste uppehälle
                   <lb/>för sin svett och möda. <emph>Var inte så anspråkslösa!</emph></p>
                
-               <p> Hör vad Snoilsky säger för att
+               <p rend="indent"> Hör vad Snoilsky säger för att
                   <lb/>varna överklassen för dess <del>övermod,</del>
                   <lb/><del>som <unclear>…</unclear></del>snikenhet och övermod:</p>
             </div>
@@ -1080,7 +1087,7 @@
                      <l>Folket vill sitt lån tillbaka börda,</l>
                      <l>en förädlad ljusets, kraftens flod.</l>
                      <l>Där det sått, där vill det också skörda,</l>
-                     <l>Kunna säga: se vårt kött och blod!</l>
+                     <l>Kunna säga: se vårt kött och blod!<note type="sn-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883)  https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil</note></l>
                   </lg>
                </p>
                
@@ -1194,12 +1201,12 @@
             </div>
             
             <div type="page" n="59r" facs="sida59">
-               <p>Till kvinnorna
-                  <lb rend="right"/><emph>Rätt till arbete</emph>
-                  <lb rend="right"/><emph rend="double">Rösträtt</emph> – 
-                  <lb rend="right"/>och <del>likhet</del>
-                  <lb rend="right"/><emph rend="double">begränsning av 
-                  <lb rend="right"/>barnantalet.</emph></p>
+               <p>Till kvinnorna</p>
+               <p rend="right"><emph>Rätt till arbete</emph>
+                  <lb/><emph rend="double">Rösträtt</emph> – 
+                  <lb/>och <del>likhet</del>
+                  <lb/><emph rend="double">begränsning av 
+                  <lb/>barnantalet.</emph></p>
                
                <p rend="indent">Kommunal valbarhet!</p>
                <p>Kristendomen och arbetarrörelsen
@@ -1232,9 +1239,11 @@
                <p>
                   <lg>
                      <l>Han är i den<supplied>,</supplied> som ej hans namn anammar<supplied>,</supplied></l>
-                     <l>men i vars hjärta sanningskärlek flammar<supplied>.</supplied></l>
+                     <l>men i vars hjärta sanningskärlek
+                        <lb rend="indent"/>flammar<supplied>.</supplied></l>
                      <l>Han är i den, som rätt ej honom <choice><abbr>känd.</abbr><expan>kände</expan></choice><supplied>,</supplied></l>
-                     <l><choice><orig>Men</orig><reg>men</reg></choice> – kämpar i hans flock för de elände<supplied>.</supplied></l>
+                     <l><choice><orig>Men</orig><reg>men</reg></choice> – kämpar i hans flock för de
+                        <lb rend="indent"/>elände<supplied>.</supplied><note type="sn-61">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891)  https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil</note></l>
                   </lg>
                </p>
             </div>

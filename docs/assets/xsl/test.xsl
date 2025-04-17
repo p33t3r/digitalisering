@@ -12,12 +12,6 @@
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
-                <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
-                <link rel="stylesheet"
-                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                    crossorigin="anonymous"/>
-                <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
             </head>
             <body>
@@ -90,21 +84,22 @@
 
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <div class="diplomatic">
-                            <xsl:for-each select="//tei:div[@type = 'page']">
-                                
-                            <!--<xsl:for-each select="//tei:div[ends-with(@n, 'r')]">-->
+                            <xsl:for-each select="tei:div[@type = 'page']">
+                                <xsl:sort select="[@n]"/> <!-- to sort on page numbers as they are entered with recto pages first in the tei document -->
                                 <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                                <xsl:variable name="facs" select="@facs"/> <!-- form soda01 -->
+                                <xsl:variable name="facs" select="@facs"/> <!-- form sida01 -->
                                 <xsl:variable name="number" select="substring(@n, 1, 2)"/> <!-- form 01 -->
                                 <div class="row">
 
                                     <!-- fill the first column with this page's image -->
 
-                                    <div class="col-">
+                                    <div class="col-s">
 
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-
-                                        <img class="thumbnail">
+                                        <div class="click-zoom">
+                                            <label>
+                                        <input type="checkbox"/>
+                                        <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
                                             @src to locate the image file
                                             @title for a mouse-over effect
@@ -132,6 +127,8 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                            </label>
+                                        </div>
                                         <p class="number"><xsl:value-of
                                             select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
                                         </p>   
@@ -150,8 +147,8 @@
 
                         <!-- for reading, etc - select only right-hand (recto) pages -->
 
-                        <div class="reading">
-                            <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
+                        <div class="fulltext">
+                            <xsl:for-each select="//tei:div[@type='manuscript']">
                                 <xsl:apply-templates/>
                             </xsl:for-each>
                         </div>
@@ -188,9 +185,6 @@
                         </div>
                     </div>
                 </footer>
-<!--                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"/>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"/>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"/>-->
             </body>
         </html>
     </xsl:template>
@@ -200,6 +194,17 @@
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
+    
+    <!-- wrap each page in a paragraph for diplomatic view -->
+    <xsl:template match="tei:pb[@*]">
+        <xsl:choose>
+            <xsl:when test="not(preceding-sibling::*)" /> <!-- check if it is the first page -->
+            <xsl:when test="preceding-sibling::tei:p[1]" /> <!-- check if the previous page ends with a closed paragraph -->
+            <xsl:otherwise> <!-- add closing </p> and open a new <p> -->
+                <xsl:text disable-output-escaping="yes">&lt;/p&gt;&#10;&lt;p&gt;</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
     <!-- we turn the tei head element (headline) into an html h2 element-->
     <xsl:template match="tei:head">
@@ -208,14 +213,6 @@
         </h2>
     </xsl:template>
     
-    <xsl:template match="tei:div[@hand]">
-        <span>
-            <xsl:attribute name="class">
-                <xsl:value-of select="@hand"/>
-            </xsl:attribute>
-        </span>
-    </xsl:template>
-
     <!-- <xsl:template match="tei:div[@type = 'page']">
         <xsl:choose>
             <xsl:when test="tei:p[@rend='func']">
@@ -289,7 +286,41 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
+    <!-- add sidenotes -->
+    <xsl:template match="tei:note">
+        <label>
+            <xsl:attribute name="for">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle sidenote-number</xsl:text>
+            </xsl:attribute>
+        </label>
+        <input>
+            <xsl:attribute name="type">
+                <xsl:text>checkbox</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle</xsl:text>
+            </xsl:attribute>
+        </input>
+        <span class="sidenote">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!-- delSpan -->
+    <xsl:template match="tei:delSpan">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delSpan"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:anchor">
+        <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
+    </xsl:template>
+    
     <!-- do not show original spellings in reading transcription
     <xsl:template match="tei:orig">
         <span style="display:none">

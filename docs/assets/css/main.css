@@ -1,11 +1,36 @@
+@import "bootstrap.css";
+@import "tufte.css";
+
 html {
-	background-color: #F5F5F5;
+    font-size: 15px;
 }
 
 body {
+/*    background-color: #fffff8; */
+    color: 111;
+    width: 100%;
     font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
-	line-height: 1.25;
-	font-size: 1.1vw;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.sidenote, .marginnote {
+    margin-right: -15%;
+    margin-top: -5rem;
+    width: 40%;
+    font-size: 1rem;
+    text-indent: initial;
+}
+
+label {
+    text-indent: initial;
+    margin: 0;
 }
 
 header {
@@ -18,14 +43,15 @@ header {
 
 nav {
     position: fixed;
+    text-align: center;
     top: 8vw;
     z-index: 1;
     background-color: inherit;
     margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
     padding: 1vw;
-    width: 100%;    
+    width: 100%;
 }
 
 main {
@@ -33,31 +59,33 @@ main {
 }
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid #111;
     padding-top: 1vw;
     margin-top: 1vw;
 }
 
-h1, h2, h3, nav, footer {
+* h1, h2, h3, nav, footer {
     text-align: center;
 }
 
-h2 {
-    padding: 1vw;
+h1 {
+    margin-top: 0;
 }
 
-h3 {
-    font-weight: bold;
-    padding: 1vw;
+nav,
+p,
+dl,
+ol,
+ul {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
-u.double {
-    text-decoration-style: double;
-}
-
-u.triple {
-	border-bottom: 3px double;
-	line-height: 1.8em;
+p {
+    margin-top: 0.4rem;
+    margin-bottom: 1.4rem;
+    padding-right: 0;
+    vertical-align: baseline;
 }
 
 p.indent {
@@ -74,18 +102,31 @@ p.number {
 }
 
 p.verse {
+    margin-top: -1.5rem; /* to counteract the <br> before the first line */
+}
 
+u.double {
+    text-decoration-style: double;
+}
+
+u.triple {
+	border-bottom: 3px double;
+	line-height: 1.7em;
 }
 
 span.indent {
     margin-left: 2em;
 }
 
-span.note {
-    padding-left: 20vw;
+span.indent .indent {
+    margin-left: 4em;
 }
 
 .pencil {
+    color: gray;
+}
+
+.delSpan {
     color: gray;
 }
 
@@ -94,19 +135,19 @@ em, em .choice {
     font-style: italic;
 }
 
-div.dindex   {
+div.index, div.diplomatic   {
     display: none;
 }
 
-div.reading p:has(+ p.func) {
+div.fulltext p:has(+ p.func) {
     display: inline;
 }
 
-div.reading p.func {
+div.fulltext p.func {
     display: inline;
 }
 
-div.toplayer p(+ p.func) {
+div.reading p(+ p.func) {
     display: block;
 }
 
@@ -140,16 +181,38 @@ div.toplayer p(+ p.func) {
     width: 200%;
 }
 
+img {
+    z-index: 1;
+}
+
 .thumbnail {
     margin: 5px;
-    border: 1px solid black;
-    width: 200px;
+    border: 1px solid #111111;
+    width: 300px;
 }
 
 .img-full {
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid #111111;
     width: 500px;
+}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: translate(300px) scale(2.5) ;
+  cursor: zoom-out;
+  position: relative;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*create tooltips from choice elements*/
@@ -157,8 +220,8 @@ div.toplayer p(+ p.func) {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  color: #3bb4e5;
-  border-bottom: 0.05em dotted #3bb4e5;
+/*  color: #3bb4e5; */
+  border-bottom: 0.05em dotted #111111; /* #3bb4e5; */
   box-sizing: border-box;
   font-style: normal;
   transition:all .5s ease-in-out
@@ -263,4 +326,16 @@ div.toplayer p(+ p.func) {
   right: -8px;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #151515;
+        color: #ddd;
+    }
+    nav {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
 }
