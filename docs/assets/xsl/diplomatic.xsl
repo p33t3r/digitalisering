@@ -247,6 +247,15 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="tei:ref">
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
+    </xsl:template>
+    
     <!-- make delSpan into a span with class delSpan - a bit of a kludge, but works -->
     <xsl:template match="tei:delSpan">
         <xsl:text disable-output-escaping="yes">&lt;span class="delSpan"&gt;</xsl:text>

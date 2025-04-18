@@ -20,12 +20,24 @@ body {
   }
 }
 
+.col-md {
+    max-width: 55%;
+}
+
 .sidenote, .marginnote {
     margin-right: -15%;
-    margin-top: -5rem;
+    margin-top: -2rem;
     width: 40%;
     font-size: 1rem;
     text-indent: initial;
+}
+
+.reading .sidenote {
+    margin-right: -45%;
+}
+
+.sidenote a {
+    text-decoration: underline;
 }
 
 label {

@@ -199,8 +199,8 @@
     <!-- do not show sic in reading transcription-->
     <xsl:template match="tei:sic"/>
 
-    <!-- do not show editorial notes in reading transcription -->
-    <xsl:template match="tei:note"/>
+    <!-- do not show editorial notes in reading transcription 
+    <xsl:template match="tei:note"/> -->
 
     <!-- add editorially supplied amendments in reading transcription -->
     <xsl:template match="tei:supplied">
@@ -222,6 +222,41 @@
     </xsl:template>
     <xsl:template match="tei:anchor">
         <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
+    </xsl:template>
+    
+    <!-- add sidenotes -->
+    <xsl:template match="tei:note">
+        <label>
+            <xsl:attribute name="for">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle sidenote-number</xsl:text>
+            </xsl:attribute>
+        </label>
+        <input>
+            <xsl:attribute name="type">
+                <xsl:text>checkbox</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>margin-toggle</xsl:text>
+            </xsl:attribute>
+        </input>
+        <span class="sidenote">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 
     <!-- remove hyphens and line breaks if <lb> has break="no"-->
