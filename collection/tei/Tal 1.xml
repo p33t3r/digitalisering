@@ -583,7 +583,7 @@
                   <lb break="no"/>görare. <del>Men varifrån fick han sina
                      <lb/>pängar?</del> Som 20-årig flicka var jag folk<pc>-</pc>
                   <lb break="no"/>skollärarinna här <choice><orig>på</orig><reg>i</reg></choice> trakten i en
-                  <lb/>socken, där det fanns och finns än i dag</p>
+                  <lb/>socken<note type="sn-05"><ref target="https://kulturnav.org/8b6e4161-158d-4e76-8256-605b1650a9b2">Hjulsjö socken</ref></note>, där det fanns och finns än i dag</p>
             </div>
             
             <div type="page" n="06v" facs="sida06">
@@ -605,7 +605,7 @@
             <div type="page" n="07r" facs="sida07">
                <p rend="func">en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
-                  <lb/>i <name type="place">Hjulsjö</name>. <delSpan spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
+                  <lb/>i <name type="place">Hjulsjö</name><note type="sn-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
                   <lb/>hans dagsverkare och hyttarbetare
                   <lb/>och alla andra människor med <choice><orig>sjön<pc>-</pc>
                      <lb break="no"/>go</orig><reg>sjöng</reg></choice> hans lov från morgon till kväll.
@@ -627,7 +627,7 @@
             
             <div type="page" n="09r" facs="sida09">
                <p rend="func">honom, när han så där ”gav” folk <choice><orig>arb.</orig><reg>arbete</reg></choice>!</p>
-                  <p>Och de där <choice><orig>pängarna</orig><reg>pengarna</reg></choice> både till vinst åt
+               <delSpan spanTo="#a9"/><p>Och de där <choice><orig>pängarna</orig><reg>pengarna</reg></choice> både till vinst åt
                   <lb/>honom själv och ”lön” åt folket – sådan
                   <lb/>lönen var på den tiden! – <choice><orig>härflöto</orig><reg>härflöt</reg></choice>
                   <lb/>väl ur deras <emph>gemensamma</emph> ansträng<pc>=</pc>
@@ -637,8 +637,8 @@
                         <abbr>L. L.</abbr><expan>Lars Larsson</expan></choice></name> hade mycket
                   <lb/>skog uppåt <name type="place">Falutrakten</name>! Men ändå hette
                   <lb/>det så ödmjukt och tacksamt: <emph rend="double">han gav
-                     <lb/>arbete!</emph><note type="sn-09">Två lodräta linjer i blyerts över hela detta stycke.</note>
-                  <lb/>Nej, säger jag, han <emph rend="double">köpte</emph> det, för
+                     <lb rend="indent"/>arbete!</emph><note type="sn-09">Två lodräta linjer i blyerts över hela detta stycke.</note></p><anchor xml:id="a9"/>
+                  <p>Nej, säger jag, han <emph rend="double">köpte</emph> det, för
                   <lb/>sin egen vinnings skull. Och
                   <lb/><del>tillfälle för</del>
                   <lb/>möjlighet för folk att få arbetsför<pc>-</pc>
@@ -891,7 +891,7 @@
             </div>
             
             <div type="page" n="29r" facs="sida29">
-               <p rend="func">nog aldrig! <unclear>parentes</unclear> En intelligent männi<pc>-</pc>
+               <p rend="func">nog aldrig! <sic>)</sic> En intelligent männi<pc>-</pc>
                   <lb break="no"/>ska säger alltså: Jag vill inte bara
                   <lb/>slita ut mig i ett enformigt och tungt
                   <lb/>arbete för dålig betalning. Jag vill
@@ -913,7 +913,7 @@
             
             <div type="page" n="35r" facs="sida35">
                <p rend="func">de <unclear>över</unclear>modiga och brutala arbets<pc>-</pc>
-                  <lb break="no"/>herrar, som <choice><orig>sitta</orig><reg>sitter</reg></choice> i <choice><abbr>Arbetsgiv.för</abbr><expan>Arbetsgivareföreningen</expan></choice>
+                  <lb break="no"/>herrar, som <choice><orig>sitta</orig><reg>sitter</reg></choice> i <choice><abbr>Arbetsgiv.för</abbr><expan>arbetsgivarföreningen</expan></choice>
                   <lb/>och <choice><orig>döma</orig><reg>dömer</reg></choice> <choice><orig>Er</orig><reg>er</reg></choice> med <choice><orig>edra</orig><reg>era</reg></choice> stackars
                   <lb/>familjer till långa månaders
                   <lb/>svält, till permanent arbetslös<pc>-</pc>
@@ -1015,8 +1015,8 @@
                   <lb break="no"/>betsgivarnas dekret,<del>! Men</del> men
                   <lb/>som i Amerika inte skadas av sina prickade
                   <lb/>betyg. Min verkliga lön kan vidare be<pc>-</pc>
-                  <lb break="no"/>stå i att en enda gång i livet, i fall
-                  <lb/>jag bor i en avkrok få höra Hjalmar</p>
+                  <lb break="no"/>stå i att en enda gång i livet, ifall
+                  <lb/>jag bor i en avkrok<supplied>,</supplied> få höra Hjalmar</p>
             </div>
 
             <div type="page" n="42v" facs="sida42">
@@ -1039,7 +1039,7 @@
                   <lb/>fältet, i <choice><abbr>fabr.</abbr><expan>fabriken</expan></choice>, eller hyttan och <emph rend="triple">gruvan</emph>
                   <lb/>är att få tillbringa en stund med
                   <lb/>mina barn och min familj, så de
-                  <lb/>inte <choice><orig>förbli</orig><reg>förblir</reg></choice> främlingar för mig, att få
+                  <lb/>inte <choice><orig>förbli</orig><reg>förblir</reg></choice> främlingar för mig, att <sic>få</sic>
                   <lb/>efter ett vederkvickande bad och <del>en</del><add><unclear>mat</unclear></add>
                   <lb/><del>god måltid</del> få tillbringa en stund i
                   <lb/>naturen i sällskap med –
@@ -1088,7 +1088,7 @@
                      <l>Folket vill sitt lån tillbaka börda,</l>
                      <l>en förädlad ljusets, kraftens flod.</l>
                      <l>Där det sått, där vill det också skörda,</l>
-                     <l>Kunna säga: se vårt kött och blod!<note type="sn-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref></note></l>
+                     <l>Kunna säga: se vårt kött och blod!<note type="sn-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har "se <emph>mitt</emph> kött och blod!"</note></l>
                   </lg>
                </p>
                
@@ -1148,7 +1148,7 @@
                   <lb/>såpan, fotogenen. Socker<pc>-</pc>
                   <lb break="no"/>ockrarnas vinst många
                   <lb/>miljoner! Ni måste betala vad
-                  <lb/>de begära 65, 70, 75 (KLADD), 78, 80, 90 
+                  <lb/>de <choice><orig>begära</orig><reg>begär</reg></choice> <supplied>–</supplied> 65, 70, 75, 78, 80, 90 
                   <lb/><choice><abbr>o.s.v.</abbr><expan>och så vidare</expan></choice>/<choice><abbr>kg.</abbr><expan>kilo</expan></choice> – och minska på 
                   <lb/>förbrukningen. Dessa herrar 
                   <lb/><choice><orig>ropa</orig><reg>ropar</reg></choice> visserligen: <emph>Leve konkurren<pc>-</pc>
@@ -1244,7 +1244,7 @@
                         <lb rend="indent"/>flammar<supplied>.</supplied></l>
                      <l>Han är i den, som rätt ej honom <choice><abbr>känd.</abbr><expan>kände</expan></choice><supplied>,</supplied></l>
                      <l><choice><orig>Men</orig><reg>men</reg></choice> – kämpar i hans flock för de
-                        <lb rend="indent"/>elände<supplied>.</supplied><note type="sn-61">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref></note></l>
+                        <lb rend="indent"/>elände<supplied>.</supplied><note type="sn-61">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>. Tankstrecket saknas i originalet.</note></l>
                   </lg>
                </p>
             </div>

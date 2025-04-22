@@ -515,7 +515,7 @@
    <text>
       <body>
          <div type="manuscript" n="2">
-               <pb type="page" n="01r" facs="sida01"/>
+               <div type="page" n="01r" facs="sida01">
                <p rend="indent"><choice><abbr>A-sund</abbr><expan>Askersund</expan></choice> 8 maj<sic>.</sic> <choice><abbr>10</abbr><expan>1910</expan></choice></p>
                <p rend="indent">Demonstranter!</p>
                <p><choice><abbr>Inl.</abbr><expan>Inledning.</expan></choice></p>
@@ -526,8 +526,9 @@
                   <lb/><choice><abbr>rättigh.</abbr><expan>rättigheter</expan></choice> 1 maj. Här i Askersund blev man inte
                   <lb/>färdig i tid, utan vi <choice><orig>komma</orig><reg>kommer</reg></choice> på sladden,
                   <lb/>men – bättre sent än aldrig!</p>
+               </div>
                   
-               <pb type="page" n="03r" facs="sida03"/>
+               <div type="page" n="03r" facs="sida03">
                <p>Majdemonstrationens syfte:
                   <lb/>att demonstrera för lagstadgad
                   <lb/><emph rend="double">8-timmars normalarbetsdag.</emph>
@@ -540,11 +541,14 @@
                   <lb break="no"/>lös massa. När så är, kan ju inte
                   <lb/>vad jag här vill framhålla få det gehör<supplied>,</supplied>
                   <lb/>den resonans och den aktualitet
-                  <lb/><unclear>om</unclear> sig som den har på de platser, där det
+                  <lb/><unclear>om</unclear> sig som den har på de platser, där <choice><sic>det</sic><corr>de</corr></choice>
+               </p>
+               </div>
             
-               <pb type="page" n="05r" facs="sida05"/>
-                  privatkapitalistiska <del>samhälls</del>förhållandena
+               <div type="page" n="05r" facs="sida05">
+                  <p rend="func">privatkapitalistiska <del>samhälls</del>förhållandena
                   <lb/><choice><orig>sätta</orig><reg>sätter</reg></choice> sin <add>prägel</add> på det hela.</p>
+                  
                <p>Hur många gånger det <choice><abbr>dem.</abbr><expan>demonstrerats</expan></choice> här, vet 
                   <lb/>jag inte, men sannolikt är det så många 
                   <lb/>gånger, att ämnet är uttömt, att huvudtemat 
@@ -558,9 +562,11 @@
                   <lb/>familj <choice><orig>frambrakte</orig><reg>frambragte</reg></choice> det mesta av sina förnö<pc>=</pc>
                   <lb break="no"/>denheter själv, av råämnen, som man också 
                   <lb/><choice><orig>frambrakt</orig><reg>frambragt</reg></choice>. <choice><abbr>Arb.</abbr><expan>Arbetet</expan></choice> <supplied>var</supplied> mödosamt och produkten <choice><abbr>otillfr.</abbr><expan>otillfredsställande</expan></choice>
+               </p>
+               </div>
             
-               <pb type="page" n="07r" facs="sida07"/>
-                  i <choice><abbr>jämf.</abbr><expan>jämförelse</expan></choice> med vår tids <unclear>alster</unclear>. Men <del>även</del> numera
+               <div type="page" n="07r" facs="sida07">
+                  <p rend="func">i <choice><abbr>jämf.</abbr><expan>jämförelse</expan></choice> med vår tids <unclear>alster</unclear>. Men <del>även</del> numera
                   <lb/>tillverkar man inte allting själv, utan
                   <lb/><emph>det köps färdigt</emph>! Det har skett en
                   <lb/>massa underbara <emph rend="double">uppfinningar,</emph>
@@ -573,9 +579,11 @@
                   <lb/>Samtidigt har en massa folk <emph rend="double">lösryckts</emph>
                   <lb/><emph>av förhållandenas makt</emph><emph rend="double"> från jorden</emph>
                   <lb/>och <del>invandrat till</del> samlat sig kring
+                  </p>
+               </div>
             
-               <pb type="page" n="09r" facs="sida09"/>
-                  industriplatserna, där de <choice><orig>söka</orig><reg>söker</reg></choice> arbete.</p>
+               <div type="page" n="09r" facs="sida09">
+                  <p rend="func">industriplatserna, där de <choice><orig>söka</orig><reg>söker</reg></choice> arbete.</p>
                <p>Våra dagars arbetare är fri, till motsats
                   <lb/>från slaven eller den livegne, men lottlös.
                   <lb/>När han skall fylla alla människors
@@ -588,9 +596,11 @@
                   <lb/>att kunna arbeta. Men inte bara
                   <lb/>arbetsfältet är honom frånrövat.
                   <lb/>Utan i vår tid <del>är</del> har arbetet en annan
+               </p>
+               </div>
             
-               <pb type="page" n="11r" facs="sida11"/>
-                  karaktär än förr, då man med enkla
+               <div type="page" n="11r" facs="sida11">
+                  <p rend="func">karaktär än förr, då man med enkla
                   <lb/>medel <choice><orig>frambrakte</orig><reg>frambragte</reg></choice> produkten.</p>
                <p>Arbetet är en <choice><abbr>vittomf.</abbr><expan>vittomfattande</expan></choice> process,
                   <lb/>som utom jorden – arbetsfältet –
@@ -601,14 +611,18 @@
                   <lb/><del>är</del> som vi <choice><orig>kalla</orig><reg>kallar</reg></choice> <emph rend="double">produktionsmedel</emph>
                   <lb/>är <emph rend="triple">monopol</emph> (ensambesittning)
                   <lb/>hos ett fåtal, till vilka de lottlösa
+                  </p>
+                  </div>
             
-               <pb type="page" n="13v" facs="sida13"/>
-                  måste gå och ödmjukt anhålla
+               <div type="page" n="13v" facs="sida13">
+                  <p rend="func">måste gå och ödmjukt anhålla
                   <lb/>om arbete.</p>
+                  </div>
             
-            <pb type="page" n="15v" facs="sida15"/>
+            <div type="page" n="15v" facs="sida15">
+               </div>
             
-               <pb type="page" n="02v" facs="sida02"/>
+               <div type="page" n="02v" facs="sida02">
                <p>Här i Askersund finns nu
                   <lb/>emellertid inte någon
                   <lb/>storindustri
@@ -618,8 +632,9 @@
                   <lb/>två klasser!
                   <lb/>Alltså inte den
                   <lb/>resonans som <choice><orig>eljes</orig><reg>eljest</reg></choice>!</p>
+                  </div>
             
-               <pb type="page" n="04v" facs="sida04"/>
+               <div type="page" n="04v" facs="sida04">
                <p>Ur själva den tekniska
                   <lb/><choice><abbr>omgest.</abbr><expan>omgestaltningen</expan></choice>
                   <lb rend="indent"/>framspringer 
@@ -630,8 +645,9 @@
                   <lb/>då var familj</p>
                <p>Arbetet mödosamt – produkten 
                   <lb/><choice><abbr>otillfr.</abbr><expan>otillfredsställande</expan></choice></p>
+                  </div>
             
-               <pb type="page" n="06v" facs="sida06"/>
+               <div type="page" n="06v" facs="sida06">
                <p>Nu köper man färdigt!</p>
                <p><choice><abbr>Uppf.</abbr><expan>Uppfinningar</expan></choice></p>
                <p>Det lönar sig inte!</p>
@@ -647,8 +663,9 @@
                   <lb/>en <choice><orig>särskilld</orig><reg>särskild</reg></choice> klass!</p>
                <p rend="indent">"Obehöriga <choice><orig>äga</orig><reg>äger</reg></choice>
                   <lb rend="indent"/>inte tillträde!"</p>
+                  </div>
             
-               <pb type="page" n="10v" facs="sida10"/>
+               <div type="page" n="10v" facs="sida10">
                <p>Arbetet en vittomfattande 
                   <lb/>process</p>
                <p>Monopol!</p>
@@ -659,6 +676,7 @@
                <p>Arbetarna <choice><orig>försämra</orig><reg>försämrar</reg></choice>
                   <lb/>genom sin inbördes <choice><abbr>konk.</abbr><expan>konkurrens</expan></choice>
                   <lb/>själva sina arbetsvillkor!</p>
+                  </div>
          </div>
       </body>
    </text>

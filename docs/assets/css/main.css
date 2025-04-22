@@ -139,7 +139,7 @@ span.indent .indent {
 }
 
 .delSpan {
-    color: gray;
+    color: red;
 }
 
 /* make sure that <emph> inside a <choice> gets italicized when needed */
