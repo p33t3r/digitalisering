@@ -5,6 +5,12 @@ html {
     font-size: 15px;
 }
 
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: #111;
+    }
+}
 body {
 /*    background-color: #fffff8; */
     color: 111;
@@ -49,8 +55,14 @@ header {
     padding: 3vw;
     position: fixed;
     z-index: 1;
-    background-color: inherit;
+    /* background-color: #dbba82; */
     width: 100%;
+    /*  background-image: url("../img/Demonstrera%20alla%20dagar!.jpg"); */
+    background-image: linear-gradient(to right, rgba(219, 186, 130, 0), rgba(255, 255, 248, 1)), url("../img/Demonstrera%20alla%20dagar!.png");
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 130%;
 }
 
 nav {
@@ -82,6 +94,7 @@ footer {
 
 h1 {
     margin-top: 0;
+    text-align: right;
 }
 
 nav,
@@ -113,7 +126,7 @@ p.number {
     font-size: smaller;
 }
 
-p.verse {
+  p.verse, p.list {
     margin-top: -1.5rem; /* to counteract the <br> before the first line */
 }
 
@@ -199,8 +212,13 @@ img {
 
 .thumbnail {
     margin: 5px;
-    border: 1px solid #111111;
-    width: 300px;
+    /* border: 1px solid #111;*/
+    width: 200px;
+    opacity: .5;
+}
+
+.thumbnail:hover {
+    opacity: 1;
 }
 
 .img-full {

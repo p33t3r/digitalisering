@@ -10,9 +10,9 @@
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
-                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Top Layer </title>
-                <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
-                <link rel="stylesheet" href="assets/css/main.css"/>
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: lästext </title>
+                <!-- load the stylesheets in the ../assets/css folder, where you can modify the styling of your website -->
+                <link rel="stylesheet" href="../assets/css/main.css"/>
             </head>
             <body>
                 <header>
@@ -21,8 +21,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | <a href="diplomatic.html">Diplomatarisk
-                        transkription</a> | <a href="reading.html">Lästext</a> | </nav>
+                    <a href="../index.html">Hem</a> | 
+                    <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a> | 
+                    <a href="diplomatic.html">Diplomatarisk transkription</a> | 
+                    <b><a href="reading.html">Lästext</a></b> | 
+                </nav>
                 <main>
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
@@ -111,9 +114,9 @@
                         <div class="col-sm copyright">
                             <div>
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc.svg" class="copyright_logo"
+                                    <img src="../assets/img/logos/cc.svg" class="copyright_logo"
                                         alt="Creative Commons License"/>
-                                    <img src="assets/img/logos/by.svg" class="copyright_logo"
+                                    <img src="../assets/img/logos/by.svg" class="copyright_logo"
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
@@ -144,16 +147,23 @@
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <xsl:choose>
-                <!-- <xsl:when test="@rend">
+            <!-- <xsl:choose>
+                <xsl:when test="@rend">
                     <xsl:attribute name="class">
                         <xsl:value-of select="@rend"/>
                     </xsl:attribute>
-                </xsl:when> -->
-                <xsl:when test="tei:lg">
-                    <xsl:attribute name="class">verse</xsl:attribute>
                 </xsl:when>
-            </xsl:choose>
+            </xsl:choose> -->
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <!-- transform tei lg into html paragraphs -->
+    <xsl:template match="tei:lg">
+        <p>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

@@ -10,10 +10,10 @@
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab -->
-                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: Diplomatic View
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: diplomatarisk transkription
                 </title>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
-                <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="../assets/css/main.css"/>
             </head>
             <body>
                 <header>
@@ -22,8 +22,9 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> |
-                    <a href="diplomatic.html">Diplomatarisk transkription</a> |
+                    <a href="../index.html">Hem</a> | 
+                    <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a> |
+                    <b><a href="diplomatic.html">Diplomatarisk transkription</a></b> |
                     <a href="reading.html">Lästext</a> |
                 </nav>
                 <main id="manuscript">
@@ -42,6 +43,7 @@
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
+                            <!-- <xsl:sort select="[@n]"/> <!- to sort on page numbers as they are entered with recto pages first in the tei document -->
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
@@ -114,7 +116,7 @@
                   <div class="col-sm copyright">
                       <div>
                         <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                          <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
+                          <img src="../assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="../assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
                         </a>
                       </div>
                       <div>
@@ -152,10 +154,17 @@
                         <xsl:value-of select="@rend"/>
                     </xsl:attribute>
                 </xsl:when>
-                <xsl:when test="tei:lg">
-                    <xsl:attribute name="class">verse</xsl:attribute>
-                </xsl:when>
             </xsl:choose>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <!-- transform tei lg into html paragraphs -->
+    <xsl:template match="tei:lg">
+        <p>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@type"/>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

@@ -13,7 +13,7 @@
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
-                <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="../assets/css/main.css"/>
             </head>
             <body>
                 <header>
@@ -22,8 +22,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | <a href="diplomatic.html">Diplomatarisk
-                        transkription</a> | <a href="reading.html">Lästext</a> | </nav>
+                    <a href="../index.html">Hem</a> | 
+                    <b><xsl:apply-templates select="//tei:titleStmt/tei:title"/></b> |
+                    <a href="diplomatic.html">Diplomatarisk transkription</a> | 
+                    <a href="reading.html">Lästext</a> | 
+                </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">

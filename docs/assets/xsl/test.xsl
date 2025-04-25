@@ -12,17 +12,17 @@
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
-                <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="../assets/css/main.css"/>
             </head>
             <body>
-                <header>
-                    <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
-                    </h1>
-                </header>
+                    <header>
+                        <h1>
+                            <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        </h1>
+                    </header>
 
                 <nav id="sitenav">|
-                    <a href="index.html">Hem</a> |
+                    <a href="../index.html">Tillbaka</a> |
                     <a href="diplomatic.html">Diplomatarisk transkription</a> |
                     <a href="reading.html">Lästext</a> |
                     <a href="test.html">Test</a> |
@@ -223,21 +223,35 @@
         </xsl:choose>
     </xsl:template> -->
     
-    <!-- transform tei paragraphs into html paragraphs -->
+    <!-- transform tei paragraphs into html paragraphs 
+    <xsl:template match="tei:p[following::tei:p[1][@rend='func']]">
+       <p class="test">
+           <xsl:apply-templates select="node()|following::tei:p[1]"/>
+       </p>
+    </xsl:template> -->
+    
+   
     <xsl:template match="tei:p">
-        <p>
-            <xsl:choose>
-                <xsl:when test="@rend='func'">
-                    <xsl:attribute name="class">
-                        <xsl:value-of select="@rend"/>
-                    </xsl:attribute>
-                </xsl:when>
-                <xsl:when test="tei:lg">
-                    <xsl:attribute name="class">verse</xsl:attribute>
-                </xsl:when>
-            </xsl:choose>
-            <xsl:apply-templates/>
-        </p>
+        <xsl:choose>
+  <!--          <xsl:when test="following::tei:p[1][@rend='func']">
+                <p class="test">
+                    <xsl:apply-templates select="node()|following::tei:p[1]"/>
+                </p>
+            </xsl:when>
+            <xsl:when test="@rend='func'">
+                <xsl:apply-templates/>
+            </xsl:when> -->
+            <xsl:when test="tei:lg">
+                <p class="verse">
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+            <xsl:otherwise>
+                    <p>
+                        <xsl:apply-templates/>
+                    </p>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <!-- transform tei l into html linebreaks -->
