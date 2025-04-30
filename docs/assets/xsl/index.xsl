@@ -33,7 +33,7 @@
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
-                            <div class="col-sm">
+                            <div class="col-lg">
                                 <!-- <xsl:for-each select="//tei:surface"> -->
                                 <xsl:for-each select="//tei:div[@type = 'page']">
                                     <xsl:variable name="facs" select="@facs"/>
@@ -89,13 +89,13 @@
                         <div class="col-sm copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc.svg" class="copyright_logo"
+                                    <img src="../assets/img/logos/cc.svg" class="copyright_logo"
                                         alt="Creative Commons License"/>
-                                    <img src="assets/img/logos/by.svg" class="copyright_logo"
+                                    <img src="../assets/img/logos/by.svg" class="copyright_logo"
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div class="copyright_text"> 2025 Emilia, Peeter och Rebecca. </div>
+                            <div class="copyright_text"> 2025 <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>. </div>
                         </div>
                     </div>
                 </footer>

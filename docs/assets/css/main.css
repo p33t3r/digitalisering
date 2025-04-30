@@ -10,11 +10,22 @@ html {
     h1 {
         color: #111;
     }
+    footer {
+        border: 1px solid #ffff8;
+    }
 }
+
+/*  Makes certain elements non-selectable */
+
+.linenumber, .pagenumber, .sidenote, img {
+    user-select: none;
+}
+
 body {
 /*    background-color: #fffff8; */
-    color: 111;
+    color: #111;
     width: 100%;
+    max-width: none;
     font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
     padding: 0;
     margin: 0;
@@ -30,8 +41,12 @@ body {
     max-width: 55%;
 }
 
+.col-sm {
+    max-width: 40%;
+}
+
 .sidenote, .marginnote {
-    margin-right: -15%;
+    margin-right: -40%;
     margin-top: -2rem;
     width: 40%;
     font-size: 1rem;
@@ -46,14 +61,23 @@ body {
     text-decoration: underline;
 }
 
+.fulltext {
+    width: 55%;
+}
+
+.fulltext .sidenote {
+    margin-right: -45%;
+}
+
 label {
     text-indent: initial;
     margin: 0;
 }
 
 header {
-    padding: 3vw;
+    padding: 3rem;
     position: fixed;
+    top: 0;
     z-index: 1;
     /* background-color: #dbba82; */
     width: 100%;
@@ -62,30 +86,35 @@ header {
     background-position: top left;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 135%;
 }
 
 nav {
     position: fixed;
     text-align: center;
-    top: 8vw;
+    top: 8rem;
     z-index: 1;
     background-color: inherit;
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
     border-top: 1px solid #111;
     border-bottom: 1px solid #111;
-    padding: 1vw;
+    padding: 1rem;
     width: 100%;
 }
 
 main {
-    padding-top: 12vw;
+    position: relative;
+    top: 12rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 footer {
-    border-top: 1px solid #111;
-    padding-top: 1vw;
-    margin-top: 1vw;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid;
+    padding: 1rem;
+    margin-top: 12rem;
 }
 
 * h1, h2, h3, nav, footer {
@@ -94,6 +123,7 @@ footer {
 
 h1 {
     margin-top: 0;
+    margin-right: 5rem;
     text-align: right;
 }
 
@@ -102,8 +132,8 @@ p,
 dl,
 ol,
 ul {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
 }
 
 p {
@@ -113,20 +143,7 @@ p {
     vertical-align: baseline;
 }
 
-p.indent {
-    text-indent: 2em;
-}
-
-p.right {
-    margin-left: 10em;
-}
-
-p.number {
-    text-align: center;
-    font-size: smaller;
-}
-
-  p.verse, p.list {
+p.verse, p.list {
     margin-top: -1.5rem; /* to counteract the <br> before the first line */
 }
 
@@ -147,12 +164,29 @@ span.indent .indent {
     margin-left: 4em;
 }
 
+.delSpan {
+    color: blue;
+    }
+
+.linenumber {
+    margin-right: 2rem;
+    color: gray;
+    font-size: .8rem;
+    }
+
+.pagenumber {
+    color: gray;
+    font-size: .8rem;
+    text-align: center;
+}
+
+/*  for handShift */
 .pencil {
     color: gray;
 }
 
-.delSpan {
-    color: red;
+.ink {
+    color: inherit;
 }
 
 /* make sure that <emph> inside a <choice> gets italicized when needed */
@@ -213,7 +247,7 @@ img {
 .thumbnail {
     margin: 5px;
     /* border: 1px solid #111;*/
-    width: 200px;
+    width: 250px;
     opacity: .5;
 }
 
@@ -223,8 +257,8 @@ img {
 
 .img-full {
     margin: 5px;
-    border: 1px solid #111111;
-    width: 500px;
+    border: 1px solid #111;
+    width: 400px;
 }
 
 .click-zoom input[type=checkbox] {
@@ -237,7 +271,7 @@ img {
 }
 
 .click-zoom input[type=checkbox]:checked~img {
-  transform: translate(300px) scale(2.5) ;
+  transform: translate(400px) scale(3) ;
   cursor: zoom-out;
   position: relative;
   border: 0;

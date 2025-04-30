@@ -93,10 +93,8 @@
                                             </xsl:attribute>
                                         </img>
                                     </a>
-                                    <p class="number">
-                                        <xsl:value-of
-                                            select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"
-                                        />
+                                    <p class="pagenumber">
+                                        [<xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>]
                                     </p>
                                 </div>
                                 <!-- fill the second column with our transcription -->
@@ -112,7 +110,7 @@
                 <footer>
                     <div class="row" id="footer">
                         <div class="col-sm copyright">
-                            <div>
+                            <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                                     <img src="../assets/img/logos/cc.svg" class="copyright_logo"
                                         alt="Creative Commons License"/>
@@ -120,13 +118,10 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div> 2025 Emilia, Peeter och Rebecca. </div>
+                            <div class="copyright_text"> 2025 <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>. </div>
                         </div>
                     </div>
                 </footer>
-                <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
             </body>
         </html>
     </xsl:template>
@@ -177,7 +172,8 @@
     </xsl:template>
 
     <!-- transform tei unclear to brackets-->
-    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>]? </xsl:template>
+    <xsl:template match="tei:unclear">[<xsl:apply-templates/>]? 
+    </xsl:template>
 
     <!-- make choices into spans with class:choice and only show the relevant choice-->
     <xsl:template match="tei:choice">
