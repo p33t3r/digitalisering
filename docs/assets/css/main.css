@@ -19,6 +19,8 @@ html {
 
 .linenumber, .pagenumber, .sidenote, img {
     user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 body {
