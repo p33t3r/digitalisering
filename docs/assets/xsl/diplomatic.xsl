@@ -222,7 +222,7 @@
     </xsl:template>
     
     <!-- transform tei unclear to brackets -->
-    <xsl:template match="tei:unclear">[<xsl:apply-templates/>]?
+    <xsl:template match="tei:unclear"><span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
     
     <!-- transform tei emph into underlines -->
@@ -282,8 +282,11 @@
     </xsl:template>
     
     <!-- make delSpan into a span with class delSpan - a bit of a kludge, but works -->
-    <xsl:template match="tei:delSpan">
-        <xsl:text disable-output-escaping="yes">&lt;span class="delSpan"&gt;</xsl:text>
+    <xsl:template match="tei:delSpan[@rend='pencil']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delPencil"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:delSpan[@rend='ink']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delInk"&gt;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:anchor">
         <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>

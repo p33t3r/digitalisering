@@ -586,7 +586,7 @@
                   <lb break="no"/>lös massa. När så är, kan ju inte
                   <lb/>vad jag här vill framhålla få det gehör<supplied>,</supplied>
                   <lb/>den resonans och den aktualitet
-                  <lb/><unclear>om</unclear> sig som <choice><sic>den</sic><corr>det</corr></choice> har på de platser, där <choice><sic>det</sic><corr>de</corr></choice>
+                  <lb/><unclear>över</unclear> sig som <choice><sic>den</sic><corr>det</corr></choice> har på de platser, där <choice><sic>det</sic><corr>de</corr></choice>
                </p>
             </div>
             
@@ -596,7 +596,7 @@
                   <lb/><choice><orig>sätta</orig><reg>sätter</reg></choice> sin <add>prägel</add> på det hela.
                </p>
                
-               <p><delSpan spanTo="#a5"/>
+               <p><delSpan rend="ink" spanTo="#a5"/>
                   <lb/>Hur många gånger det <choice><abbr>dem.</abbr><expan>demonstrerats</expan></choice> här, vet
                   <lb/>jag inte, men sannolikt är det så många
                   <lb/>gånger, att ämnet är uttömt, att huvudtemat
@@ -621,7 +621,7 @@
             
             <div type="page" n="07r" facs="sida07">
                <p part="M" rend="func">
-                  <lb/>i <choice><abbr>jämf.</abbr><expan>jämförelse</expan></choice> med vår tids <unclear>alster</unclear>. Men <del>även</del> numera
+                  <lb/>i <choice><abbr>jämf.</abbr><expan>jämförelse</expan></choice> med vår tids alster. Men <del>även</del> numera
                   <lb/>tillverkar man inte allting själv, utan
                   <lb/><emph>det köps färdigt</emph>! Det har skett en
                   <lb/>massa underbara <emph rend="double">uppfinningar,</emph>
@@ -661,7 +661,7 @@
             <div type="page" n="11r" facs="sida11">
                <p part="F" rend="func">
                   <lb/>karaktär än förr, då man med enkla
-                  <lb/>medel <choice><orig>frambrakte</orig><reg>frambragte</reg></choice> produkten.
+                  <lb/>verktyg <choice><orig>frambrakte</orig><reg>frambragte</reg></choice> produkten.
                </p>
                
                <p part="I">
@@ -685,13 +685,13 @@
                
                <p part="I">
                   <lb/><emph>"Spadarna <choice><orig>befinna</orig><reg>befinner</reg></choice> sig i andras</emph>
-                  <lb/><emph>händer."</emph> Uttryck av skalden <unclear>Bergson</unclear>!
+                  <lb/><emph>händer."</emph> Uttryck av skalden <unclear/>!
                   <lb/>Om en sådan där arbetslös person
                   <lb/>begär anständig lön, finns det så
                   <lb/>många andra, villiga att arbeta för
-                  <lb/>lägre, och så <emph rend="double">sjunker</emph> <emph rend="double">lönen</emph>
+                  <lb/>lägre, och så <del><unclear/></del> <emph rend="double">sjunker</emph> <emph rend="double">lönen</emph>
                   <lb/><emph rend="double">av sig själv</emph> utan att arbetsgivaren
-                  <lb/>behöver pressa <unclear>in</unclear>, behöver vara
+                  <lb/>behöver pressa <unclear>ner</unclear>, behöver vara
                   <lb/><emph>blodsugare</emph>! Lönen sjunker och
                   <lb/>alla de övriga arbetsvillkoren försämras
                </p>
@@ -707,11 +707,11 @@
                   <lb/>Ur denna de <choice><orig>modärna</orig><reg>moderna</reg></choice> arbetarnas
                   <lb/>förtvivlade ställning framväxte
                   <lb/>emellertid hjälpen. När arbetarna
-                  <lb/><choice><orig>sågo</orig><reg>såg</reg></choice>, att de <choice><orig>finge</orig><reg>fick</reg></choice> <supplied>det</supplied> sämre genom
-                  <lb/>att <unclear>äta</unclear> ut varandra, var det
+                  <lb/><choice><orig>sågo</orig><reg>såg</reg></choice>, att de <choice><orig>fingo</orig><reg>fick</reg></choice> <supplied>det</supplied> sämre genom
+                  <lb/>att äta ut varandra, var det
                   <lb/>klart, att de började inse, att
                   <lb/>de borde <emph rend="double">hålla ihop</emph> i stället, alltså
-                  <lb/><del>att</del> inte bjuda under varandra
+                  <lb/><del><unclear/></del> inte bjuda under varandra
                   <lb/>utan göra
                   <lb/><emph>överenskommelser</emph> <choice><orig>sins emellan</orig><reg>sinsemellan</reg></choice>!
                </p>
@@ -729,7 +729,7 @@
                
                <p>
                   <lb/><emph>Vad är det som gör fackförenings<pc>-</pc></emph>
-                  <lb break="no"/><emph>rörelsen </emph><add>solidariskt</add><emph> så stark</emph>? Inte här i Asker<pc>=</pc>
+                  <lb break="no"/><emph>rörelsen </emph><add><unclear>solidariteten</unclear></add><emph> så stark</emph>? Inte här i Asker<pc>=</pc>
                   <lb break="no"/>sund, där det inte finns någon in<pc>-</pc>
                   <lb break="no"/>dustri<supplied>,</supplied> utan i våra industricentra
                   <lb/>och i de stora <emph>kulturländerna</emph>?
@@ -738,7 +738,7 @@
             
             <div type="page" n="19r" facs="sida19">
                <p>
-                  <lb/>Jo, det var förhållandet, att
+                  <lb/>Jo, det sakförhållandet, att
                   <lb/>varuproduktionen sker för
                   <lb/><emph rend="double">vinstens</emph> skull, och att inte
                   <lb/>våra arbetsherrar <choice><orig>finge</orig><reg>hade fått</reg></choice> någon
@@ -756,17 +756,17 @@
             <div type="page" n="21r" facs="sida21">
                <p part="I">
                   <lb/>Men å andra sidan kan inte
-                  <lb/>samhället undvara <del>det</del>arbetet.
+                  <lb/>samhället undvara <del>det</del> arbetet.
                   <lb/>Det skulle inte kunna bestå, om det
                   <lb/>inte arbetades <emph rend="triple">i</emph> och <emph rend="triple">på</emph> jorden,
-                  <lb/>och <del>av</del> tills vi <choice><orig>hvinna</orig><reg>vinner</reg></choice> en sådan
+                  <lb/>och <del><unclear/></del> tills vi <choice><orig>hvinna</orig><reg>vinner</reg></choice> en sådan
                   <lb/>samhällsutveckling, att den <choice><orig>enskill<pc>-</pc>
                   <lb break="no"/>des</orig><reg>enskildes</reg></choice> arbetsförtjänst och existens
                   <lb/>blir en <emph rend="double">statens</emph> eller <emph rend="double">kommunens</emph>
                   <lb/>angelägenhet, bör det arbetande
                   <lb/>folket yrka på att få arbeta
                   <lb/>under så drägliga former som
-                  <lb/>möjligt. <sic>[</sic>Den svidande kritiken gör
+                  <lb/>möjligt. <sic>[</sic>Den <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kritiken gör
                </p>
             </div>
             
@@ -796,9 +796,9 @@
                   <lb/><choice><orig>få</orig><reg>får</reg></choice> andas luft, och så visst som vår
                   <lb/>herre <del>låter sin</del> har lov ännu <del>att låta</del>
                   <lb/>för kapitalisterna att låta sin sol
-                  <lb/>skina på <choice><sic>godda</sic><corr>goda</corr></choice> och onda, ha lov <supplied>att</supplied> ta
-                  <lb/><unclear>vårt</unclear> vatten ur en bäck, om de också
-                  <lb/><unclear>vill palla</unclear> en vedpinne eller plocka
+                  <lb/>skina på <choice><sic>godda</sic><corr>goda</corr></choice> och onda, <choice><orig>ha</orig><reg>har</reg></choice> lov <supplied>att</supplied> ta
+                  <lb/><choice><orig>litet</orig><reg>lite</reg></choice> vatten ur en bäck, om de också
+                  <lb/>inte <choice><orig>få</orig><reg>får</reg></choice> ta en vedpinne eller plocka
                   <lb/>vilda bär. Att känna det <emph>så</emph> ifråga
                   <lb/>om jorden – denna vår gemensamma
                   <lb/>boning, och finna en formel för
@@ -859,12 +859,12 @@
                   <lb/><emph rend="double">leva!</emph>
                   <lb rend="indent"/>Kom ihåg den förnuftiga satsen!
                   <lb/>Jag vill nu inte stå här och repetera
-                  <lb/>alla de skäl som <unclear>råda</unclear> för förkortning
+                  <lb/>alla de skäl som tala för förkortning
                   <lb/>av <choice><abbr>arbetst.</abbr><expan>arbetstiden.</expan></choice> Det finns ett som går <emph>före</emph>
                   <lb/>och <emph>över</emph> alla andra, varför inte
-                  <lb/>arbetaren skall av <del>ett</del> industrialis<pc>-</pc>
+                  <lb/>arbetaren skall av <del><unclear/></del> industrialis<pc>-</pc>
                   <lb break="no"/>men låta förvandla sig till ett lastdjur eller
-                  <lb/>en maskin, och<sic>!</sic> det är att hos
+                  <lb/>en maskin, och det är att hos
                </p>
             </div>
             
@@ -898,7 +898,7 @@
                   <lb/><emph rend="double">jag med visshet vet något om</emph>.
                   <lb/>Må det alltså bjuda mig något. Må jag
                   <lb/>få min andel i kulturen. Gumman och
-                  <lb/>tåget! Vad komma.
+                  <lb/>tåget! Vad <choice><orig>komma</orig><reg>kommer</reg></choice>.
                </p>
                
                <p>
@@ -914,7 +914,7 @@
                
                <p>
                   <lb rend="indent"/>Kan inte nöja sig med lika
-                  <lb/><choice><orig>litet</orig><reg>lite</reg></choice> som <emph rend="double">Pär Agust i Strix</emph><note type="sn-35">Karaktär i en berättelse av Alfred Engström, se <ref target="https://tidningar.kb.se/t857vtghr6p5p99k/part/2/page/4">Strix (1898):52 i Svenska tidningar hos KB</ref></note>:
+                  <lb/><choice><orig>litet</orig><reg>lite</reg></choice> som <emph rend="double"><choice><sic>Per</sic><corr>Pär</corr></choice> Agust i Strix</emph><note type="sn-35">Karaktär i en berättelse av Alfred Engström, se <ref target="https://tidningar.kb.se/t857vtghr6p5p99k/part/2/page/4">Strix (1898):52 i Svenska tidningar hos KB</ref></note>:
                </p>
             </div>
             
@@ -929,9 +929,9 @@
                   <lb/><l>De på folkets <choice><abbr>tr.</abbr><expan>träd</expan></choice> blott äro blommen,</l>
                   <lb/><l>vartill roten bidrog med sin must.</l>
                   <lb/><l>Folket vill sitt arv tillbaka börda,</l>
-                  <lb/><l>en förädlad ljusets, kraftens flod.</l>
+                  <lb/><l>en föryngrad ljusets, kraftens flod.</l>
                   <lb/><l><choice><sic>där</sic><corr>Där</corr></choice> det sått, där vill det också skörda</l>
-                  <lb/><l>Kunna säga: se vårt kött och blod!<note type="sn-37">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har "Folket vill sitt <emph>lån</emph> tillbaka börda" och "se <emph>mitt</emph> kött och blod!"</note></l>
+                  <lb/><l>Kunna säga: se vårt kött och blod!<note type="sn-37">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken, "Folket vill sitt <emph>lån</emph> tillbaka börda", "en <emph>förädlad</emph> ljusets, kraftens flod" och "se <emph>mitt</emph> kött och blod!"</note></l>
                </lg>
                
                <p>
@@ -949,9 +949,9 @@
             
             <div type="page" n="39r" facs="sida39">
                <p part="M">
-                  <lb/>få använda tiden efter behag, kanske 
+                  <lb/><choice><orig>få</orig><reg>får</reg></choice> använda tiden efter behag, kanske 
                   <lb/>ligga och dra sig till fram på <choice><abbr>f.m.</abbr><expan>förmiddagen</expan></choice>
-                  <lb/>och ha det behagligt på all<unclear>…</unclear> sätt –
+                  <lb/>och ha det behagligt på <unclear>alla</unclear> sätt –
                   <lb/><emph>om</emph>
                   <lb rend="indent"/>de skulle bli försatta i löneslavens
                   <lb/>ställning, gå i ett tungt, mördande
@@ -960,7 +960,7 @@
                   <lb/>sannolikt se på majdemonstran<pc>-</pc>
                   <lb break="no"/>terna med andra ögon, se på 
                   <lb/><del>alla</del><add>hela</add> <emph rend="double">arbetarrörelsen med <choice><orig>litet</orig><reg>lite</reg></choice></emph>
-                  <lb/><emph rend="double">mer förståelse!</emph> Sätt <choice><orig>eder</orig><reg>er</reg></choice> in i
+                  <lb/><emph rend="double">mer förståelse!</emph> Sätt <choice><orig>Eder</orig><reg>er</reg></choice> in i
                </p>
             </div>
             
@@ -988,8 +988,8 @@
                </p>
                
                <lg type="list">
-                  <lb/><l>2) <choice><orig>50,000</orig><reg>50 000</reg></choice> (järnbrukens <choice><abbr>arb.</abbr><expan>arbetare</expan></choice>)</l>
                   <lb/><l>1) Utkasta <choice><orig>30,000</orig><reg>30 000</reg></choice> (<choice><abbr>textilarb.</abbr><expan>textilarbetare</expan></choice>)</l>
+                  <lb/><l>2) <choice><orig>50,000</orig><reg>50 000</reg></choice> (järnbrukens <choice><abbr>arb.</abbr><expan>arbetare</expan></choice>)</l>
                   <lb/><l>3) Vilka de behagade kasta ut!</l>
                </lg>
                
@@ -1016,7 +1016,7 @@
                
                <p>
                   <lb rend="indent"/>Isidor Flodström har dock 
-                  <lb/><del>F</del> sagt att lockoutens moraliska 
+                  <lb/><del><unclear/></del> sagt att lockoutens moraliska 
                   <lb/>berättigande är betydligt mindre
                   <lb/>än strejkens!
                </p>
@@ -1092,7 +1092,7 @@
                   </note>
                   <lb rend="indent"/>för släktets och samhällets.
                   <lb rend="indent"/>Kvinnan är mogen
-                  <lb rend="indent"/><unclear>Våra</unclear> tre Nobelpristagarin<pc>-</pc>
+                  <lb rend="indent"/><choice><sic>Våra</sic><corr>våra</corr></choice> tre Nobelpristagarin<pc>-</pc>
                   <lb break="no" rend="indent"/>nor.
                </p>
                
@@ -1230,7 +1230,7 @@
                <p>
                   <lb/>Varav kommer fackföreningens 
                   <lb/>styrka? Inte i Askersund! 
-                  <lb/><unclear>utan</unclear> i kulturländerna!
+                  <lb/>Men i kulturländerna!
                </p>
             </div>
             
@@ -1311,7 +1311,7 @@
                
                <p>
                   <lb rend="indent"/><emph rend="triple">Robinson!</emph>
-                  <lb/>Vad är en <unclear>jord…</unclear>, en kapitalist<supplied>,</supplied>
+                  <lb/>Vad är en jorddrott, en kapitalist<supplied>,</supplied>
                   <lb/>en bas – <emph rend="triple">utan en slav!</emph>
                </p>
             </div>
@@ -1392,7 +1392,7 @@
                   <lb/>som <choice><orig>få</orig><reg>får</reg></choice> gå till sina platser<supplied>,</supplied>
                   <lb/>sina kontor och tjänster i
                   <lb/>de offentliga verken – hur
-                  <lb/>skulle de känna det i <unclear>mönstring</unclear>
+                  <lb/>skulle de känna det i <unclear>industriar</unclear>
                </p>
             </div>
             
@@ -1467,7 +1467,7 @@
                </p>
                
                <p>
-                  <lb/>Tull på <del>p</del> råg, fläsk, <emph rend="triple">kaffetull!</emph>
+                  <lb/>Tull på <del><unclear/></del> råg, fläsk, <emph rend="triple">kaffetull!</emph>
                   <lb/>Åkarpslagar 
                   <lb/>Avtalslagar. <del>och</del><note type="sn-50">
                      Tillägg i vänster marginal:
@@ -1497,18 +1497,18 @@
                <p>
                   <lb/>Jesus har inga andra efterföljare än
                   <lb/>de som – <choice><orig>förneka</orig><reg>förnekar</reg></choice> honom. <choice><orig>Förneka</orig><reg>Förnekar</reg></choice>
-                  <lb/>honom men <del>i ord och</del> <supplied>i</supplied> handling <choice><orig>visa</orig><reg>visar</reg></choice> sig be<pc>-</pc>
+                  <lb/>honom men <del>i ord</del> <del>och</del> handling <choice><orig>visa</orig><reg>visar</reg></choice> sig be<pc>-</pc>
                   <lb break="no"/>själade av kärlek till sina <choice><abbr>medm.</abbr><expan>medmänniskor.</expan></choice>
                </p>
                
                <lg type="verse">
-                     <lb/><l>Han är i den<supplied>,</supplied> som ej hans namn anammar<supplied>,</supplied></l>
+                     <lb/><l>Han är i den<supplied>,</supplied> som ej hans ord anammar<supplied>,</supplied></l>
                      <lb/><l>men i vars hjärta sanningskärlek
                         <lb rend="indent"/>flammar.</l>
-                     <lb/><l><del>Jag</del>Han är i den, som rätt ej honom
+                     <lb/><l><del><unclear/></del>Han är i den, som rätt ej honom
                         <lb rend="indent"/>kände,</l>
                      <lb/><l>men kämpar i hans flock för de
-                        <lb rend="indent"/>elände.<note type="sn-52">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>.</note></l>
+                        <lb rend="indent"/>elände.<note type="sn-52">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) Originalet har andra skiljetecken och "namn" i stället för "ord". <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>.</note></l>
                </lg>
                
                <p>

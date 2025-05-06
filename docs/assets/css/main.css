@@ -162,13 +162,33 @@ span.indent {
     margin-left: 2em;
 }
 
-span.indent .indent {
-    margin-left: 4em;
+/*  to fix weird strike-through behaviour on Firefox and add colour */
+del {
+  text-decoration: underline red .1em;
+  text-underline-offset: -.3em;
+  text-decoration-skip-ink: none;
 }
+
+.unclear::before {
+    content: "{";
+}
+
+.unclear::after {
+    content: "?}";
+}
+
 
 .delSpan {
     color: blue;
     }
+    
+.delPencil {
+    color: gray;
+}
+
+.delInk {
+    color: red;
+}
 
 .linenumber {
     margin-right: 2rem;

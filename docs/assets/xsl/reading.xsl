@@ -172,7 +172,7 @@
     </xsl:template>
 
     <!-- transform tei unclear to brackets-->
-    <xsl:template match="tei:unclear">[<xsl:apply-templates/>]? 
+    <xsl:template match="tei:unclear"><span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
 
     <!-- make choices into spans with class:choice and only show the relevant choice-->
