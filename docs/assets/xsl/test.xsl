@@ -90,6 +90,7 @@
                 <xsl:text disable-output-escaping="yes">&lt;/p&gt;&#10;&lt;p&gt;</xsl:text>
             </xsl:otherwise>
         </xsl:choose>
+        <span class="marginnote"><xsl:value-of select="@facs"/></span>
     </xsl:template>
 
     <!-- transform tei paragraphs into html paragraphs -->
@@ -97,6 +98,10 @@
         <p>
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:p[not(@part='N')]">
+        <xsl:apply-templates/>
     </xsl:template>
     
     <!-- <xsl:template match="tei:body">
@@ -133,9 +138,9 @@
     </xsl:template>
     
     <!-- transform tei unclear to brackets-->
-    <xsl:template match="tei:unclear">[<xsl:apply-templates/>]?
+    <xsl:template match="tei:unclear"><span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
-
+    
     <!-- make choices into spans with class:choice and only show the relevant choice-->
     <xsl:template match="tei:choice">
         <xsl:choose>
@@ -196,9 +201,12 @@
         </span>
     </xsl:template>
     
-    <!-- delSpan -->
-    <xsl:template match="tei:delSpan">
-        <xsl:text disable-output-escaping="yes">&lt;span class="delSpan"&gt;</xsl:text>
+    <!-- make delSpan into a span with class delPencil or delInk - a bit of a kludge, but works -->
+    <xsl:template match="tei:delSpan[@rend='pencil']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delPencil"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:delSpan[@rend='ink']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delInk"&gt;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:anchor">
         <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>

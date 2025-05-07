@@ -222,9 +222,12 @@
         </em>
     </xsl:template>
 
-    <!-- do not show delSpan in reading transcription - a bit of a kludge, but works -->
-    <xsl:template match="tei:delSpan">
-        <xsl:text disable-output-escaping="yes">&lt;span style="display:none;"&gt;</xsl:text>
+    <!-- make delSpan into a span with class delPencil or delInk - a bit of a kludge, but works -->
+    <xsl:template match="tei:delSpan[@rend='pencil']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delPencil"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:delSpan[@rend='ink']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="delInk"&gt;</xsl:text>
     </xsl:template>
     <xsl:template match="tei:anchor">
         <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>

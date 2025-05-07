@@ -49,13 +49,13 @@ body {
 
 .sidenote, .marginnote {
     margin-right: -40%;
-    margin-top: -2rem;
+/*      margin-top: -2rem; */
     width: 40%;
     font-size: 1rem;
     text-indent: initial;
 }
 
-.reading .sidenote {
+.reading .sidenote, .reading .marginnote {
     margin-right: -45%;
 }
 
@@ -67,7 +67,7 @@ body {
     width: 55%;
 }
 
-.fulltext .sidenote {
+.fulltext .sidenote, .fulltext .marginnote {
     margin-right: -45%;
 }
 
@@ -107,8 +107,8 @@ nav {
 main {
     position: relative;
     top: 12rem;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
 }
 
 footer {
@@ -182,12 +182,16 @@ del {
     color: blue;
     }
     
-.delPencil {
+.diplomatic .delPencil {
     color: gray;
 }
 
-.delInk {
+.diplomatic .delInk {
     color: red;
+}
+
+.reading .delInk, .fulltext .delInk {
+    display: none;
 }
 
 .linenumber {
@@ -216,7 +220,7 @@ em, em .choice {
     font-style: italic;
 }
 
-div.index, div.diplomatic   {
+div.index, {
     display: none;
 }
 

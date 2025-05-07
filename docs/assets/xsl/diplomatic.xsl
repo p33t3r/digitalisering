@@ -102,7 +102,9 @@
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
-                                    <xsl:apply-templates/>                                      
+                                    <div class="diplomatic">
+                                        <xsl:apply-templates/>
+                                    </div>
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -281,7 +283,7 @@
         </a>
     </xsl:template>
     
-    <!-- make delSpan into a span with class delSpan - a bit of a kludge, but works -->
+    <!-- make delSpan into a span with class delPencil or delInk - a bit of a kludge, but works -->
     <xsl:template match="tei:delSpan[@rend='pencil']">
         <xsl:text disable-output-escaping="yes">&lt;span class="delPencil"&gt;</xsl:text>
     </xsl:template>

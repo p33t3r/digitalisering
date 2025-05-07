@@ -517,6 +517,7 @@
       <body>
          <div type="manuscript" n="1">
             <div type="page" n="01r" facs="sida01">
+               <pb n="01r" facs="sida01"/>
                <p>
                   <lb rend="indent"/>Nora, 1 <choice><orig>Maj</orig><reg>maj</reg></choice> 1910.
                </p>
@@ -540,6 +541,7 @@
             </div>
             
             <div type="page" n="03r" facs="sida03">
+               <pb n="03r" facs="sida03"/>
                <p>
                   <lb/>Hur många gånger det demonstrera<unclear>ts</unclear>
                   <lb/>i <emph rend="double">Nora</emph>,
@@ -554,14 +556,15 @@
                   <lb/><emph><choice><abbr>klassmedv.</abbr><expan>klassmedvetenhet</expan></choice></emph>.<pc force="weak">.</pc>
                </p>
                
-               <p>
+               <p part="I">
                   <lb  rend="indent"/>Arbetare, ur själva den tekniska
                   <lb/>omgestaltningen av samhället, <choice><abbr>inf.</abbr><expan>införandet</expan></choice> av
                </p>
             </div>
 
            <div type="page" n="05r" facs="sida05">
-               <p rend="func">
+              <pb n="05r" facs="sida05"/>
+              <p part="F" rend="func">
                   <lb/>det stora industriella produktionssättet med
                   <lb/>vinst- och lönesystem under "fri tävlan", som
                   <lb/>det heter, <choice><abbr>mell.</abbr><expan>mellan</expan></choice> <choice><abbr>indiv.</abbr><expan>individer</expan></choice> — ur allt detta,
@@ -569,7 +572,7 @@
                   <lb break="no"/>gande och styrka.
                </p>
                
-               <p>
+               <p part="I">
                   <lb rend="indent"/><emph>Arbetet är källan till all rikedom</emph>
                   <lb/><emph>och all kultur.</emph> Den sanningen kommer
                   <lb/>vi inte ifrån. <choice><orig>Pänningmannen</orig><reg>Penningmannen</reg></choice> bröstar sig
@@ -583,7 +586,8 @@
             </div>
             
             <div type="page" n="07r" facs="sida07">
-               <p rend="func">
+               <pb n="07r" facs="sida07"/>
+               <p part="F" rend="func">
                   <lb/>en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
                   <lb/>i Hjulsjö<note type="sn-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan rend="pencil" spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
@@ -597,7 +601,7 @@
                   <lb rend="indent"/><emph>endast som <choice><orig>typ</orig><reg>typ</reg></choice>!</emph><note type="sn-07">Överkorsat med blyerts från "Alla människor…" till "…endast som typ!"</note><anchor xml:id="a7"/>
                </p>
                
-               <p>
+               <p part="I">
                   <lb rend="indent"/>Han gav folk arbete! Nå, men
                   <lb/>han gav <del>sig</del> väl <choice><orig>nå'nting</orig><reg>nånting</reg></choice> åt sig själv
                   <lb/>också? <choice><orig>Pängar</orig><reg>Pengar</reg></choice>! Och det var väl den där
@@ -606,7 +610,7 @@
             </div>
 
             <div type="page" n="09r" facs="sida09">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>honom, när han så där ”gav” folk <choice><orig>arb.</orig><reg>arbete</reg></choice>!
                </p>
                
@@ -625,7 +629,7 @@
                </p>
                <anchor xml:id="a9"/>
                
-               <p>
+               <p part="I">
                   <lb/>Nej, säger jag, han <emph rend="double">köpte</emph> det, för
                   <lb/>sin egen vinnings skull. Och
                   <lb/><del>tillfälle för</del>
@@ -635,7 +639,7 @@
             </div>
 
             <div type="page" n="11r" facs="sida11">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>slumpen, <del>åt barmhärtigheten eller</del>
                   <lb/>eller barmhärtigheten eller sniken<pc>-</pc>
                   <lb break="no"/>heten hos den <choice><orig>enskillde</orig><reg>enskilde</reg></choice>:
@@ -648,7 +652,7 @@
                   <lb break="no"/><emph rend="double">nits, om ej arbetet gått förut.</emph>
                </p>
 
-               <p>
+               <p part="I">
                   <lb/>Varenda produkt, som vi människor
                   <lb/><choice><orig>behöva</orig><reg>behöver</reg></choice>, kan följas genom en serie
                   <lb/>arbetsled tillbaka till de råämnen,
@@ -656,7 +660,7 @@
             </div>
 
             <div type="page" n="13r" facs="sida13">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb/>varav den är gjord, och dessa
                   <lb/>råämnen i sin tur tillbaka till
                   <lb/>det <del>end</del> ena, stora, allt annat
@@ -677,14 +681,14 @@
             </div>
 
             <div type="page" n="15r" facs="sida15">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/><emph>praktiska</emph> tillämpningen av
                   <lb/>denna idé – <emph rend="double">det</emph>
                   <lb rend="indent"/><emph rend="double">är socialism</emph>! <emph rend="double">Det är mer</emph>
                   <lb/><emph rend="double">än så, det är verklig religion!</emph>
                </p>
                
-               <p>
+               <p part="I">
                   <lb/>Robinson:
                   <lb rend="indent"/>Hur beroende man är av det
                   <lb/>grova föraktade arbetet, hur det
@@ -697,7 +701,7 @@
             </div>
 
             <div type="page" n="17r" facs="sida17">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb break="no"/>ständig herre, och han hade både
                   <lb/><choice><orig>pängar</orig><reg>pengar</reg></choice> och vapen. Men hur fick
                   <lb/><del>han</del><add>Robinson</add> inte knoga! Själv bygga sitt hus,
@@ -714,7 +718,7 @@
             </div>
 
             <div type="page" n="19r" facs="sida19">
-               <p>
+               <p part="I">
                   <lb/>Tills vi komma därhän, att
                   <lb/>den ena människan inte behö<pc>-</pc>
                   <lb break="no"/>ver sälja sig längre <add>till den andra</add> för <choice><orig>timpäng</orig><reg>timpeng</reg></choice>
@@ -731,7 +735,7 @@
             </div>
 
             <div type="page" n="21r" facs="sida21">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb break="no"/>liga villkor som möjligt, <lb/>hålla <choice><orig>hop</orig><reg>ihop</reg></choice> om kravet:
                   <lb rend="indent"/><emph rend="double">Högre lön — kortare dag.</emph>
                </p>
@@ -743,19 +747,19 @@
                   <lb/>och naturliga satsen!
                </p>
                
-               <p>
+               <p part="I">
                   <lb rend="indent"/>Alla skäl, som <choice><orig>tala</orig><reg>talar</reg></choice> för <choice><abbr>förk.</abbr><expan>förkortning</expan></choice> av
                   <lb/>arbetstiden, <choice><orig>äro</orig><reg>är</reg></choice> säkert omtuggade
                   <lb/>tillräckligt även i Nora.
                   <lb/>Jag bryr mig inte om att repetera
                   <lb/>dem. Det finns <add><handShift medium="pencil"/>ett skäl som går utanpå</add><del>inte mer än <emph>ett</emph></del>
-                  <lb/><add><handShift medium="pencil"/>alla andra,</add><del>verkligt skäl</del>, varför arbetarna inte
+                  <lb/><add><handShift medium="pencil"/>alla andra,</add><del>verkligt skäl,</del> varför arbetarna inte
                   <lb/>skall av industrialismen för<pc>-</pc>
                </p>
             </div>
 
             <div type="page" n="23r" facs="sida23">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb break="no"/>vandlas till ett lastdjur, en ma<pc>-</pc>
                   <lb break="no"/>skin, och det är det <emph rend="double">att det hos</emph>
                   <lb/><emph rend="double">alla normala människor finns</emph>
@@ -772,7 +776,7 @@
             </div>
 
             <div type="page" n="25r" facs="sida25">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb break="no"/>, så <choice><orig>särskillt</orig><reg>särskilt</reg></choice> kort för <choice><orig>Er</orig><reg>er</reg></choice>,
                   <lb rend="indent"/><emph rend="double">industriarbetare</emph>, <emph>och så</emph>
                   <lb/><emph>fullt av faror</emph>! Ett liv om dagen
@@ -785,7 +789,7 @@
                   <lb rend="indent"/><emph rend="double">visshet</emph>! Må det bjuda mig något.
                </p>
                
-               <p>
+               <p part="I">
                   <lb/>Jag vill ha min andel i kulturen, i
                   <lb/>den mänskliga odlingens framsteg!
                   <lb/>Tänk om våra farfars föräldrar kunde
@@ -793,7 +797,7 @@
             </div>
 
             <div type="page" n="27r" facs="sida27">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb break="no"/>stiga upp ur sina gravar och se
                   <lb/>våra materiella och andliga fram<pc>-</pc>
                   <lb break="no"/>steg! Våra maskiner, våra kommuni<pc>-</pc>
@@ -812,7 +816,7 @@
             </div>
 
             <div type="page" n="29r" facs="sida29">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>nog aldrig!<sic>)</sic> En intelligent männi<pc>-</pc>
                   <lb break="no"/>ska säger alltså: Jag vill inte bara
                   <lb/>slita ut mig i ett enformigt och tungt
@@ -821,7 +825,7 @@
                   <lb rend="indent"/><emph rend="triple">jag vill också skörda!</emph>
                </p>
                
-               <p>
+               <p part="I">
                   <lb/>Lönen <emph rend="triple"> är</emph> inte <del>en</del> bara en <choice><orig>pänning</orig><reg>penning</reg></choice><pc>-</pc>
                   <lb break="no"/>lön, den är något mer, något högre.
                   <lb/>Min verkliga <emph rend="double">lön</emph> är min <emph rend="triple">andel</emph> <emph rend="triple">i</emph>
@@ -832,7 +836,7 @@
             </div>
 
             <div type="page" n="35r" facs="sida35">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb/>de <unclear>över</unclear>modiga och brutala arbets<pc>-</pc>
                   <lb break="no"/>herrar, som <choice><orig>sitta</orig><reg>sitter</reg></choice> i <choice><abbr>Arbetsgiv.för</abbr><expan>arbetsgivarföreningen</expan></choice>
                   <lb/>och <choice><orig>döma</orig><reg>dömer</reg></choice> <choice><orig>Er</orig><reg>er</reg></choice> med <choice><orig>edra</orig><reg>era</reg></choice> stackars
@@ -848,7 +852,7 @@
             </div>
 
             <div type="page" n="37r" facs="sida37">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb/>lön för mitt slit, den kan vara av
                   <lb/>många slag efter vars och ens
                   <lb/>olika läggning. Jag kan läsa
@@ -865,11 +869,11 @@
             </div>
 
             <div type="page" n="39r" facs="sida39">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/><emph>verkliga lön</emph>, <emph>hans </emph><emph rend="double">andel</emph><emph> i kulturen</emph>.
                </p>
                
-               <p>
+               <p part="I">
                   <lb/>En annan skulle vilja resa —
                   <lb/>vi <choice><orig>ha</orig><reg>har</reg></choice> sådana präktiga kommu<pc>-</pc>
                   <lb break="no"/>nikationer, som inte <choice><orig>funnos</orig><reg>fanns</reg></choice> på
@@ -886,11 +890,11 @@
             </div>
 
             <div type="page" n="41r" facs="sida41">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>Paris, London. Nå, reser ni nu dit?
                </p>
                
-               <p>
+               <p part="I">
                   <lb/><choice><orig>Nää</orig><reg>Nej</reg></choice>, när ni <choice><orig>resa</orig><reg>reser</reg></choice>,
                   <lb rend="indent"/>så blir det till — <emph rend="triple">Amerika,</emph>
                   <lb/>och knappast <del/> för att komma
@@ -908,7 +912,7 @@
             </div>
 
             <div type="page" n="43r" facs="sida43">
-               <p rend="func">
+               <p part="M" rend="func">
                   <lb/>Branting tala, eller Ellen Key, eller vår
                   <lb/>geografiske upptäckare Hedin eller
                   <lb/><del><unclear/></del> Heidenstam eller vår store sångare
@@ -926,7 +930,7 @@
             </div>
 
             <div type="page" n="45r" facs="sida45">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>i att få göra just vad jag vill, som inte
                   <lb/>skadar någon annan!
                </p>
@@ -961,7 +965,7 @@
                   <lb/><l>Kunna säga: se vårt kött och blod!<note type="sn-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken och "se <emph>mitt</emph> kött och blod!"</note></l>
                </lg>
                
-               <p>
+               <p part="I">
                   <lb rend="indent"/>Jag vädjar till belackarna,
                   <lb/><del>bland</del> som <choice><orig>kalla</orig><reg>kallar</reg></choice> majdemonstratio<pc/>
                   <lb break="no"/>nen ett spektakel, ett upptåg, okynnes<pc>-</pc>
@@ -972,7 +976,7 @@
             </div>
 
             <div type="page" n="49r" facs="sida49">
-               <p rend="func">
+               <p part="F" rend="func">
                   <lb/>dagen och ändå ha det någorlunda
                   <lb/>behagligt, <lb rend="indent"/>om de plötsligt skulle
                   <lb/>nödgas byta lott med en fattig
@@ -996,7 +1000,7 @@
                   <lb/>i <choice><abbr>arbetsgiv.föreningar</abbr><expan>arbetsgivarföreningar</expan></choice>!
                </p>
                
-               <p><handShift medium="pencil"/>
+               <p part="I"><handShift medium="pencil"/>
                   <lb/>2) När ni så av <choice><orig>edra</orig><reg>era</reg></choice>
                   <lb/>knappa löner ska köpa igen
                   <lb/>något av de produkter ni och 
@@ -1008,7 +1012,7 @@
             </div>
             
             <div type="page" n="53r" facs="sida53">
-               <p rend="func"><handShift medium="pencil"/>
+               <p part="M" rend="func"><handShift medium="pencil"/>
                   <lb break="no"/>mande varornas pris. Därför är
                   <lb/><emph rend="double">sockret</emph> så dyrt, <emph rend="double"><choice><orig>margarinen</orig><reg>margarinet</reg></choice></emph>, 
                   <lb/>såpan, fotogenen. Socker<pc>-</pc>
@@ -1027,12 +1031,12 @@
             </div>
             
             <div type="page" n="55r" facs="sida55">
-               <p rend="func"><handShift medium="pencil"/>
+               <p part="F" rend="func"><handShift medium="pencil"/>
                   <lb/>Därför <choice><orig>bekämpa</orig><reg>bekämpar</reg></choice> de så förbittrat alla
                   <lb/><choice><orig>edra</orig><reg>era</reg></choice> sammanslutningsförsök.
                </p>
                   
-               <p><handShift medium="pencil"/>
+               <p part="I"><handShift medium="pencil"/>
                   <lb/>3) Till sist <choice><orig>möta</orig><reg>möter</reg></choice> vi samma <choice><orig>edra</orig><reg>era</reg></choice>
                   <lb/>brödherrar som lagstiftare
                   <lb/>för att med skändliga
@@ -1047,7 +1051,7 @@
             </div>
             
             <div type="page" n="57r" facs="sida57">
-               <p rend="func"><handShift medium="pencil"/>
+               <p part="F" rend="func"><handShift medium="pencil"/>
                   <lb/>politiska uttryck. <emph rend="double">Försvaret!</emph>
                </p>
                
@@ -1124,30 +1128,32 @@
             </div>
             
             <div type="page" n="02v" facs="sida02">
-               <p rend="right">
-                  <lb n="01"/><unclear>Även</unclear> i Nora
-                  <lb n="02"/><choice><abbr>dem.</abbr><expan>demonstreras</expan></choice> <choice><abbr>tillr.</abbr><expan>tillräckligt</expan></choice>
-                  <lb n="03"/>många gånger för
-                  <lb n="04"/>att inte huvudtemat
-                  <lb n="05"/>just skall kunna
-                  <lb n="06"/>varieras. Endast
-                  <lb n="07"/><choice><orig>talar<emph>ne</emph></orig><reg>talar<emph>na</emph></reg></choice> <choice>
+               <p>
+                  <lb/><unclear>Även</unclear> i Nora
+                  <lb/><choice><abbr>dem.</abbr><expan>demonstreras</expan></choice> <choice><abbr>tillr.</abbr><expan>tillräckligt</expan></choice>
+                  <lb/>många gånger för
+                  <lb/>att inte huvudtemat
+                  <lb/>just skall kunna
+                  <lb/>varieras. Endast
+                  <lb/><choice><orig>talar<emph>ne</emph></orig><reg>talar<emph>na</emph></reg></choice> <choice>
                      <orig>omväxla</orig><reg>omväxlar</reg></choice>.
-                  <lb n="08"/><choice><abbr>Arb. rörelsens</abbr><expan>Arbetarrörelsens</expan></choice> <choice><sic>berattigande</sic><corr>berättigande</corr></choice>
-                  <lb n="09"/>och styrka framväxer ur
-                  <lb n="10"/>kapitalismen själv! Ur
-                  <lb n="11"/>vinst- och lönesystemet.</p>
+                  <lb/><choice><abbr>Arb. rörelsens</abbr><expan>Arbetarrörelsens</expan></choice> <choice><sic>berattigande</sic><corr>berättigande</corr></choice>
+                  <lb/>och styrka framväxer ur
+                  <lb/>kapitalismen själv! Ur
+                  <lb/>vinst- och lönesystemet.
+               </p>
             </div>
             
             <div type="page" n="04v" facs="sida04">
-               <p rend="right">
+               <p>
                   <lb/><choice><abbr>Arb.</abbr><expan>Arbetet</expan></choice> är källan
                   <lb/>till all rikedom
-                  <lb/>och kultur!</p>
+                  <lb/>och kultur!
+               </p>
             </div>
             
             <div type="page" n="06v" facs="sida06">
-               <p rend="right">
+               <p>
                   <lb/><choice><orig>Pänningmannen</orig><reg>Penningmannen</reg></choice> "ger"
                   <lb/>arbete – <choice><orig>framställes</orig><reg>framställs</reg></choice> som
                   <lb/>en <choice><abbr>mänskl.</abbr><expan>mänsklighetens</expan></choice> <emph>välgörare</emph>.
@@ -1160,7 +1166,8 @@
                   <lb/><emph rend="double">en</emph>
                   <lb/><emph rend="double">typ</emph>, <emph rend="double">en</emph>
                   <lb/><emph rend="double">illustration till</emph>
-                  <lb/><emph rend="double">systemet!</emph></p>
+                  <lb/><emph rend="double">systemet!</emph>
+               </p>
             </div>
             
             <div type="page" n="08v" facs="sida08">
@@ -1168,7 +1175,7 @@
             </div>
             
             <div type="page" n="10v" facs="sida10">
-               <p rend="right">
+               <p>
                   <lb/>Möjligheten att
                   <lb/>få <choice><orig>arb.</orig><reg>arbete</reg></choice> skall inte
                   <lb/>vara överlämnad
@@ -1177,44 +1184,50 @@
                   <lb/>snikenheten, ty
                   <lb/>då kan jag få arbeta
                   <lb/>på alltför oskäliga
-                  <lb/>villkor.</p>
+                  <lb/>villkor.
+               </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Stat och kommun
                   <lb/>ska ge arbete, och soci<pc>-</pc>
                   <lb break="no"/>alismen gör slut på den
                   <lb/>idyllen om den ädle <choice><orig>arbetsgiv.</orig><reg>arbetsgivaren</reg></choice>
-                  <lb/>och förklarar i stället:</p>
+                  <lb/>och förklarar i stället:
+               </p>
             </div>
             
             <div type="page" n="12v" facs="sida12">
-               <p rend="right">
+               <p>
                   <lb/>Det stora allt
                   <lb/>annat omfattande
-                  <lb/>råämnet jorden.</p>
+                  <lb/>råämnet jorden.
+               </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Som sol, luft, vatten
                   <lb/>men inte vedpinnar
-                  <lb/>och vilda bär!</p>
+                  <lb/>och vilda bär!
+               </p>
             </div>
             
             <div type="page" n="14v" facs="sida14">
-               <p rend="right">
+               <p>
                   <lb/>Robinson
-                  <lb/>Kruse!</p>
+                  <lb/>Kruse!
+               </p>
             </div>
             
             <div type="page" n="16v" facs="sida16">
-               <p rend="right">
+               <p>
                   <lb/>Fredag – Vad är
                   <lb/>en bas utan en
                   <lb/>slav – se där
-                  <lb/>exemplets lärdom!</p>
+                  <lb/>exemplets lärdom!
+               </p>
             </div>
             
             <div type="page" n="18v" facs="sida18">
-               <p rend="right">
+               <p part="I">
                   <lb/>Tills vi nå dithän,
                   <lb/>att den ena <choice><abbr>männ.</abbr><expan>människan</expan></choice>
                   <lb/>inte behöver sälja sig
@@ -1222,7 +1235,7 @@
                   <lb/>vi nå dithän
                </p>
                
-               <p>
+               <p part="M">
                   <lb/>må <choice><abbr>arb.</abbr><expan>arbetarna</expan></choice> i kraft
                   <lb/>av sitt rättslösa läge
                   <lb/>och sin rättvisa sak
@@ -1235,14 +1248,15 @@
             </div>
             
             <div type="page" n="20v" facs="sida20">
-               <p rend="right">
+               <p part="F">
                   <lb/>Högre lön – kortare
                   <lb/>dag!<note type="sn-20">Anteckning i blyerts i vänster marginal:
-                     <handShift medium="pencil"/><lb/>Snus
+                     <handShift medium="pencil"/>
+                     <lb/>Snus
                      <lb/>ny sänghalm</note>
                </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Arb. männ. lever
                   <lb/>inte för att
                   <lb/>arbeta utan hon
@@ -1250,7 +1264,7 @@
                   <lb/>leva!
                </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Alla skäl för förkortad
                   <lb/>dag omtuggade –
                   <lb/>även i Nora!
@@ -1270,7 +1284,7 @@
             </div>
             
             <div type="page" n="28v" facs="sida28">
-               <p rend="right">
+               <p>
                   <lb/><handShift medium="pencil"/><emph rend="double">Snus</emph>, <emph
                   rend="double">ny</emph>
                   <lb/><emph rend="double">sänghalm</emph>
@@ -1281,7 +1295,7 @@
             </div>
             
             <div type="page" n="30v" facs="sida30">
-               <p rend="right">
+               <p>
                   <lb/><handShift medium="pencil"/>Snus,
                   <lb/>ny sänghalm
                   <lb/>och jolpäron
@@ -1289,13 +1303,15 @@
             </div>
             
             <div type="page" n="36v" facs="sida36">
-               <p rend="right">
+               <p>
                   <lb/>Exempel på min 
                   <lb/>verkliga lön!<note type="sn-36">Anteckning i blyerts i vänster marginal:
-                     <handShift medium="pencil"/><lb/>Snus
+                     <handShift medium="pencil"/>
+                     <lb/>Snus
                      <lb/>ny sänghalm
                      <lb/>och jolpäron</note>
                </p>
+               
                <p>
                   <lb/>Ett bokskåp med
                   <lb/><emph rend="double">goda böcker</emph>, inte
@@ -1309,9 +1325,9 @@
             </div>
             
             <div type="page" n="38v" facs="sida38">
-               <p rend="right">
+               <p>
                   <lb/>Alltså en tripp till 
-                  <lb/>Sthlm, <choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice>,
+                  <lb/><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice>, <choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice>,
                   <lb/>Malmö, Köpenhamn,
                   <lb/>Berlin Paris, London.
                   <lb/>Men det blir 
@@ -1326,7 +1342,7 @@
             </div>
             
             <div type="page" n="40v" facs="sida40">
-               <p rend="right">
+               <p>
                   <lb/>Nå, vart reser ni 
                   <lb/>nu då? Jo till 
                   <lb rend="indent"/>Amerika!
@@ -1338,29 +1354,34 @@
             </div>
             
             <div type="page" n="42v" facs="sida42">
-               <p rend="right">
+               <p>
                   <lb/>Hjalmar
-                  <lb/>Branting</p>
+                  <lb/>Branting
+               </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Vara samman
-                  <lb/>med familjen</p>
+                  <lb/>med familjen
+               </p>
                
-               <p rend="right">
+               <p>
                   <lb/>Få ta ett bad!
-                  <lb/>Njuta av naturen.</p>
+                  <lb/>Njuta av naturen.
+               </p>
             </div>
             
             <div type="page" n="44v" facs="sida44">
-               <p rend="right">
+               <p>
                   <lb/>Jämför med överklas<pc>-</pc>
                   <lb break="no"/>sen!
                   <lb rend="indent"/>Var inte så 
-                  <lb/>anspråkslösa!</p>
+                  <lb/>anspråkslösa!
+               </p>
                
-               <p rend="right">
+               <p>
                   <lb rend="indent"/>Snoilsky!
-                  <lb/>Vetensk</p>
+                  <lb/>Vetensk
+               </p>
             </div>
             
             <div type="page" n="46v" facs="sida46">
