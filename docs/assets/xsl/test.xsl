@@ -12,12 +12,16 @@
                     <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
                 <link rel="stylesheet" href="../assets/css/main.css"/>
+                <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
             </head>
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        Elma Danielssons tal — <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
 
@@ -33,9 +37,11 @@
                     <div class="container">
 
                         <div class="fulltext">
-                            <!-- <xsl:for-each select="//tei:div[ends-with(@n, 'r')]"> -->
-                                <xsl:for-each select="//tei:div[@type='manuscript']">
-                                <xsl:apply-templates />
+                            <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
+                            <!-- <xsl:for-each select="//tei:div[@type='manuscript']"> -->
+                                <xsl:if test="tei:pb[not(@rend='empty')]"> <!-- exclude empty pages -->
+                                    <xsl:apply-templates />
+                                </xsl:if>
                             </xsl:for-each>
                         </div>
 
@@ -81,16 +87,30 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
     
-    <!-- wrap each page in a paragraph for diplomatic view -->
-    <xsl:template match="tei:pb[@*]">
-        <xsl:choose>
-            <xsl:when test="not(preceding-sibling::*)" /> <!-- check if it is the first page -->
-            <xsl:when test="preceding-sibling::tei:p[1]" /> <!-- check if the previous page ends with a closed paragraph -->
-            <xsl:otherwise> <!-- add closing </p> and open a new <p> -->
-                <xsl:text disable-output-escaping="yes">&lt;/p&gt;&#10;&lt;p&gt;</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <span class="marginnote"><xsl:value-of select="@facs"/></span>
+    <!-- create an image as a marginnote for fulltext view -->
+    <xsl:template match="tei:pb[not(@rend='empty')]">
+        <xsl:variable name="facs" select="@facs"/>
+        <span class="marginnote">
+            <a>
+                <xsl:attribute name="href">
+                    <xsl:value-of select="'./diplomatic.html#'"/>
+                    <xsl:value-of select="$facs"/>
+                </xsl:attribute>
+                <img class="thumbnail">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[2]/@url"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="alt">
+                        <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:figDesc"/>
+                    </xsl:attribute>
+                </img>
+            <br/>
+                [<xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>]
+            </a>
+        </span>
     </xsl:template>
 
     <!-- transform tei paragraphs into html paragraphs -->
@@ -100,23 +120,18 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="tei:p[not(@part='N')]">
+    <xsl:template match="tei:p[@part='I']"> <!-- start of a paragraph, needs a <p> tag -->
+        <xsl:text disable-output-escaping="yes">&lt;p&gt;</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
     
-    <!-- <xsl:template match="tei:body">
-        <xsl:for-each select="//tei:div[@type='manuscript']">
-            <xsl:for-each-group select="tei:p[not(@part='N')]" group-ending-with="tei:p[@part='F']">
-                <p class="test">
-                    <xsl:apply-templates select="current-group()"/>
-                </p>
-            </xsl:for-each-group>
-        </xsl:for-each>
-    </xsl:template> -->
+    <xsl:template match="tei:p[@part='M']"> <!-- middle of a paragraph, needs nothing -->
+        <xsl:apply-templates/>
+    </xsl:template>
     
-    <!-- transform tei handShift into html spans -->
-    <xsl:template match="tei:handShift[@medium='pencil']">
-        <xsl:text disable-output-escaping="yes">&lt;span class="pencil"&gt;</xsl:text>
+    <xsl:template match="tei:p[@part='F']"> <!-- end of a paragraph, needs closing </p> tag -->
+        <xsl:apply-templates/>
+        <xsl:text disable-output-escaping="yes">&lt;/p&gt;</xsl:text>
     </xsl:template>
     
     <!-- transform tei lg into html paragraphs -->
@@ -137,7 +152,7 @@
         </span>
     </xsl:template>
     
-    <!-- transform tei unclear to brackets-->
+    <!-- transform tei unclear to a span that we can style with css -->
     <xsl:template match="tei:unclear"><span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
     
@@ -167,6 +182,9 @@
 
     <!-- do not show superfluous characters in reading transcription -->
     <xsl:template match="tei:pc"/>
+    
+    <!-- do not show sic in reading transcription-->
+    <xsl:template match="tei:sic"/>
 
     <!-- add editorially supplied amendments in reading transcription -->
     <xsl:template match="tei:supplied">
@@ -201,6 +219,17 @@
         </span>
     </xsl:template>
     
+    <!-- make links clickable -->
+    <xsl:template match="tei:ref">
+        <a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
+    </xsl:template>
+    
+    
     <!-- make delSpan into a span with class delPencil or delInk - a bit of a kludge, but works -->
     <xsl:template match="tei:delSpan[@rend='pencil']">
         <xsl:text disable-output-escaping="yes">&lt;span class="delPencil"&gt;</xsl:text>
@@ -221,13 +250,7 @@
 
     <!-- remove hyphens and line breaks if <lb> has break="no"-->
     <xsl:template match="text()[following-sibling::*[1][self::tei:lb[@break = 'no']]]">
-        <!--<span style="color:green">
-            <xsl:value-of select="substring(string(), 1, string-length()-1)"/>
-            <xsl:value-of select="substring-before(string(), '-')"/>
-            </span>-->
-        <!--
-            <xsl:value-of select="(substring-before(string(), '-'))"/></span>
-        <span style="color:green"><xsl:value-of select="(substring-before(string(), '='))"/></span>-->
+            <xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
-
+    
 </xsl:stylesheet>

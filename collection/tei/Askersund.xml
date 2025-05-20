@@ -549,6 +549,7 @@
       <body>
          <div type="manuscript" n="2">
             <div type="page" n="01r" facs="sida01">
+               <pb n="01r" facs="sida01"/>
                <p>
                   <lb rend="indent"/><choice><abbr>A-sund</abbr><expan>Askersund</expan></choice> 8 maj<sic>.</sic> <choice><abbr>10</abbr><expan>1910</expan></choice>
                </p>
@@ -572,7 +573,23 @@
                </p>
             </div>
             
+            <div type="page" n="02v" facs="sida02">
+               <pb n="02v" facs="sida02"/>
+               <p>
+                  <lb/>Här i Askersund finns nu
+                  <lb/>emellertid inte någon
+                  <lb/>storindustri
+                  <lb/>och därför inte <choice><orig>häller</orig><reg>heller</reg></choice>
+                  <lb/>någon sådan där skarp
+                  <lb/>uppdelning i
+                  <lb/>två klasser!
+                  <lb/>Alltså inte den
+                  <lb/>resonans som <choice><orig>eljes</orig><reg>eljest</reg></choice>!
+               </p>
+            </div>
+            
             <div type="page" n="03r" facs="sida03">
+               <pb n="03r" facs="sida03"/>
                <p part="I">
                   <lb/>Majdemonstrationens syfte:
                   <lb/>att demonstrera för lagstadgad
@@ -590,8 +607,34 @@
                </p>
             </div>
             
+            <div type="page" n="04v" facs="sida04">
+               <pb n="04v" facs="sida04"/>
+               <p>
+                  <lb/>Ur själva den tekniska
+                  <lb/><choice><abbr>omgest.</abbr><expan>omgestaltningen</expan></choice>
+                  <lb rend="indent"/>framspringer
+                  <lb rend="indent"/>den <choice><abbr>klassmedv.</abbr><expan>klassmedvetna</expan></choice>
+                  <lb rend="indent"/><choice><abbr>arb.rör.:s</abbr><expan>arbetarrörelsens</expan></choice> styrka!
+               </p>
+               
+               <p>
+                  <lb/>Maskintekniken!
+               </p>
+               
+               <p>
+                  <lb/>Det fanns en tid, etc
+                  <lb/>då var familj
+               </p>
+               
+               <p>
+                  <lb/>Arbetet mödosamt – produkten 
+                  <lb/><choice><abbr>otill<sic>s</sic>fr.</abbr><expan>otillfredsställande</expan></choice>
+               </p>
+            </div>
+            
             <div type="page" n="05r" facs="sida05">
-               <p part="F" rend="func">
+               <pb n="05r" facs="sida05"/>
+               <p part="F">
                   <lb/>privatkapitalistiska <del>samhälls</del>förhållandena
                   <lb/><choice><orig>sätta</orig><reg>sätter</reg></choice> sin <add>prägel</add> på det hela.
                </p>
@@ -619,8 +662,24 @@
                </p>
             </div>
             
+            <div type="page" n="06v" facs="sida06">
+               <pb n="06v" facs="sida06"/>
+               <p>
+                  <lb/>Nu köper man färdigt!
+               </p>
+               
+               <p>
+                  <lb rend="indent"/><choice><abbr>Uppf.</abbr><expan>Uppfinningar</expan></choice>
+               </p>
+               
+               <p>
+                  <lb rend="indent"/>Det lönar sig inte!
+               </p>
+            </div>
+            
             <div type="page" n="07r" facs="sida07">
-               <p part="M" rend="func">
+               <pb n="07r" facs="sida07"/>
+               <p part="M">
                   <lb/>i <choice><abbr>jämf.</abbr><expan>jämförelse</expan></choice> med vår tids alster. Men <del>även</del> numera
                   <lb/>tillverkar man inte allting själv, utan
                   <lb/><emph>det köps färdigt</emph>! Det har skett en
@@ -637,9 +696,38 @@
                </p>
             </div>
             
+            <div type="page" n="08v" facs="sida08">
+               <pb n="08v" facs="sida08"/>
+               <p>
+                  <lb/>Våra dagars arbetare fri
+                  <lb/>men lottlös!
+               </p>
+               
+               <p>
+                  <lb/>När han skall fylla alla
+                  <lb/>människors <choice><abbr>bestämm.</abbr><expan>bestämmelse</expan></choice><supplied>,</supplied> arbeta,
+                  <lb/>ser han sig avstängd <choice><abbr>fr.</abbr><expan>från</expan></choice> arbetsplatsen,
+               </p>
+               
+               <p>
+                  <lb/>Förråd av råämnen. <unclear>rörelsekap.</unclear>
+               </p>
+               
+               <p>
+                  <lb/>Produktionsmedlen monopol hos
+                  <lb/>en <choice><orig>särskilld</orig><reg>särskild</reg></choice> klass!
+               </p>
+               
+               <p>
+                  <lb rend="indent"/>"Obehöriga <choice><orig>äga</orig><reg>äger</reg></choice>
+                  <lb rend="indent"/>inte tillträde!"
+               </p>
+            </div>
+            
             <div type="page" n="09r" facs="sida09">
-               <p part="F" rend="func">
-                  <lb/>industriplatserna, där de <choice><orig>söka</orig><reg>söker</reg></choice> arbete.
+               <pb n="09r" facs="sida09"/>
+               <p part="F">
+                  <lb/>industriplatserna, där de <choice><orig>söka</orig><reg>söker</reg></choice> <supplied>att</supplied> arbeta.
                </p>
                
                <p part="I">
@@ -658,8 +746,21 @@
                </p>
             </div>
             
+            <div type="page" n="10v" facs="sida10">
+               <pb n="10v" facs="sida10"/>
+               <p>
+                  <lb/>Arbetet en vittomfattande 
+                  <lb/>process
+               </p>
+               
+               <p>
+                  <lb/>Monopol!
+               </p>
+            </div>
+            
             <div type="page" n="11r" facs="sida11">
-               <p part="F" rend="func">
+               <pb n="11r" facs="sida11"/>
+               <p part="F">
                   <lb/>karaktär än förr, då man med enkla
                   <lb/>verktyg <choice><orig>frambrakte</orig><reg>frambragte</reg></choice> produkten.
                </p>
@@ -677,15 +778,30 @@
                </p>
             </div>
             
+            <div type="page" n="12v" facs="sida12">
+               <pb n="12v" facs="sida12"/>
+               <p>
+                  <lb/>Spadarna <choice><orig>befinna</orig><reg>befinner</reg></choice> sig i andras
+                  <lb/>händer!
+               </p>
+               
+               <p>
+                  <lb/>Arbetarna <choice><orig>försämra</orig><reg>försämrar</reg></choice>
+                  <lb/>genom sin inbördes <choice><abbr>konk.</abbr><expan>konkurrens</expan></choice>
+                  <lb/>själva sina arbetsvillkor!
+               </p>
+            </div>
+            
             <div type="page" n="13r" facs="sida13">
-               <p part="F" rend="func">
+               <pb n="13r" facs="sida13"/>
+               <p part="F">
                   <lb/>måste gå och ödmjukt anhålla
                   <lb/>om arbete.
                </p>
                
                <p part="I">
                   <lb/><emph>"Spadarna <choice><orig>befinna</orig><reg>befinner</reg></choice> sig i andras</emph>
-                  <lb/><emph>händer."</emph> Uttryck av skalden <unclear/>!
+                  <lb/><emph>händer."</emph> Uttryck av skalden Byron!<note type="sn-13"><ref target="https://historyofinformation.com/detail.php?id=4654">Lord Byrons jungfrutal i överhuset</ref></note>
                   <lb/>Om en sådan där arbetslös person
                   <lb/>begär anständig lön, finns det så
                   <lb/>många andra, villiga att arbeta för
@@ -697,8 +813,22 @@
                </p>
             </div>
             
+            <div type="page" n="14v" facs="sida14">
+               <pb n="14v" facs="sida14"/>
+               <p>
+                  <lb/>Ur denna förtvivlade
+                  <lb/>ställning kommer
+                  <lb/>räddningen!
+               </p>
+               
+               <p><lb/>Göra överenskommelser, 
+                  <lb/>avtal!
+               </p>
+            </div>
+            
             <div type="page" n="15r" facs="sida15">
-               <p part="F" rend="func">
+               <pb n="15r" facs="sida15"/>
+               <p part="F">
                   <lb/>genom arbetarnas eget underbjudande,
                   <lb/><emph rend="double">egen konkurrens.</emph>
                </p>
@@ -717,7 +847,24 @@
                </p>
             </div>
             
+            <div type="page" n="16v" facs="sida16">
+               <pb n="16v" facs="sida16"/>
+               <p>
+                  <lb rend="indent"/>Fackföreningarna
+                  <lb rend="indent"/><choice><orig>komma</orig><reg>kommer</reg></choice>!
+                  <lb rend="indent"/>Högre lön –
+                  <lb rend="indent"/>kortare dag.
+               </p>
+               
+               <p>
+                  <lb/>Varav kommer fackföreningens 
+                  <lb/>styrka? Inte i Askersund! 
+                  <lb/>Men i kulturländerna!
+               </p>
+            </div>
+            
             <div type="page" n="17r" facs="sida17">
+               <pb n="17r" facs="sida17"/>
                <p>
                   <lb/>Överenskommelse först om 
                   <lb/>lönen, så om mycket mer:
@@ -736,7 +883,21 @@
                </p>
             </div>
             
+            <div type="page" n="18v" facs="sida18">
+               <pb n="18v" facs="sida18"/>
+               <p>
+                  <lb/><choice><orig>Varuprod.</orig><reg>Varuproduktionen</reg></choice> sker för vinstens
+                  <lb/>skull.
+               </p>
+               
+               <p>
+                  <lb/><choice><orig>Ge</orig><reg>Ger</reg></choice> inte arbete av människovän<pc>-</pc>
+                  <lb break="no"/>lighet.
+               </p>
+            </div>
+            
             <div type="page" n="19r" facs="sida19">
+               <pb n="19r" facs="sida19"/>
                <p>
                   <lb/>Jo, det sakförhållandet, att
                   <lb/>varuproduktionen sker för
@@ -753,7 +914,30 @@
                </p>
             </div>
             
+            <div type="page" n="20v" facs="sida20">
+               <pb n="20v" facs="sida20"/>
+               <p>
+                  <lb/>Men å andra sidan kan inte
+                  <lb/>samhället undvara arbetet.
+                  <lb rend="indent"/>Kunde inte bestå, om det inte arbetades.
+               </p>
+               
+               <p>
+                  <lb rend="indent"/><emph rend="double">I</emph> och <emph rend="double">på</emph> jorden
+               </p>
+               
+               <p>
+                  <lb rend="indent"/>Tills vi <choice><orig>hvinna</orig><reg>vinner</reg></choice> en sådan
+                  <lb rend="indent"/><choice><abbr>samhällsordn.</abbr><expan>samhällsordning</expan></choice>
+                  <lb rend="indent"/>bör det <choice><abbr>arb.</abbr><expan>arbetande</expan></choice> folket
+                  <lb rend="indent"/>yrka på att få
+                  <lb rend="indent"/><choice><abbr>arb.</abbr><expan>arbeta</expan></choice> under så drägliga 
+                  <lb rend="indent"/>villkor som möjligt! 
+               </p>
+            </div>
+            
             <div type="page" n="21r" facs="sida21">
+               <pb n="21r" facs="sida21"/>
                <p part="I">
                   <lb/>Men å andra sidan kan inte
                   <lb/>samhället undvara <del>det</del> arbetet.
@@ -770,7 +954,29 @@
                </p>
             </div>
             
+            <div type="page" n="22v" facs="sida22">
+               <pb n="22v" facs="sida22"/>
+               <p>
+                  <lb/>Kapitalet är resultatet 
+                  <lb/>av arbete och skulle 
+                  <lb/>aldrig etc
+               </p>
+               
+               <p>
+                  <lb/>Varenda produkt som 
+                  <lb/>vi <choice><abbr>männi.</abbr><expan>människor</expan></choice> etc<supplied>.</supplied>
+                  <lb rend="indent"/>kan följas genom en
+                  <lb/>serie arbetsled tillbaka
+                  <lb/>till råämnena!
+               </p>
+               
+               <p>
+                  <lb/>Till jorden
+               </p>
+            </div>
+            
             <div type="page" n="23r" facs="sida23">
+               <pb n="23r" facs="sida23"/>
                <p part="F">
                   <lb/>slut på den där idyllen om den "ädle"
                   <lb/>arbetsherren och förklarar i stället:
@@ -791,7 +997,26 @@
                </p>
             </div>
             
+            <div type="page" n="24v" facs="sida24">
+               <pb n="24v" facs="sida24"/>
+               <p>
+                  <lb/>Att känna så i fråga
+                  <lb/>om jorden och finna en
+                  <lb/>formel för den praktiska
+                  <lb/>tillämpningen av denna
+                  <lb/><emph rend="double">idé</emph> – <emph rend="double">det är socialism</emph>
+                  <lb/>– det där rysliga ordet,
+                  <lb/>för vilket ni <choice><orig>springa</orig><reg>springer</reg></choice>!
+               </p>
+               
+               <p>
+                  <lb/>Dynamomaskin!
+                  <lb/>Turkiske sultanen!
+               </p>
+            </div>
+            
             <div type="page" n="25r" facs="sida25">
+               <pb n="25r" facs="sida25"/>
                <p part="M">
                   <lb/><choice><orig>få</orig><reg>får</reg></choice> andas luft, och så visst som vår
                   <lb/>herre <del>låter sin</del> har lov ännu <del>att låta</del>
@@ -809,7 +1034,21 @@
                </p>
             </div>
             
+            <div type="page" n="26v" facs="sida26">
+               <pb n="26v" facs="sida26"/>
+               <p>
+                  <lb/>Dynamomaskinen
+               </p>
+               
+               <p>
+                  <lb rend="indent"/><emph rend="triple">Robinson!</emph>
+                  <lb/>Vad är en jorddrott, en kapitalist<supplied>,</supplied>
+                  <lb/>en bas – <emph rend="triple">utan en slav!</emph>
+               </p>
+            </div>
+            
             <div type="page" n="27r" facs="sida27">
+               <pb n="27r" facs="sida27"/>
                <p part="F">
                   <lb/>mer än så: det är <emph>verklig religion!</emph>
                </p>
@@ -830,7 +1069,25 @@
                </p>
             </div>
             
+            <div type="page" n="28v" facs="sida28">
+               <pb n="28v" facs="sida28"/>
+               <p>
+                  <lb rend="indent"/>Tills vi nå dithän
+                  <lb rend="indent"/>att den ene inte behöver
+                  <lb rend="indent"/>sälja sin arbetskraft
+                  <lb rend="indent"/>till den andre –
+                  <lb/>när han inte är arbetslös! –
+                  <lb rend="indent"/>må <choice><abbr>arb.</abbr><expan>arbetarna</expan></choice> i kraft av sin
+                  <lb rend="indent"/>rättvisa sak och sitt
+                  <lb rend="indent"/>rättslösa läge
+                  <lb rend="indent"/><emph>hålla ihop om</emph>
+                  <lb rend="indent"/><emph>kravet på drägliga arbets<pc>-</pc></emph>
+                  <lb rend="indent" break="no"/><emph>villkor!</emph>
+               </p>
+            </div>
+            
             <div type="page" n="29r" facs="sida29">
+               <pb n="29r" facs="sida29"/>
                <p part="I">
                   <lb/>Tills vi komma därhän, att den ena
                   <lb/>människan inte behöver sälja sig längre
@@ -839,7 +1096,7 @@
                   <lb/>ibland nödgas gå arbetslös från arbets<pc>-</pc>
                   <lb break="no"/>plats till arbetsplats – ni vet
                   <lb/><unclear>inte</unclear> ni vad <del>det vill säga</del>
-                  <lb/><del>med</del> arbetslösheten i <choice><sic>varå</sic><corr>våra</corr></choice> stor<pc>-</pc>
+                  <lb/><del>med</del> arbetslösheten i våra stor<pc>-</pc>
                   <lb/>städer vill säga! —
                   <lb/>tills vi nå dithän, må arbetarna,
                   <lb/>i kraft av sin rättvisa sak och
@@ -847,7 +1104,26 @@
                </p>
             </div>
             
+            <div type="page" n="30v" facs="sida30">
+               <pb n="30v" facs="sida30"/>
+               <p>
+                  <lb/>Människan lever inte
+                  <lb/>för att arbeta<supplied>,</supplied> utan hon 
+                  <lb rend="indent"/>arbetar för att 
+                  <lb rend="indent"/>leva!</p>
+               
+               <p>
+                  <lb/>Huvudskälet för förkortad arbetstid 
+                  <lb/><unclear>ett</unclear>. <emph rend="double">Rätten till kultur!</emph>
+               </p>
+               
+               <p>
+                  <lb/>Inte ett lastdjur
+               </p>
+            </div>
+            
             <div type="page" n="31r" facs="sida31">
+               <pb n="31r" facs="sida31"/>
                <p part="F">
                   <lb/>drägliga arbetsvillkor, om
                   <lb rend="indent"/><emph rend="double"><choice><orig>Högre</orig><reg>högre</reg></choice> lön – kortare dag</emph>!
@@ -868,7 +1144,23 @@
                </p>
             </div>
             
+            <div type="page" n="32v" facs="sida32">
+               <pb n="32v" facs="sida32"/>
+               <p>
+                  <lb/>Göra det mesta av 
+                  <lb/>mitt liv. Det är så 
+                  <lb/>kort. Det är så 
+                  <lb/>farligt. Ett liv om 
+                  <lb/>dagen stryker med!
+                  <lb/>Det är det enda liv 
+                  <lb/>varom jag vet något! 
+                  <lb/>Rydberg:
+                  <lb/>Drivs du etc
+               </p>
+            </div>
+            
             <div type="page" n="33r" facs="sida33">
+               <pb n="33r" facs="sida33"/>
                <p part="F">
                   <lb/>alla <del>männ.</del> normala människor
                   <lb/>finns ett behov att göra det mesta
@@ -892,7 +1184,25 @@
                </lg>
             </div>
             
+            <div type="page" n="34v" facs="sida34">
+               <pb n="34v" facs="sida34"/>
+               <p>
+                  <lb/>Snus, ny sänghalm 
+                  <lb/>och jolpäron! 
+                  <lb/>Gumman och tåget
+               </p>
+               
+               <p>
+                  <lb/>Exempel på min lön:
+                  <lb/>Böcker, resor, höra och 
+                  <lb/>bevista möten
+                  <lb/>Inte <emph rend="double">snus</emph>, <emph rend="double">ny sänghalm</emph>
+                  <lb/>och <emph rend="double">jolpäron</emph>! Snoilsky.
+               </p>
+            </div>
+            
             <div type="page" n="35r" facs="sida35">
+               <pb n="35r" facs="sida35"/>
                <p>
                   <lb/>Detta mitt korta, farliga liv är <emph rend="double">det enda</emph>
                   <lb/><emph rend="double">jag med visshet vet något om</emph>.
@@ -918,7 +1228,26 @@
                </p>
             </div>
             
+            <div type="page" n="36v" facs="sida36">
+               <pb n="36v" facs="sida36"/>
+               <p>
+                  <lb/>Snus, ny sänghalm
+                  <lb/>och jolpäron!
+               </p>
+               
+               <p>
+                  <lb/>Vädja till belackarna,
+                  <lb/>motståndarna, som
+                  <lb/><choice><orig>få</orig><reg>får</reg></choice> ligga och dra sig,
+                  <lb/>som <choice><orig>få</orig><reg>får</reg></choice> gå till sina platser<supplied>,</supplied>
+                  <lb/>sina kontor och tjänster i
+                  <lb/>de offentliga verken – hur
+                  <lb/>skulle de känna det i <unclear>industriar</unclear>
+               </p>
+            </div>
+            
             <div type="page" n="37r" facs="sida37">
+               <pb n="37r" facs="sida37"/>
                <p>
                   <lb/>Snoilsky:
                </p>
@@ -947,13 +1276,21 @@
                </p>
             </div>
             
+            <div type="page" n="38v" facs="sida38">
+               <pb n="38v" facs="sida38" rend="empty"/>
+               <p>
+                  [tom]
+               </p>
+            </div>
+            
             <div type="page" n="39r" facs="sida39">
+               <pb n="39r" facs="sida39"/>
                <p part="M">
                   <lb/><choice><orig>få</orig><reg>får</reg></choice> använda tiden efter behag, kanske 
                   <lb/>ligga och dra sig till fram på <choice><abbr>f.m.</abbr><expan>förmiddagen</expan></choice>
                   <lb/>och ha det behagligt på <unclear>alla</unclear> sätt –
                   <lb/><emph>om</emph>
-                  <lb rend="indent"/>de skulle bli försatta i löneslavens
+                  <lb rend="indent"/>de skulle bli försatta i <choice><orig>lönslavens</orig><reg>löneslavens</reg></choice>
                   <lb/>ställning, gå i ett tungt, mördande
                   <lb/>enformigt arbete för en annans
                   <lb/>profit, <emph>skulle ni då inte</emph> 
@@ -964,7 +1301,20 @@
                </p>
             </div>
             
+            <div type="page" n="40v" facs="sida40">
+               <pb n="40v" facs="sida40"/>
+               <p>
+                  <lb/>Hur arbetsgivarna
+                  <lb/>ställa sig.
+               </p>
+               
+               <p>
+                  <lb/>Lockouten!
+               </p>
+            </div>
+            
             <div type="page" n="41r" facs="sida41">
+               <pb n="41r" facs="sida41"/>
                <p part="F">
                   <lb/>den <choice><orig>modärna</orig><reg>moderna</reg></choice> arbetarens läge, först!
                   <lb/><del>Döm honom sedan!</del>
@@ -981,7 +1331,15 @@
                </p>
             </div>
             
+            <div type="page" n="42v" facs="sida42">
+               <pb n="42v" facs="sida42" rend="empty"/>
+               <p>
+                  [tom]
+               </p>
+            </div>
+            
             <div type="page" n="43r" facs="sida43">
+               <pb n="43r" facs="sida43"/>
                <p>
                   <lb/>Ensamma herrar på täppan <choice><orig>skola</orig><reg>ska</reg></choice>
                   <lb/>de vara!
@@ -1001,11 +1359,21 @@
                   <lb/>ehuru de ibland <choice><orig>strejka</orig><reg>strejkar</reg></choice> för <del>sina allra</del>
                   <lb/><del>främsta <choice><abbr>mänskl.</abbr><expan>mänskliga</expan></choice> <choice><abbr>rättigh.</abbr><expan>rättighteter</expan></choice></del> rätten till det
                   <lb/>knappaste bröd; att arbetsköparna 
-                  <lb/><choice><orig>kasta</orig><reg>kastar</reg></choice> ut <choice><abbr>arb.</abbr><expan>arbetare</expan></choice><supplied>,</supplied> <choice><orig>vräka</orig><reg>vräker</reg></choice> barnsängskvinnor<note type="sn-43">Sidan är vikt här, kanske finns det ett komma efter barnsängskvinnor? Borde skannas om.</note>
+                  <lb/><choice><orig>kasta</orig><reg>kastar</reg></choice> ut <choice><abbr>arb.</abbr><expan>arbetare</expan></choice><supplied>,</supplied> <choice><orig>vräka</orig><reg>vräker</reg></choice> barnsängskvinnor<note type="sn-43">Sidan är vikt här, men det finns ingen ytterligare text.</note>
+               </p>
+            </div>
+            
+            <div type="page" n="44v" facs="sida44">
+               <pb n="44v" facs="sida44"/>
+               <p>
+                  <lb/>Härskande klassens
+                  <lb/>olika faser!
+                  <lb/>Tre faser!
                </p>
             </div>
             
             <div type="page" n="45r" facs="sida45">
+               <pb n="45r" facs="sida45"/>
                <p part="F">
                   <lb/><choice><abbr>t.o.m.</abbr><expan>till och med</expan></choice><supplied>,</supplied> inte därför att de <choice><orig>äro</orig><reg>är</reg></choice> i trång<pc>-</pc>
                   <lb break="no"/>mål för själva utkomsten, inte utan
@@ -1032,7 +1400,29 @@
                </p>
             </div>
             
+            <div type="page" n="46v" facs="sida46">
+               <pb n="46v" facs="sida46"/>
+               <p>
+                  <lb/>Trefaldiga organisationer
+               </p>
+               
+               <p>
+                  <lb/>1) Fackligt – arbetsgivar<pc>-</pc>
+                  <lb break="no" rend="indent"/>föreningar.
+               </p>
+               
+               <p>
+                  <lb/>2) Trustar, ringar
+                  <lb/>fördyrande varorna.
+               </p>
+               
+               <p>
+                  <lb/>3) Klasslagstiftare!
+               </p>
+            </div>
+            
             <div type="page" n="47r" facs="sida47">
+               <pb n="47r" facs="sida47"/>
                <p part="F">
                   <lb/>existensmöjlighet. För att kunna
                   <lb/>hålla foten på arbetarnas nacke <choice><abbr>org.</abbr><expan>organiserar</expan></choice>
@@ -1053,7 +1443,20 @@
                </p>
             </div>
             
+            <div type="page" n="48v" facs="sida48">
+               <pb n="48v" facs="sida48"/>
+               <p>
+                  <lb rend="indent"/>Socker, margarin,
+                  <lb rend="indent"/>såpa, fotogen etc.
+               </p>
+               
+               <p>
+                  <lb/>3) Klasslagstiftare.
+               </p>
+            </div>
+            
             <div type="page" n="49r" facs="sida49">
+               <pb n="49r" facs="sida49"/>
                <p part="F">
                   <lb break="no"/><choice><abbr>stämm.</abbr><expan>stämmande</expan></choice> <emph>varornas</emph> pris. Därför <supplied>är</supplied> <emph rend="double">sockret</emph>
                   <lb/>så dyrt, <emph rend="double"><choice><sic>margarinen</sic><corr>margarinet</corr></choice></emph>, <emph rend="double">såpan</emph>, <emph rend="triple">fotogenen</emph><supplied>.</supplied>
@@ -1070,396 +1473,12 @@
                   <lb/>från dem, när det gäller priset
                   <lb/>på varan arbetskraft. Men när det
                   <lb/>gäller socker – då <choice><orig>bestämma</orig><reg>bestämmer</reg></choice>
-                  <lb/>de priset själva! 70, 73, 79, 80, 90 k<note type="sn-49">Vikt hörn - borde skannas om.</note>
-               </p>
-            </div>
-            
-            <div type="page" n="51r" facs="sida51">
-               <p>
-                  <lb/>Till kvinnorna: Rätten till arbete,
-                  <lb rend="indent"/>På anständiga villkor,
-                  <lb rend="indent"/>Org. skyddslagstiftning.
-                  <lb rend="indent"/>Politiska rättigheter.
-                  <lb rend="indent"/>Rösträtt, för sin egen skull,
-                  <note type="sn-51">I vänster marginal står det:
-                     <lb/>Nykterheten!
-                     <lb/>Kvinnornas
-                     <lb/>mindre brottslighet!
-                     <lb/>Internationella
-                     <lb/>rösträttsalliansen!
-                     <lb/>De ogifta
-                     <lb/><unclear>mödrarna</unclear>!
-                  </note>
-                  <lb rend="indent"/>för släktets och samhällets.
-                  <lb rend="indent"/>Kvinnan är mogen
-                  <lb rend="indent"/><choice><sic>Våra</sic><corr>våra</corr></choice> tre Nobelpristagarin<pc>-</pc>
-                  <lb break="no" rend="indent"/>nor.
-               </p>
-               
-               <p>
-                  <lb rend="indent"/>Den mindre brottsligheten
-                  <lb/>Kristendomen och socialismen.
-                  <lb/>Socialismen kommer efter hand.
-                  <lb/>Vattenledningen
-               </p>
-            </div>
-            
-            <div type="page" n="02v" facs="sida02">
-               <p>
-                  <lb/>Här i Askersund finns nu
-                  <lb/>emellertid inte någon
-                  <lb/>storindustri
-                  <lb/>och därför inte <choice><orig>häller</orig><reg>heller</reg></choice>
-                  <lb/>någon sådan där skarp
-                  <lb/>uppdelning i
-                  <lb/>två klasser!
-                  <lb/>Alltså inte den
-                  <lb/>resonans som <choice><orig>eljes</orig><reg>eljest</reg></choice>!
-               </p>
-            </div>
-            
-            <div type="page" n="04v" facs="sida04">
-               <p>
-                  <lb/>Ur själva den tekniska
-                  <lb/><choice><abbr>omgest.</abbr><expan>omgestaltningen</expan></choice>
-                  <lb rend="indent"/>framspringer
-                  <lb rend="indent"/>den <choice><abbr>klassmedv.</abbr><expan>klassmedvetna</expan></choice>
-                  <lb rend="indent"/><choice><abbr>arb.rör.:s</abbr><expan>arbetarrörelsens</expan></choice> styrka!
-               </p>
-               
-               <p>
-                  <lb/>Maskintekniken!
-               </p>
-               
-               <p>
-                  <lb/>Det fanns en tid, etc
-                  <lb/>då var familj
-               </p>
-               
-               <p>
-                  <lb/>Arbetet mödosamt – produkten 
-                  <lb/><choice><abbr>otillfr.</abbr><expan>otillfredsställande</expan></choice>
-               </p>
-            </div>
-            
-            <div type="page" n="06v" facs="sida06">
-               <p>
-                  <lb/>Nu köper man färdigt!
-               </p>
-               
-               <p>
-                  <lb rend="indent"/><choice><abbr>Uppf.</abbr><expan>Uppfinningar</expan></choice>
-               </p>
-               
-               <p>
-                  <lb rend="indent"/>Det lönar sig inte!
-               </p>
-            </div>
-            
-            <div type="page" n="08v" facs="sida08">
-               <p>
-                  <lb/>Våra dagars arbetare fri
-                  <lb/>men lottlös!
-               </p>
-               
-               <p>
-                  <lb/>När han skall fylla alla
-                  <lb/>människors <choice><abbr>bestämm.</abbr><expan>bestämmelse</expan></choice><supplied>,</supplied> arbeta,
-                  <lb/>ser han sig avstängd <choice><abbr>fr.</abbr><expan>från</expan></choice> arbetsplatsen,
-               </p>
-               
-               <p>
-                  <lb/>Förråd av råämnen. <unclear>rörelsekap.</unclear>
-               </p>
-               
-               <p>
-                  <lb/>Produktionsmedlen monopol hos
-                  <lb/>en <choice><orig>särskilld</orig><reg>särskild</reg></choice> klass!
-               </p>
-               
-               <p>
-                  <lb rend="indent"/>"Obehöriga <choice><orig>äga</orig><reg>äger</reg></choice>
-                  <lb rend="indent"/>inte tillträde!"
-               </p>
-            </div>
-            
-            <div type="page" n="10v" facs="sida10">
-               <p>
-                  <lb/>Arbetet en vittomfattande 
-                  <lb/>process
-               </p>
-               
-               <p>
-                  <lb/>Monopol!
-               </p>
-            </div>
-            
-            <div type="page" n="12v" facs="sida12">
-               <p>
-                  <lb/>Spadarna <choice><orig>befinna</orig><reg>befinner</reg></choice> sig i andras
-                  <lb/>händer!
-               </p>
-               
-               <p>
-                  <lb/>Arbetarna <choice><orig>försämra</orig><reg>försämrar</reg></choice>
-                  <lb/>genom sin inbördes <choice><abbr>konk.</abbr><expan>konkurrens</expan></choice>
-                  <lb/>själva sina arbetsvillkor!
-               </p>
-            </div>
-            
-            <div type="page" n="14v" facs="sida14">
-               <p>
-                  <lb/>Ur denna förtvivlade
-                  <lb/>ställning kommer
-                  <lb/>räddningen!
-               </p>
-               
-               <p><lb/>Göra överenskommelser, 
-                  <lb/>avtal!
-               </p>
-            </div>
-            
-            <div type="page" n="16v" facs="sida16">
-               <p>
-                  <lb rend="indent"/>Fackföreningarna
-                  <lb rend="indent"/><choice><orig>komma</orig><reg>kommer</reg></choice>!
-                  <lb rend="indent"/>Högre lön –
-                  <lb rend="indent"/>kortare dag.
-               </p>
-               
-               <p>
-                  <lb/>Varav kommer fackföreningens 
-                  <lb/>styrka? Inte i Askersund! 
-                  <lb/>Men i kulturländerna!
-               </p>
-            </div>
-            
-            <div type="page" n="18v" facs="sida18">
-               <p>
-                  <lb/><choice><orig>Varuprod.</orig><reg>Varuproduktionen</reg></choice> sker för vinstens
-                  <lb/>skull.
-               </p>
-               
-               <p>
-                  <lb/><choice><orig>Ge</orig><reg>Ger</reg></choice> inte arbete av människovän<pc>-</pc>
-                  <lb break="no"/>lighet.
-               </p>
-            </div>
-            
-            <div type="page" n="20v" facs="sida20">
-               <p>
-                  <lb/>Men å andra sidan kan inte
-                  <lb/>samhället undvara arbetet.
-                  <lb rend="indent"/>Kunde inte bestå, om det inte arbetades.
-               </p>
-               
-               <p>
-                  <lb rend="indent"/><emph rend="double">I</emph> och <emph rend="double">på</emph> jorden
-               </p>
-               
-               <p>
-                  <lb rend="indent"/>Tills vi <choice><orig>hvinna</orig><reg>vinner</reg></choice> en sådan
-                  <lb rend="indent"/><choice><abbr>samhällsordn.</abbr><expan>samhällsordning</expan></choice>
-                  <lb rend="indent"/>bör det <choice><abbr>arb.</abbr><expan>arbetande</expan></choice> folket
-                  <lb rend="indent"/>yrka på att få
-                  <lb rend="indent"/><choice><abbr>arb.</abbr><expan>arbeta</expan></choice> under så drägliga 
-                  <lb rend="indent"/>villkor som möjligt! 
-               </p>
-            </div>
-            
-            <div type="page" n="22v" facs="sida22">
-               <p>
-                  <lb/>Kapitalet är resultatet 
-                  <lb/>av arbete och skulle 
-                  <lb/>aldrig etc
-               </p>
-               
-               <p>
-                  <lb/>Varenda produkt som 
-                  <lb/>vi <choice><abbr>männi.</abbr><expan>människor</expan></choice> etc<supplied>.</supplied>
-                  <lb rend="indent"/>kan följas genom en
-                  <lb/>serie arbetsled tillbaka
-                  <lb/>till råämnena!
-               </p>
-               
-               <p>
-                  <lb/>Till jorden
-               </p>
-            </div>
-            
-            <div type="page" n="24v" facs="sida24">
-               <p>
-                  <lb/>Att känna så i fråga
-                  <lb/>om jorden och finna en
-                  <lb/>formel för den praktiska
-                  <lb/>tillämpningen av denna
-                  <lb/><emph rend="double">idé</emph> – <emph rend="double">det är socialism</emph>
-                  <lb/>– det där rysliga ordet,
-                  <lb/>för vilket ni <choice><orig>springa</orig><reg>springer</reg></choice>!
-               </p>
-               
-               <p>
-                  <lb/>Dynamomaskin!
-                  <lb/>Turkiske sultanen!
-               </p>
-            </div>
-            
-            <div type="page" n="26v" facs="sida26">
-               <p>
-                  <lb/>Dynamomaskinen
-               </p>
-               
-               <p>
-                  <lb rend="indent"/><emph rend="triple">Robinson!</emph>
-                  <lb/>Vad är en jorddrott, en kapitalist<supplied>,</supplied>
-                  <lb/>en bas – <emph rend="triple">utan en slav!</emph>
-               </p>
-            </div>
-            
-            <div type="page" n="28v" facs="sida28">
-               <p>
-                  <lb rend="indent"/>Tills vi nå dithän
-                  <lb rend="indent"/>att den ene inte behöver
-                  <lb rend="indent"/>sälja sin arbetskraft
-                  <lb rend="indent"/>till den andre –
-                  <lb/>när han inte är arbetslös! –
-                  <lb rend="indent"/>må <choice><abbr>arb.</abbr><expan>arbetarna</expan></choice> i kraft av sin
-                  <lb rend="indent"/>rättvisa sak och sitt
-                  <lb rend="indent"/>rättslösa läge
-                  <lb rend="indent"/><emph>hålla ihop om</emph>
-                  <lb rend="indent"/><emph>kravet på drägliga arbets<pc>-</pc></emph>
-                  <lb rend="indent" break="no"/><emph>villkor!</emph>
-               </p>
-            </div>
-            
-            <div type="page" n="30v" facs="sida30">
-               <p>
-                  <lb/>Människan lever inte
-                  <lb/>för att arbeta<supplied>,</supplied> utan hon 
-                  <lb rend="indent"/>arbetar för att 
-                  <lb rend="indent"/>leva!</p>
-               
-               <p>
-                  <lb/>Huvudskälet för förkortad arbetstid 
-                  <lb/><unclear>ett</unclear>. <emph rend="double">Rätten till kultur!</emph>
-               </p>
-               
-               <p>
-                  <lb/>Inte ett lastdjur
-               </p>
-            </div>
-            
-            <div type="page" n="32v" facs="sida32">
-               <p>
-                  <lb/>Göra det mesta av 
-                  <lb/>mitt liv. Det är så 
-                  <lb/>kort. Det är så 
-                  <lb/>farligt. Ett liv om 
-                  <lb/>dagen stryker med!
-                  <lb/>Det är det enda liv 
-                  <lb/>varom jag vet något! 
-                  <lb/>Rydberg:
-                  <lb/>Drivs du etc
-               </p>
-            </div>
-            
-            <div type="page" n="34v" facs="sida34">
-               <p>
-                  <lb/>Snus, ny sänghalm 
-                  <lb/>och jolpäron! 
-                  <lb/>Gumman och tåget
-               </p>
-               
-               <p>
-                  <lb/>Exempel på min lön:
-                  <lb/>Böcker, resor, höra och 
-                  <lb/>bevista möten
-                  <lb/>Inte <emph rend="double">snus</emph>, <emph rend="double">ny sänghalm</emph>
-                  <lb/>och <emph rend="double">jolpäron</emph>! Snoilsky.
-               </p>
-            </div>
-            
-            <div type="page" n="36v" facs="sida36">
-               <p>
-                  <lb/>Snus, ny sänghalm
-                  <lb/>och jolpäron!
-               </p>
-               
-               <p>
-                  <lb/>Vädja till belackarna,
-                  <lb/>motståndarna, som
-                  <lb/><choice><orig>få</orig><reg>får</reg></choice> ligga och dra sig,
-                  <lb/>som <choice><orig>få</orig><reg>får</reg></choice> gå till sina platser<supplied>,</supplied>
-                  <lb/>sina kontor och tjänster i
-                  <lb/>de offentliga verken – hur
-                  <lb/>skulle de känna det i <unclear>industriar</unclear>
-               </p>
-            </div>
-            
-            <div type="page" n="38v" facs="sida38">
-               <p>
-                  [tom]
-               </p>
-            </div>
-            
-            <div type="page" n="40v" facs="sida40">
-               <p>
-                  <lb/>Hur arbetsgivarna
-                  <lb/>ställa sig.
-               </p>
-               
-               <p>
-                  <lb/>Lockouten!
-               </p>
-            </div>
-            
-            <div type="page" n="42v" facs="sida42">
-               <p>
-                  [tom]
-               </p>
-            </div>
-            
-            <div type="page" n="44v" facs="sida44">
-               <p>
-                  <lb/>Härskande klassens
-                  <lb/>olika faser!
-                  <lb/>Tre faser!
-               </p>
-            </div>
-            
-            <div type="page" n="46v" facs="sida46">
-               <p>
-                  <lb/>Trefaldiga organisationer
-               </p>
-               
-               <p>
-                  <lb/>1) Fackligt – arbetsgivar<pc>-</pc>
-                  <lb break="no" rend="indent"/>föreningar.
-               </p>
-               
-               <p>
-                  <lb/>2) Trustar, ringar
-                  <lb/>fördyrande varorna.
-               </p>
-               
-               <p>
-                  <lb/>3) Klasslagstiftare!
-               </p>
-            </div>
-            
-            <div type="page" n="48v" facs="sida48">
-               <p>
-                  <lb rend="indent"/>Socker, margarin,
-                  <lb rend="indent"/>såpa, fotogen etc.
-               </p>
-               
-               <p>
-                  <lb/>3) Klasslagstiftare.
+                  <lb/>de priset själva! 70, 73, 79, 80, 90<sic>,</sic> kg.
                </p>
             </div>
             
             <div type="page" n="50v" facs="sida50">
-               
+               <pb n="50v" facs="sida50"/>
                <p>
                   <lb rend="indent"/>Till sist <choice><orig>möta</orig><reg>möter</reg></choice> vi dem för tredje
                   <lb rend="indent"/>gången som
@@ -1493,7 +1512,39 @@
                </p>
             </div>
             
+            <div type="page" n="51r" facs="sida51">
+               <pb n="51r" facs="sida51"/>
+               <p>
+                  <lb/>Till kvinnorna: Rätten till arbete,
+                  <lb rend="indent"/>På anständiga villkor,
+                  <lb rend="indent"/>Org. skyddslagstiftning.
+                  <lb rend="indent"/>Politiska rättigheter.
+                  <lb rend="indent"/>Rösträtt, för sin egen skull,
+                  <note type="sn-51">I vänster marginal står det:
+                     <lb/>Nykterheten!
+                     <lb/>Kvinnornas
+                     <lb/>mindre brottslighet!
+                     <lb/>Internationella
+                     <lb/>rösträttsalliansen!
+                     <lb/>De ogifta
+                     <lb/><unclear>mödrarna</unclear>!
+                  </note>
+                  <lb rend="indent"/>för släktets och samhällets.
+                  <lb rend="indent"/>Kvinnan är mogen
+                  <lb rend="indent"/><choice><sic>Våra</sic><corr>våra</corr></choice> tre Nobelpristagarin<pc>-</pc>
+                  <lb break="no" rend="indent"/>nor.
+               </p>
+               
+               <p>
+                  <lb rend="indent"/>Den mindre brottsligheten
+                  <lb/>Kristendomen och socialismen.
+                  <lb/>Socialismen kommer efter hand.
+                  <lb/>Vattenledningen
+               </p>
+            </div>
+            
             <div type="page" n="52v" facs="sida52">
+               <pb n="52v" facs="sida52"/>
                <p>
                   <lb/>Jesus har inga andra efterföljare än
                   <lb/>de som – <choice><orig>förneka</orig><reg>förnekar</reg></choice> honom. <choice><orig>Förneka</orig><reg>Förnekar</reg></choice>
@@ -1513,7 +1564,7 @@
                
                <p>
                   <lb/>Gör det inte så svårt genom er 
-                  <lb/>liknöjdhet för de få som vilja <unclear>något</unclear>
+                  <lb/><choice><orig>liknöjhet</orig><reg>liknöjdhet</reg></choice> för de få som vilja <unclear>något</unclear>
                </p>
                
                <p>

@@ -1,19 +1,6 @@
-@import "bootstrap.css";
+/* @import "bootstrap.css"; */
+
 @import "tufte.css";
-
-html {
-    font-size: 15px;
-}
-
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-    h1 {
-        color: #111;
-    }
-    footer {
-        border: 1px solid #ffff8;
-    }
-}
 
 /*  Makes certain elements non-selectable */
 
@@ -33,30 +20,31 @@ body {
     margin: 0;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1280px;
-  }
+.container {
+    max-width: 1200px;
 }
+
+/*  main {
+    pointer-events: none;
+}
+
+main:hover {
+    background-color: rgba(17, 17, 17, 0.25);
+} */
 
 .col-md {
     max-width: 55%;
 }
 
-.col-sm {
+/* .col-sm {
     max-width: 40%;
-}
+} */
 
 .sidenote, .marginnote {
-    margin-right: -40%;
-/*      margin-top: -2rem; */
+    margin-right: -45%;
     width: 40%;
     font-size: 1rem;
     text-indent: initial;
-}
-
-.reading .sidenote, .reading .marginnote {
-    margin-right: -45%;
 }
 
 .sidenote a {
@@ -65,10 +53,28 @@ body {
 
 .fulltext {
     width: 55%;
+    margin-left: 15%;
 }
 
-.fulltext .sidenote, .fulltext .marginnote {
-    margin-right: -45%;
+.diplomatic .sidenote {
+    margin-right: 0;
+    width: 30%
+}
+
+.fulltext .marginnote {
+    float: left;
+    clear: left;
+    margin-left: -30%;
+    opacity: .5;
+    font-size: .8rem;
+}
+
+.fulltext .marginnote:hover {
+    opacity: 1;
+}
+
+.fulltext .thumbnail {
+    width: 100px;
 }
 
 label {
@@ -77,31 +83,33 @@ label {
 }
 
 header {
-    padding: 3rem;
+    padding: 2rem;
     position: fixed;
     top: 0;
-    z-index: 1;
-    /* background-color: #dbba82; */
+    z-index: 100;
+    background-color: inherit;
     width: 100%;
     /*  background-image: url("../img/Demonstrera%20alla%20dagar!.jpg"); */
-    background-image: linear-gradient(to right, rgba(219, 186, 130, 0), rgba(255, 255, 248, 1)), url("../img/Demonstrera%20alla%20dagar!.png");
+/*    background-image: linear-gradient(to right, rgba(219, 186, 130, 0), rgba(255, 255, 248, 1)), url("../img/Demonstrera%20alla%20dagar!.png");
     background-position: top left;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 135%;
+    background-size: 135%; */
 }
 
 nav {
     position: fixed;
     text-align: center;
-    top: 8rem;
-    z-index: 1;
+    top: 6rem;
+    z-index: 100;
     background-color: inherit;
     margin-bottom: 1rem;
     border-top: 1px solid #111;
     border-bottom: 1px solid #111;
     padding: 1rem;
     width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 
 main {
@@ -124,21 +132,12 @@ footer {
 }
 
 h1 {
-    margin-top: 0;
-    margin-right: 5rem;
-    text-align: right;
-}
-
-nav,
-p,
-dl,
-ol,
-ul {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
+    margin: 0;
 }
 
 p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
     margin-top: 0.4rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
@@ -162,11 +161,17 @@ span.indent {
     margin-left: 2em;
 }
 
+/* to fix indentation in already indented sections */
+.indent .indent {
+    margin-left: 4em;
+}
+
 /*  to fix weird strike-through behaviour on Firefox and add colour */
 del {
-  text-decoration: underline red .1em;
+  text-decoration: underline .1em;
   text-underline-offset: -.3em;
   text-decoration-skip-ink: none;
+  text-decoration-color: red;
 }
 
 .unclear::before {
@@ -204,6 +209,7 @@ del {
     color: gray;
     font-size: .8rem;
     text-align: center;
+    margin: 0;
 }
 
 /*  for handShift */
@@ -224,18 +230,6 @@ div.index, {
     display: none;
 }
 
-div.fulltext p:has(+ p.func) {
-    display: inline;
-}
-
-div.fulltext p.func {
-    display: inline;
-}
-
-div.reading p(+ p.func) {
-    display: block;
-}
-
 #details {
     padding: 2vw;
     margin: 1vw;
@@ -252,22 +246,13 @@ div.reading p(+ p.func) {
 }
 
 .copyright_logo {
-		width: 1vw;
-		margin:.15vw;
-	}
-
-.row {
-    padding: 1vw;
+    width: 1vw;
+    margin:.15vw;
 }
-
 
 #collection {
     display: fixed;
     width: 200%;
-}
-
-img {
-    z-index: 1;
 }
 
 .thumbnail {
@@ -281,25 +266,36 @@ img {
     opacity: 1;
 }
 
-.img-full {
-    margin: 5px;
-    border: 1px solid #111;
-    width: 400px;
+.img-full-r {
+    /* border: 1px solid #111; */
+    width: 500px;
+    max-width: none;
+    z-index: 0;
+    position: relative;
 }
+
+.img-full-v {
+    width: 500px;
+    max-width: none;
+    z-index: 1;
+    position: relative;
+}
+
 
 .click-zoom input[type=checkbox] {
   display: none
 }
 
 .click-zoom img {
-  transition: transform 0.25s ease;
+  transition: transform .1s ease;
   cursor: zoom-in;
 }
 
 .click-zoom input[type=checkbox]:checked~img {
-  transform: translate(400px) scale(3) ;
+  transform: scale(2);
   cursor: zoom-out;
   position: relative;
+  z-index: 200;
   border: 0;
   margin: 0;
   padding: 0;
@@ -420,6 +416,12 @@ img {
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
+    h1 {
+        color: #ddd;
+    }
+    footer {
+        border: 1px solid #ffff8;
+    }
     body {
         background-color: #151515;
         color: #ddd;

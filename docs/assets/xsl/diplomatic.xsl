@@ -13,12 +13,16 @@
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>: diplomatarisk transkription
                 </title>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
                 <link rel="stylesheet" href="../assets/css/main.css"/>
+                <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
             </head>
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        Elma Danielssons tal — <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
@@ -31,7 +35,7 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-sm">
                                 <h3>Bilder</h3>
                             </div>
@@ -41,20 +45,49 @@
                             <div class="col-sm">
                                 <h3>Noter</h3>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
+                        <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
+                            <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
                             <!-- <xsl:sort select="[@n]"/> <!- to sort on page numbers as they are entered with recto pages first in the tei document -->
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
+                            <xsl:variable name="facspreceding" select="preceding::tei:div[1]/@facs"/>
+                            
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
-                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                    <xsl:if test="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:graphic[1]/@url">
+                                        <div class="click-zoom">
+                                        <label>
+                                            <input type="checkbox"/>
+                                            <img class="img-full-v">
+                                                <xsl:attribute name="id">
+                                                    <xsl:value-of select="$facspreceding"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:graphic[1]/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="//tei:titleStmt/tei:title"/> - <xsl:value-of select="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </label>
+                                        </div>
+                                        <!-- add page numbers -->
+                                        <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:label"/>]</p>
+                                    </xsl:if>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                     <div class="click-zoom">
                                         <label>
                                             <input type="checkbox"/>
-                                            <img class="img-full">
+                                            <img class="img-full-r">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
@@ -95,12 +128,20 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                             </img>
-                                            <!-- add page numbers -->
-                                            <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>]</p>
                                         </label>
                                     </div>
+                                    <!-- add page numbers -->
+                                    <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>]</p>
                                 </div>
+                            </div>
+                                
+                            <div class="row">    
                                 <!-- fill the second column with our transcription -->
+                                <div class='col-sm'>
+                                    <div class="diplomatic">
+                                        <xsl:apply-templates select="preceding::tei:div[1]"/>
+                                    </div>
+                                </div>
                                 <div class='col-sm'>
                                     <div class="diplomatic">
                                         <xsl:apply-templates/>
@@ -108,7 +149,20 @@
                                 </div>
                             </div>
                         </xsl:for-each>
-                        </div>
+                        
+                        <!-- check if there is a last left page -->
+                        <xsl:if test="//tei:div[last()][@type='page'][ends-with(@n, 'v')]">
+                            <div class="row">
+                                <div class="col-sm"></div>
+                                <div class="col-sm"></div>
+                                <div class="col-sm">
+                                    <xsl:apply-templates select="//tei:div[last()][@type='page'][ends-with(@n, 'v')]"/>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
+                        </xsl:if>
+                        
+                    </div>
                 </main>
                 <footer>
                     <div class="row" id="footer">
@@ -193,12 +247,6 @@
                 </xsl:attribute>
             </span>
         </xsl:if>
-        <!-- if there are linenumbers, add them inside a <span class="linenumber">
-            <xsl:when test="@n">
-                <span class="linenumber">
-                    [<xsl:value-of select="@n"/>]
-                </span>
-            </xsl:when> -->
     </xsl:template>
     <!-- note: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
@@ -274,6 +322,7 @@
         </span>
     </xsl:template>
     
+    <!-- make links clickable -->
     <xsl:template match="tei:ref">
         <a>
             <xsl:attribute name="href">
