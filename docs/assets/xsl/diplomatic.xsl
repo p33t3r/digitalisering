@@ -28,8 +28,8 @@
                 <nav id="sitenav">
                     <a href="../index.html">Hem</a> | 
                     <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a> |
-                    <b><a href="diplomatic.html">Diplomatarisk transkription</a></b> |
-                    <a href="reading.html">Lästext</a> |
+                    <b>Diplomatarisk transkription</b> |
+                    <a href="text.html">Text</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -136,7 +136,6 @@
                             </div>
                                 
                             <div class="row">    
-                                <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <div class="diplomatic">
                                         <xsl:apply-templates select="preceding::tei:div[1]"/>
@@ -152,13 +151,38 @@
                         
                         <!-- check if there is a last left page -->
                         <xsl:if test="//tei:div[last()][@type='page'][ends-with(@n, 'v')]">
+                            <xsl:variable name="facs" select="//tei:div[last()]/@facs"/>
                             <div class="row">
-                                <div class="col-sm"></div>
-                                <div class="col-sm"></div>
+                                <div class="col-sm">
+                                    <div class="click-zoom">
+                                        <label>
+                                            <input type="checkbox"/>
+                                            <img class="img-full-v">
+                                                <xsl:attribute name="id">
+                                                    <xsl:value-of select="$facs"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="//tei:surface[@xml:id= $facs]/tei:figure/tei:graphic[1]/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="//tei:titleStmt/tei:title"/> - <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </label>
+                                    </div>
+                                    <!-- add page numbers -->
+                                    <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>]</p>
+                                </div>
+                                <div class="col-sm"/>
+                            </div>
+                            <div class="row">
                                 <div class="col-sm">
                                     <xsl:apply-templates select="//tei:div[last()][@type='page'][ends-with(@n, 'v')]"/>
                                 </div>
-                                <div class="col-sm"></div>
+                                <div class="col-sm"/>
                             </div>
                         </xsl:if>
                         
@@ -298,7 +322,8 @@
     
     <!-- add sidenotes -->
     <xsl:template match="tei:note">
-        <label>
+        <xsl:if test="starts-with(@type, 'text')">
+            <label>
             <xsl:attribute name="for">
                 <xsl:value-of select="@type"/>
             </xsl:attribute>
@@ -320,6 +345,7 @@
         <span class="sidenote">
             <xsl:apply-templates/>
         </span>
+        </xsl:if>
     </xsl:template>
     
     <!-- make links clickable -->

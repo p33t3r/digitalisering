@@ -535,7 +535,7 @@
                <p>
                   <lb rend="indent"/>Ett tjog gånger väl <choice><orig>ha</orig><reg>har</reg></choice> vi nu lytt
                   <lb/>parollen <choice><abbr>fr.</abbr><expan>från</expan></choice> <choice><abbr>int.</abbr><expan>internationella</expan></choice> <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kongressen i Paris
-                  <lb/>1899<note type="sn-01">Felskrivning för internationella socialistiska kongressen i Paris 1889?</note> att <emph>demonstrera</emph>
+                  <lb/>1899<note type="gloss-01">Felskrivning för internationella socialistiska kongressen i Paris 1889?</note> att <emph>demonstrera</emph>
                   <lb rend="indent"/>för lagstadgad 8-timmars arbetsdag.
                </p>
             </div>
@@ -608,7 +608,7 @@
                   <lb break="no"/>görare. <del>Men varifrån fick han sina</del>
                   <lb/><del>pängar?</del> Som 20-årig flicka var jag folk<pc>-</pc>
                   <lb break="no"/>skollärarinna här <choice><orig>på</orig><reg>i</reg></choice> trakten i en
-                  <lb/>socken<note type="sn-05"><ref target="https://kulturnav.org/8b6e4161-158d-4e76-8256-605b1650a9b2">Hjulsjö socken</ref></note>, där det fanns och finns än i dag
+                  <lb/>socken<note type="text-05"><ref target="https://kulturnav.org/8b6e4161-158d-4e76-8256-605b1650a9b2">Hjulsjö socken</ref></note>, där det fanns och finns än i dag
                </p>
             </div>
             
@@ -636,7 +636,7 @@
                <p part="F">
                   <lb/>en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
-                  <lb/>i Hjulsjö<note type="sn-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan rend="pencil" spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
+                  <lb/>i Hjulsjö<note type="gloss-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan rend="pencil" spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
                   <lb/>hans dagsverkare och hyttarbetare
                   <lb/>och alla andra människor med <choice><orig>sjön<pc>-</pc>
                      <lb break="no"/>go</orig><reg>sjöng</reg></choice> hans lov från morgon till kväll.
@@ -644,7 +644,7 @@
                   <lb/>och det var <choice><orig>sannt</orig><reg>sant</reg></choice>, och jag vill
                   <lb/>inte säga något ont om honom, jag tar
                   <lb/>honom
-                  <lb rend="indent"/><emph>endast som <choice><orig>typ</orig><reg>typ</reg></choice>!</emph><anchor xml:id="a7"/><note type="sn-07">Överkorsat med blyerts från "Alla människor…" till "…endast som typ!"</note>
+                  <lb rend="indent"/><emph>endast som <choice><orig>typ</orig><reg>typ</reg></choice>!</emph><anchor xml:id="a7"/><note type="text-07">Överkorsat med blyerts från "Alla människor…" till "…endast som typ!"</note>
                </p>
                
                <p part="I">
@@ -677,7 +677,7 @@
                         <abbr>L. L.</abbr><expan>Lars Larsson</expan></choice></name> hade mycket
                   <lb/>skog uppåt Falutrakten! Men ändå hette
                   <lb/>det så ödmjukt och tacksamt: <emph rend="double">han gav</emph>
-                  <lb rend="indent"/><emph rend="double">arbete!</emph><anchor xml:id="a9"/><note type="sn-09">Hela detta stycke är överstruket med två lodräta linjer i blyerts.</note>
+                  <lb rend="indent"/><emph rend="double">arbete!</emph><anchor xml:id="a9"/><note type="text-09">Hela detta stycke är överstruket med två lodräta linjer i blyerts.</note>
                </p>
                
                <p part="I">
@@ -872,7 +872,7 @@
                <pb n="20v" facs="sida20"/>
                <p part="F">
                   <lb/>Högre lön – kortare
-                  <lb/>dag!<note type="sn-20">Anteckning i blyerts i vänster marginal:
+                  <lb/>dag!<note type="text-20">Anteckning i blyerts i vänster marginal:
                      <handShift medium="pencil"/>
                      <lb/>Snus
                      <lb/>ny sänghalm</note>
@@ -956,7 +956,7 @@
                   <lb/>som inte direkt <choice><orig>medföra</orig><reg>medför</reg></choice> <add>döden:</add><del><unclear>inte</unclear> alltid</del>
                   <lb/>men åtminstone invaliditet! Detta
                   <lb/>mitt korta, farliga liv är det
-                  <lb/>enda,<note type="sn-25">Här är en del av pappret vikt. På grund av materialets skörhet gick det inte att vika upp. Det som syns är sidan under och en del av nästa sida.</note>
+                  <lb/>enda,<note type="text-25">Här är en del av pappret vikt. På grund av materialets skörhet gick det inte att vika upp. Det som syns är sidan under och en del av nästa sida.</note>
                   <lb rend="indent"/><emph rend="double">varom jag vet någonting med</emph>
                   <lb rend="indent"/><emph rend="double">visshet</emph>! Må det bjuda mig något.
                </p>
@@ -1022,7 +1022,7 @@
                   <lb/>Min verkliga <emph rend="double">lön</emph> är min <emph rend="triple">andel</emph> <emph rend="triple">i</emph>
                   <lb/><emph rend="triple">den mänskliga kulturens framsteg.</emph>
                   <lb/>Och i kulturens framsteg, 
-                  <lb rend="indent"/>arbetare, kom ihåg, <choice><orig>ha</orig><reg>har</reg></choice> <choice><orig>icke</orig><reg>inte</reg></choice><note type="sn-29">Här är två sidor utskurna ur häftet.</note>
+                  <lb rend="indent"/>arbetare, kom ihåg, <choice><orig>ha</orig><reg>har</reg></choice> <choice><orig>icke</orig><reg>inte</reg></choice><note type="text-29">Här är två sidor utskurna ur häftet.</note>
                </p>
             </div>
 
@@ -1056,7 +1056,7 @@
                <pb n="36v" facs="sida36"/>
                <p>
                   <lb/>Exempel på min 
-                  <lb/>verkliga lön!<note type="sn-36">Anteckning i blyerts i vänster marginal:
+                  <lb/>verkliga lön!<note type="text-36">Anteckning i blyerts i vänster marginal:
                      <handShift medium="pencil"/>
                      <lb/>Snus
                      <lb/>ny sänghalm
@@ -1261,7 +1261,7 @@
                   <lb/><l>Folket vill sitt lån tillbaka börda,</l>
                   <lb/><l>en förädlad ljusets, kraftens flod.</l>
                   <lb/><l>Där det sått, där vill det också skörda,</l>
-                  <lb/><l>Kunna säga: se vårt kött och blod!<note type="sn-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken och "se <emph>mitt</emph> kött och blod!"</note></l>
+                  <lb/><l>Kunna säga: se vårt kött och blod!<note type="gloss-47">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken och "se <emph>mitt</emph> kött och blod!"</note></l>
                </lg>
                
                <p part="I">
@@ -1440,11 +1440,11 @@
                
                <p><handShift medium="pencil"/>
                   <lb/>Uppläsning ur <choice><abbr>Gen.</abbr><expan>Generationerna</expan></choice> Det var ett under,
-                  <lb/>att det nånsin skedde <choice><abbr>sid.</abbr><expan>sidan</expan></choice> 429.<note type="sn-60">Se nedan.</note>
+                  <lb/>att det nånsin skedde <choice><abbr>sid.</abbr><expan>sidan</expan></choice> 429.<note type="gloss-60">Se nedan.</note>
                </p>
                
                <p><handShift medium="pencil"/>
-                  <lb/>Julbrandsyn 489<handShift medium="ink"/><note type="sn-60"><ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/429/faksimil">"Generationerna"</ref> och <ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/489/faksimil">"Brandsyn Julafton 1889"</ref> i Urval av Axel Danielssons skrifter (1908), s. 429 och s. 489. <ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/1/faksimil">Litteraturbanken</ref></note>
+                  <lb/>Julbrandsyn 489<handShift medium="ink"/><note type="gloss-60-2"><ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/429/faksimil">"Generationerna"</ref> och <ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/489/faksimil">"Brandsyn Julafton 1889"</ref> i Urval av Axel Danielssons skrifter (1908), s. 429 och s. 489. <ref target="https://litteraturbanken.se/författare/DanielssonAx/titlar/UrvalAvSkrifter/sida/1/faksimil">Litteraturbanken</ref></note>
                </p>
             </div>
             
@@ -1455,7 +1455,7 @@
                </p>
                
                <p><handShift medium="pencil"/>
-                  <lb/>Danko.<note type="sn-61"><ref target="https://tidningar.kb.se/8k48hv6c6v3hx36r/part/2/page/3?q=%22dankos%20brinnande%20hj%C3%A4rta%22">"Dankos brinnande hjärta"</ref> av Maxim Gorkij, i Arbetet 19 december 1903.</note>
+                  <lb/>Danko.<note type="gloss-61">Se <ref target="https://tidningar.kb.se/8k48hv6c6v3hx36r/part/2/page/3?q=%22dankos%20brinnande%20hj%C3%A4rta%22">"Dankos brinnande hjärta"</ref> av Maxim Gorkij, i Arbetet 19 december 1903.</note>
                </p>
                
                <p><handShift medium="pencil"/>
@@ -1470,7 +1470,7 @@
                         <lb rend="indent"/>flammar<supplied>.</supplied></l>
                      <lb/><l>Han är i den, som rätt ej honom kände<supplied>,</supplied></l>
                      <lb/><l><choice><orig>Men</orig><reg>men</reg></choice> – kämpar i hans flock för de
-                        <lb rend="indent"/>elände<supplied>.</supplied><note type="sn-61">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>. Ej ordagrant citerad. Originalet har andra skiljetecken, "namn" i stället för "ord" och inget tankstreck.</note></l>
+                        <lb rend="indent"/>elände<supplied>.</supplied><note type="gloss-61-2">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>. Ej ordagrant citerad. Originalet har andra skiljetecken, "namn" i stället för "ord" och inget tankstreck.</note></l>
                   </lg>
             </div>
             

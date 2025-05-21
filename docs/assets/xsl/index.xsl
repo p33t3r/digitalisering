@@ -13,19 +13,23 @@
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
                 <link rel="stylesheet" href="../assets/css/main.css"/>
+                <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
             </head>
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        Elma Danielssons tal — <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
                     <a href="../index.html">Hem</a> | 
                     <b><xsl:apply-templates select="//tei:titleStmt/tei:title"/></b> |
                     <a href="diplomatic.html">Diplomatarisk transkription</a> | 
-                    <a href="reading.html">Lästext</a> | 
+                    <a href="text.html">Text</a> | 
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
