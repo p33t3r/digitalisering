@@ -134,14 +134,14 @@
         <xsl:text disable-output-escaping="yes">&lt;/p&gt;</xsl:text>
     </xsl:template>
     
-    <!-- transform tei lg into html paragraphs -->
+    <!-- transform tei lg into html spans -->
     <xsl:template match="tei:lg">
-        <p>
+        <span>
             <xsl:attribute name="class">
                 <xsl:value-of select="@type"/>
             </xsl:attribute>
             <xsl:apply-templates/>
-        </p>
+        </span>
     </xsl:template>
     
     <!-- transform tei l into html linebreaks -->
@@ -230,7 +230,6 @@
             <xsl:apply-templates/>
         </a>
     </xsl:template>
-    
     
     <!-- make delSpan into a span with class delPencil or delInk - a bit of a kludge, but works -->
     <xsl:template match="tei:delSpan[@rend='pencil']">

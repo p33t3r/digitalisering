@@ -236,12 +236,12 @@
     
     <!-- transform tei lg into html paragraphs -->
     <xsl:template match="tei:lg">
-        <p>
+        <span>
             <xsl:attribute name="class">
                 <xsl:value-of select="@type"/>
             </xsl:attribute>
             <xsl:apply-templates/>
-        </p>
+        </span>
     </xsl:template>
     
     <!-- transform tei l into html linebreaks -->
@@ -272,9 +272,6 @@
             </span>
         </xsl:if>
     </xsl:template>
-    <!-- note: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
     
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
@@ -372,6 +369,9 @@
     <!-- transform tei handShift into html spans -->
     <xsl:template match="tei:handShift[@medium='pencil']">
         <xsl:text disable-output-escaping="yes">&lt;span class="pencil"&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:handShift[@medium='ink']">
+        <xsl:text disable-output-escaping="yes">&lt;span class="ink"&gt;</xsl:text>
     </xsl:template>
     
     <!-- do not show expanded abbreviations -->

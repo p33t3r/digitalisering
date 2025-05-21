@@ -144,7 +144,7 @@ p {
     vertical-align: baseline;
 }
 
-p.verse, p.list {
+p:has(.verse), p:has(.list) {
     margin-top: -1.5rem; /* to counteract the <br> before the first line */
 }
 
@@ -218,7 +218,7 @@ del {
 }
 
 .ink {
-    color: inherit;
+    color: initial;
 }
 
 /* make sure that <emph> inside a <choice> gets italicized when needed */

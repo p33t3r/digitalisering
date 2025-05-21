@@ -1176,12 +1176,14 @@
                   <lb/><emph><choice><orig>särskillt</orig><reg>särskilt</reg></choice> för industriarbetaren</emph><supplied>.</supplied>
                </p>
                
-               <lg type="verse">
-                  <lb/><l>Drivs du inom Grottes stätta,</l>
-                  <lb/><l>bärs du ut som lik.</l>
-                  <lb/><l>Grymhet är det ej i detta<supplied>;</supplied></l>
-                  <lb/><l>blott aritmetik!<note type="gloss-33">Ur "Den nya Grottesången" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/75/faksimil">Litteraturbanken</ref>. Originalet har "Drevs" i stället för "Drivs" och "vräks" i stället för "bärs".</note></l>
-               </lg>
+               <p>
+                  <lg type="verse">
+                     <lb/><l>Drivs du inom Grottes stätta,</l>
+                     <lb/><l>bärs du ut som lik.</l>
+                     <lb/><l>Grymhet är det ej i detta<supplied>;</supplied></l>
+                     <lb/><l>blott aritmetik!<note type="gloss-33">Ur "Den nya Grottesången" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/75/faksimil">Litteraturbanken</ref>. Originalet har "Drevs" i stället för "Drivs" och "vräks" i stället för "bärs".</note></l>
+                  </lg>
+               </p>
             </div>
             
             <div type="page" n="34v" facs="sida34">
@@ -1252,16 +1254,18 @@
                   <lb/>Snoilsky:
                </p>
                
-               <lg type="verse">
-                  <lb/><l>Vetenskapen, konsten, rikedomen</l>
-                  <lb/><l>Ej ett fåtal fick för egen lust.</l>
-                  <lb/><l>De på folkets <choice><abbr>tr.</abbr><expan>träd</expan></choice> blott äro blommen,</l>
-                  <lb/><l>vartill roten bidrog med sin must.</l>
-                  <lb/><l>Folket vill sitt arv tillbaka börda,</l>
-                  <lb/><l>en föryngrad ljusets, kraftens flod.</l>
-                  <lb/><l><choice><sic>där</sic><corr>Där</corr></choice> det sått, där vill det också skörda</l>
-                  <lb/><l>Kunna säga: se vårt kött och blod!<note type="gloss-37">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken, "Folket vill sitt <emph>lån</emph> tillbaka börda", "en <emph>förädlad</emph> ljusets, kraftens flod" och "se <emph>mitt</emph> kött och blod!"</note></l>
-               </lg>
+               <p>
+                  <lg type="verse">
+                     <lb/><l>Vetenskapen, konsten, rikedomen</l>
+                     <lb/><l>Ej ett fåtal fick för egen lust.</l>
+                     <lb/><l>De på folkets <choice><abbr>tr.</abbr><expan>träd</expan></choice> blott äro blommen,</l>
+                     <lb/><l>vartill roten bidrog med sin must.</l>
+                     <lb/><l>Folket vill sitt arv tillbaka börda,</l>
+                     <lb/><l>en föryngrad ljusets, kraftens flod.</l>
+                     <lb/><l><choice><sic>där</sic><corr>Där</corr></choice> det sått, där vill det också skörda</l>
+                     <lb/><l>Kunna säga: se vårt kött och blod!<note type="gloss-37">Ur "Emigrationen" i Carl Snoilsky: "Dikter. Tredje samlingen" (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Originalet har andra skiljetecken, "Folket vill sitt <emph>lån</emph> tillbaka börda", "en <emph>förädlad</emph> ljusets, kraftens flod" och "se <emph>mitt</emph> kött och blod!"</note></l>
+                  </lg>
+               </p>
                
                <p>
                   <lb rend="indent"/>Amerika.
@@ -1345,11 +1349,13 @@
                   <lb/>de vara!
                </p>
                
-               <lg type="list">
-                  <lb/><l>1) Utkasta <choice><orig>30,000</orig><reg>30 000</reg></choice> (<choice><abbr>textilarb.</abbr><expan>textilarbetare</expan></choice>)</l>
-                  <lb/><l>2) <choice><orig>50,000</orig><reg>50 000</reg></choice> (järnbrukens <choice><abbr>arb.</abbr><expan>arbetare</expan></choice>)</l>
-                  <lb/><l>3) Vilka de behagade kasta ut!</l>
-               </lg>
+               <p>
+                  <lg type="list">
+                     <lb/><l>1) Utkasta <choice><orig>30,000</orig><reg>30 000</reg></choice> (<choice><abbr>textilarb.</abbr><expan>textilarbetare</expan></choice>)</l>
+                     <lb/><l>2) <choice><orig>50,000</orig><reg>50 000</reg></choice> (järnbrukens <choice><abbr>arb.</abbr><expan>arbetare</expan></choice>)</l>
+                     <lb/><l>3) Vilka de behagade kasta ut!</l>
+                  </lg>
+               </p>
                
                <p part="I">
                   <lb/>Är det nu fullt rättvist att bekläda
@@ -1552,7 +1558,8 @@
                   <lb break="no"/>själade av kärlek till sina <choice><abbr>medm.</abbr><expan>medmänniskor.</expan></choice>
                </p>
                
-               <lg type="verse">
+               <p>
+                  <lg type="verse">
                      <lb/><l>Han är i den<supplied>,</supplied> som ej hans ord anammar<supplied>,</supplied></l>
                      <lb/><l>men i vars hjärta sanningskärlek
                         <lb rend="indent"/>flammar.</l>
@@ -1560,7 +1567,8 @@
                         <lb rend="indent"/>kände,</l>
                      <lb/><l>men kämpar i hans flock för de
                         <lb rend="indent"/>elände.<note type="gloss-52">Ur "Grubblaren" i Viktor Rydberg: "Dikter. Andra samlingen" (1891) Originalet har andra skiljetecken och "namn" i stället för "ord". <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/40/faksimil">Litteraturbanken</ref>.</note></l>
-               </lg>
+                  </lg>
+               </p>
                
                <p>
                   <lb/>Gör det inte så svårt genom er 
