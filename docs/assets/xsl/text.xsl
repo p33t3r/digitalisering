@@ -27,16 +27,15 @@
                 </header>
 
                 <nav id="sitenav">
-                    <a href="../index.html">Hem</a>
-                    <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a>
+                    <a href="../index.html">Elma Danielssons tal</a>
                     <a href="diplomatic.html">Diplomatarisk transkription</a>
                     <a href="text.html" class="active">Text</a>
+                    <a href="index.html">Bilder</a>
                 </nav>
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-
                         <div class="fulltext">
                             <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
                             <!-- <xsl:for-each select="//tei:div[@type='manuscript']"> -->
@@ -49,12 +48,12 @@
                         <div class="row">
                             <div class="col-sm">
                                 <p>
-                                    <strong>Författare:</strong>
+                                    <b>Författare:</b>
                                     <br/>
                                     <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                 </p>
                                 <p>
-                                    <strong>Transkriberat av:</strong>
+                                    <b>Transkriberat av:</b>
                                     <br/>
                                     <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                 </p>

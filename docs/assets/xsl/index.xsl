@@ -27,10 +27,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="../index.html">Hem</a>
-                    <a href="index.html" class="active"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a>
+                    <a href="../index.html">Elma Danielssons tal</a>
                     <a href="diplomatic.html">Diplomatarisk transkription</a>
                     <a href="text.html">Text</a>
+                    <a href="index.html" class="active">Bilder</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -72,20 +72,6 @@
                                     <xsl:apply-templates select="//tei:sourceDesc"/>
                                   </p>
                             </div> -->
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <p>
-                                    <strong>Författare:</strong>
-                                    <br/>
-                                    <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
-                                </p>
-                                <p>
-                                    <strong>Transkriberat av:</strong>
-                                    <br/>
-                                    <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </main>
