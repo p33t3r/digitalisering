@@ -21,15 +21,16 @@
             </head>
             <body>
                 <header>
+                    <a href="https://aarkiv.se"><img src="../assets/img/logos/AArkiv%20Logga.png.jpg" title="Arbetarrörelsens arkiv i Skåne" alt="Logga för Arbetarrörelsens arkiv i Skåne" class="logga"/></a>
                     <h1>
-                        Elma Danielssons tal — <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="../index.html">Hem</a> | 
-                    <b><xsl:apply-templates select="//tei:titleStmt/tei:title"/></b> |
-                    <a href="diplomatic.html">Diplomatarisk transkription</a> | 
-                    <a href="text.html">Text</a> | 
+                    <a href="../index.html">Hem</a>
+                    <a href="index.html" class="active"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a>
+                    <a href="diplomatic.html">Diplomatarisk transkription</a>
+                    <a href="text.html">Text</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->

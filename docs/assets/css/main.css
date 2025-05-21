@@ -2,6 +2,32 @@
 
 @import "tufte.css";
 
+@font-face {
+  font-family: Arvo;
+  src: url(../fonts/Arvo/Arvo-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: Arvo;
+  src: url(../fonts/Arvo/Arvo-Bold.ttf) format(truetype);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Arvo;
+  src: url(../fonts/Arvo/Arvo-Italic.ttf) format(truetype);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url(../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf) format(truetype);
+  font-style: italic;
+}
+
+
 /*  Makes certain elements non-selectable */
 
 .linenumber, .pagenumber, .sidenote, img {
@@ -15,9 +41,13 @@ body {
     color: #111;
     width: 100%;
     max-width: none;
-    font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+    font-family: 'Arvo', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
     padding: 0;
     margin: 0;
+}
+
+h1 {
+    font-family: 'Josefin Sans', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 }
 
 .container {
@@ -43,8 +73,13 @@ main:hover {
 .sidenote, .marginnote {
     margin-right: -45%;
     width: 40%;
-    font-size: 1rem;
+    font-size: .8rem;
     text-indent: initial;
+}
+
+.sidenote-number::after, .sidenote::before {
+    font-family: inherit;
+    font-size: .8rem;
 }
 
 .sidenote a {
@@ -87,7 +122,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: inherit;
+    background-color: #111;
+    color: #fffff8;
     width: 100%;
     /*  background-image: url("../img/Demonstrera%20alla%20dagar!.jpg"); */
 /*    background-image: linear-gradient(to right, rgba(219, 186, 130, 0), rgba(255, 255, 248, 1)), url("../img/Demonstrera%20alla%20dagar!.png");
@@ -96,35 +132,60 @@ header {
     background-repeat: no-repeat;
     background-size: 135%; */
 }
+header img {
+  width: 5rem;
+  float: left;
+  margin-top: 0;
+  margin-left: 6.5rem;
+  position: fixed;
+}
 
 nav {
     position: fixed;
     text-align: center;
     top: 6rem;
-    z-index: 100;
+    z-index: 50;
     background-color: inherit;
     margin-bottom: 1rem;
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
     padding: 1rem;
     width: 100%;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    background-color: #111;
+    color: #fffff8;
+}
+
+nav a {
+    padding: 2rem;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #fffff8;
+}
+nav a:hover {
+    color: grey;
+}
+nav a.active {
+    color: grey;
 }
 
 main {
     position: relative;
     top: 12rem;
     font-size: 1.1rem;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 footer {
     width: 100%;
     position: relative;
-    border-top: 1px solid;
+    border-top: 3px solid red;
     padding: 1rem;
     margin-top: 12rem;
+    background-color: #111;
+    color: #fffff8;
 }
 
 * h1, h2, h3, nav, footer {
@@ -133,11 +194,13 @@ footer {
 
 h1 {
     margin: 0;
+    text-decoration: underline 3px red;
+    text-underline-offset: .4em;
 }
 
 p {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
+    font-size: 1.0rem;
+    line-height: 1.5rem;
     margin-top: 0.4rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
@@ -182,7 +245,6 @@ del {
     content: "?}";
 }
 
-
 .delSpan {
     color: blue;
     }
@@ -216,7 +278,6 @@ del {
 .pencil {
     color: gray;
 }
-
 .ink {
     color: initial;
 }
@@ -224,10 +285,6 @@ del {
 /* make sure that <emph> inside a <choice> gets italicized when needed */
 em, em .choice {
     font-style: italic;
-}
-
-div.index, {
-    display: none;
 }
 
 #details {
@@ -250,10 +307,10 @@ div.index, {
     margin:.15vw;
 }
 
-#collection {
+/*  #collection {
     display: fixed;
     width: 200%;
-}
+}*/
 
 .thumbnail {
     margin: 5px;
@@ -280,7 +337,6 @@ div.index, {
     z-index: 1;
     position: relative;
 }
-
 
 .click-zoom input[type=checkbox] {
   display: none
@@ -420,7 +476,7 @@ div.index, {
         color: #ddd;
     }
     footer {
-        border: 1px solid #ffff8;
+        border: 1px solid #fffff8;
     }
     body {
         background-color: #151515;

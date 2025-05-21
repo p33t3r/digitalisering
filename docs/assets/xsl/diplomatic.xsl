@@ -17,19 +17,20 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
                 <link rel="stylesheet" href="../assets/css/main.css"/>
-                <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+                <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
             </head>
             <body>
                 <header>
+                    <a href="https://aarkiv.se"><img src="../assets/img/logos/AArkiv%20Logga.png.jpg" title="Arbetarrörelsens arkiv i Skåne" alt="Logga för Arbetarrörelsens arkiv i Skåne" class="logga"/></a>
                     <h1>
-                        Elma Danielssons tal — <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="../index.html">Hem</a> | 
-                    <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a> |
-                    <b>Diplomatarisk transkription</b> |
-                    <a href="text.html">Text</a> |
+                    <a href="../index.html">Hem</a> 
+                    <a href="index.html"><xsl:apply-templates select="//tei:titleStmt/tei:title"/></a>
+                    <a href="diplomatic.html" class="active">Diplomatarisk transkription</a>
+                    <a href="text.html">Text</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
