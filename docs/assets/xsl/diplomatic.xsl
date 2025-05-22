@@ -22,9 +22,8 @@
             <body>
                 <header>
                     <a href="https://aarkiv.se"><img src="../assets/img/logos/AArkiv%20Logga.png.jpg" title="Arbetarrörelsens arkiv i Skåne" alt="Logga för Arbetarrörelsens arkiv i Skåne" class="logga"/></a>
-                    <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
-                    </h1>
+                    <img src="../assets/img/Elma_fyrkant.png" title="Elma Danielsson 1911" alt="Elma Danielsson 1911" class="elma"/>
+                    <h1><xsl:apply-templates select="//tei:titleStmt/tei:title"/></h1>
                 </header>
                 <nav id="sitenav">
                     <a href="../index.html">Elma Danielssons tal</a> 

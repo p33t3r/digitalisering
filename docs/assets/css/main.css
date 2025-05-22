@@ -139,6 +139,9 @@ header img {
   margin-left: 6.5rem;
   position: fixed;
 }
+header img.elma {
+    margin-left: 80rem;
+}
 
 nav {
     position: fixed;
