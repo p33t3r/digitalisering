@@ -118,59 +118,49 @@ label {
 }
 
 header {
-    padding: 2rem;
+    padding: 2rem 1rem 1rem 1rem;
     position: fixed;
     top: 0;
     z-index: 100;
     background-color: #111;
     color: #fffff8;
     width: 100%;
-    /*  background-image: url("../img/Demonstrera%20alla%20dagar!.jpg"); */
-/*    background-image: linear-gradient(to right, rgba(219, 186, 130, 0), rgba(255, 255, 248, 1)), url("../img/Demonstrera%20alla%20dagar!.png");
-    background-position: top left;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 135%; */
+    border-bottom: 3px solid red;
+}
+header #header {
+    max-width: 1180px;
+    margin: auto;
 }
 header img {
   width: 5rem;
   float: left;
   margin-top: 0;
-  margin-left: 6.5rem;
-  position: fixed;
+  margin-left: auto;
+  position: relative;
 }
 header img.elma {
-    margin-left: 80rem;
+    float: right;
 }
 
-nav {
-    position: fixed;
+#sitenav {
     text-align: center;
-    top: 6rem;
-    z-index: 50;
-    background-color: inherit;
-    margin-bottom: 1rem;
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
-    padding: 1rem;
-    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    max-width: 1180px;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    background-color: #111;
-    color: #fffff8;
 }
-
-nav a {
+#sitenav a {
     padding: 2rem;
     text-decoration: none;
 }
-nav a:visited {
+#sitenav a:visited {
     color: #fffff8;
 }
-nav a:hover {
+#sitenav a:hover {
     color: grey;
 }
-nav a.active {
+#sitenav a.active {
     color: grey;
 }
 
