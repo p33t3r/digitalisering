@@ -51,7 +51,7 @@ h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1180px;
 }
 
 /*  main {
@@ -233,7 +233,6 @@ del {
 .unclear::before {
     content: "{";
 }
-
 .unclear::after {
     content: "?}";
 }
@@ -300,11 +299,6 @@ em, em .choice {
     margin:.15vw;
 }
 
-/*  #collection {
-    display: fixed;
-    width: 200%;
-}*/
-
 .thumbnail {
     margin: 5px;
     /* border: 1px solid #111;*/
@@ -317,16 +311,11 @@ em, em .choice {
 }
 
 .img-full-r {
-    /* border: 1px solid #111; */
-    width: 500px;
-    max-width: none;
     z-index: 0;
     position: relative;
 }
 
 .img-full-v {
-    width: 500px;
-    max-width: none;
     z-index: 1;
     position: relative;
 }
@@ -465,18 +454,8 @@ em, em .choice {
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
-    h1 {
-        color: #ddd;
-    }
-    footer {
-        border: 1px solid #fffff8;
-    }
     body {
         background-color: #151515;
         color: #ddd;
-    }
-    nav {
-        border-top: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
     }
 }
