@@ -8,11 +8,11 @@
       <fileDesc>
          <titleStmt>
             <title>Tal i Askersund från den 8 maj 1910.</title>
-            <author corresp="#ED">Elma Danielsson</author>
+            <author>Elma Danielsson</author>
             <principal>Emilia Nilsson, Peeter Sällström Randsalu och Rebecca Lager</principal>
          </titleStmt>
          <publicationStmt>
-            <publisher>University of Borås</publisher>
+            <publisher>Högskolan i Borås</publisher>
             <date>April 2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
@@ -21,526 +21,497 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A two-sided banana with a simple example orange on either side.</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Malmö
+                     <address>
+                        <addrLine>Arbetarrörelsens arkiv i Skåne</addrLine>
+                        <addrLine>Porslinsgatan 3</addrLine>
+                        <addrLine>211 32 Malmö</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>Malmö stadsarkiv (depå: Arbetarrörelsens arkiv)</repository>
+                  <collection>AA001964 Axel Och Elma Danielssons Personarkiv.</collection>
+                  <idno>Manuskript och handlingar gällande Elma Danielsson</idno>
+                  <idno type="URI">https://sok.riksarkivet.se/arkiv/WglOKowoWKIAzy8FmBfCwE</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Elma Danielsson (1865-1936)</author>
+                     <title>Tal i Askersund från den 8 maj 1910.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ett gulnat häfte med Elma Danielssons tal i Askersund 8 maj 1910.</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure unit="pages">52</measure>
+                           <dimensions scope="all" type="leaf" unit="mm">
+                              <height>160</height>
+                              <width>190</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote xml:id="ink" medium="black ink">Skrivet av Elma Danielsson i svart bläck.</handNote>
+                     <handNote xml:id="pencil" medium="pencil">Skrivet av Elma Danielsson i blyerts.</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>Elma Danielssons tal utgör en del av Axel och Elma Danielssons Personarkiv, som finns arkiverat hos Arbetarrörelsens arkiv i Skåne.</bibl> 
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <handNotes>
-            <handNote xml:id="ink" medium="black ink">Original text in black ink, written by Elma Danielsson.</handNote>
-            <handNote xml:id="pencil" medium="pencil">Original text in pencil, written by Elma Danielsson.</handNote>
-         </handNotes>
+         <textClass>
+            <keywords scheme="https://www.skbl.se/sv/nyckelord">
+               <term><ref target="https://www.skbl.se/sv/nyckelord/1800-talet">1800-talet</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/1900-talet">1900-talet</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Arbetarrörelsen">Arbetarrörelsen</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Facklig%20verksamhet">Facklig verksamhet</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Journalister">Journalister</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Kvinnorörelsen">Kvinnorörelsen</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Pionjärer">Pionjärer</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Politik">Politik</ref></term>
+               <term><ref target="https://www.skbl.se/sv/nyckelord/Socialdemokrati">Socialdemokrati</ref></term>   
+            </keywords>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">arbetarrörelsen</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">kvinnorörelsen</ref></term>
+            </keywords>
+         </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc> 
+            <p>Materialet har skannats, transkriberats, TEI-kodats och tillgängliggjorts digitalt som en del av kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2025 vid Högskolan i Borås som en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och hur digitalisering kan användas för att ge fler människor tillgång till det.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Materialet har transkriberats av Emilia Nilsson, Peeter Sällström Randsalu och Rebecca Lager.</p>
+         </editorialDecl>
+         <samplingDecl>
+            <p>Projektets urval bestod av manuskripten till två tal av Elma Danielsson som hölls 1 maj och 8 maj 1910.</p>
+         </samplingDecl>    
+      </encodingDesc>
    </teiHeader>
 
-   <facsimile>
+   <facsimile xml:id="AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910">
       <surface xml:id="sida01">
          <figure>
             <label>Sida 1</label>
             <figDesc>Den inskannade första sidan från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida1_full" url="../assets/img/documents/tal2sida01.jpeg"/>
-            <graphic xml:id="sida1_thumb" url="../assets/img/thumbs/tal2sida01.jpeg"/>
+            <graphic xml:id="sida1_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida01.jpeg"/>
+            <graphic xml:id="sida1_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida01.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida02">
          <figure>
             <label>Sida 2</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida2_full" url="../assets/img/documents/tal2sida02.jpeg"/>
-            <graphic xml:id="sida2_thumb" url="../assets/img/thumbs/tal2sida02.jpeg"/>
+            <graphic xml:id="sida2_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida02.jpeg"/>
+            <graphic xml:id="sida2_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida02.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida03">
          <figure>
             <label>Sida 3</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida3_full" url="../assets/img/documents/tal2sida03.jpeg"/>
-            <graphic xml:id="sida3_thumb" url="../assets/img/thumbs/tal2sida03.jpeg"/>
+            <graphic xml:id="sida3_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida03.jpeg"/>
+            <graphic xml:id="sida3_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida03.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida04">
          <figure>
             <label>Sida 4</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida4_full" url="../assets/img/documents/tal2sida04.jpeg"/>
-            <graphic xml:id="sida4_thumb" url="../assets/img/thumbs/tal2sida04.jpeg"/>
+            <graphic xml:id="sida4_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida04.jpeg"/>
+            <graphic xml:id="sida4_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida04.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida05">
          <figure>
             <label>Sida 5</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida5_full" url="../assets/img/documents/tal2sida05.jpeg"/>
-            <graphic xml:id="sida5_thumb" url="../assets/img/thumbs/tal2sida05.jpeg"/>
+            <graphic xml:id="sida5_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida05.jpeg"/>
+            <graphic xml:id="sida5_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida05.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida06">
          <figure>
             <label>Sida 6</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida6_full" url="../assets/img/documents/tal2sida06.jpeg"/>
-            <graphic xml:id="sida6_thumb" url="../assets/img/thumbs/tal2sida06.jpeg"/>
+            <graphic xml:id="sida6_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida06.jpeg"/>
+            <graphic xml:id="sida6_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida06.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida07">
          <figure>
             <label>Sida 7</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida7_full" url="../assets/img/documents/tal2sida07.jpeg"/>
-            <graphic xml:id="sida7_thumb" url="../assets/img/thumbs/tal2sida07.jpeg"/>
+            <graphic xml:id="sida7_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida07.jpeg"/>
+            <graphic xml:id="sida7_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida07.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida08">
          <figure>
             <label>Sida 8</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida8_full" url="../assets/img/documents/tal2sida08.jpeg"/>
-            <graphic xml:id="sida8_thumb" url="../assets/img/thumbs/tal2sida08.jpeg"/>
+            <graphic xml:id="sida8_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida08.jpeg"/>
+            <graphic xml:id="sida8_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida08.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida09">
          <figure>
             <label>Sida 9</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida9_full" url="../assets/img/documents/tal2sida09.jpeg"/>
-            <graphic xml:id="sida9_thumb" url="../assets/img/thumbs/tal2sida09.jpeg"/>
+            <graphic xml:id="sida9_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida09.jpeg"/>
+            <graphic xml:id="sida9_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida09.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida10">
          <figure>
             <label>Sida 10</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida10_full" url="../assets/img/documents/tal2sida10.jpeg"/>
-            <graphic xml:id="sida10_thumb" url="../assets/img/thumbs/tal2sida10.jpeg"/>
+            <graphic xml:id="sida10_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida10.jpeg"/>
+            <graphic xml:id="sida10_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida10.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida11">
          <figure>
             <label>Sida 11</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida11_full" url="../assets/img/documents/tal2sida11.jpeg"/>
-            <graphic xml:id="sida11_thumb" url="../assets/img/thumbs/tal2sida11.jpeg"/>
+            <graphic xml:id="sida11_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida11.jpeg"/>
+            <graphic xml:id="sida11_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida11.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida12">
          <figure>
             <label>Sida 12</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida12_full" url="../assets/img/documents/tal2sida12.jpeg"/>
-            <graphic xml:id="sida12_thumb" url="../assets/img/thumbs/tal2sida12.jpeg"/>
+            <graphic xml:id="sida12_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida12.jpeg"/>
+            <graphic xml:id="sida12_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida12.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida13">
          <figure>
             <label>Sida 13</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida13_full" url="../assets/img/documents/tal2sida13.jpeg"/>
-            <graphic xml:id="sida13_thumb" url="../assets/img/thumbs/tal2sida13.jpeg"/>
+            <graphic xml:id="sida13_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida13.jpeg"/>
+            <graphic xml:id="sida13_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida13.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida14">
          <figure>
             <label>Sida 14</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida14_full" url="../assets/img/documents/tal2sida14.jpeg"/>
-            <graphic xml:id="sida14_thumb" url="../assets/img/thumbs/tal2sida14.jpeg"/>
+            <graphic xml:id="sida14_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida14.jpeg"/>
+            <graphic xml:id="sida14_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida14.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida15">
          <figure>
             <label>Sida 15</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida15_full" url="../assets/img/documents/tal2sida15.jpeg"/>
-            <graphic xml:id="sida15_thumb" url="../assets/img/thumbs/tal2sida15.jpeg"/>
+            <graphic xml:id="sida15_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida15.jpeg"/>
+            <graphic xml:id="sida15_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida15.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida16">
          <figure>
             <label>Sida 16</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida16_full" url="../assets/img/documents/tal2sida16.jpeg"/>
-            <graphic xml:id="sida16_thumb" url="../assets/img/thumbs/tal2sida16.jpeg"/>
+            <graphic xml:id="sida16_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida16.jpeg"/>
+            <graphic xml:id="sida16_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida16.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida17">
          <figure>
             <label>Sida 17</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida17_thumb" url="../assets/img/documents/tal2sida17.jpeg"/>
-            <graphic xml:id="sida17_full" url="../assets/img/thumbs/tal2sida17.jpeg"/>
+            <graphic xml:id="sida17_thumb" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida17.jpeg"/>
+            <graphic xml:id="sida17_full" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida17.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida18">
          <figure>
             <label>Sida 18</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida18_full" url="../assets/img/documents/tal2sida18.jpeg"/>
-            <graphic xml:id="sida18_thumb" url="../assets/img/thumbs/tal2sida18.jpeg"/>
+            <graphic xml:id="sida18_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida18.jpeg"/>
+            <graphic xml:id="sida18_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida18.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida19">
          <figure>
             <label>Sida 19</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida19_full" url="../assets/img/documents/tal2sida19.jpeg"/>
-            <graphic xml:id="sida19_thumb" url="../assets/img/thumbs/tal2sida19.jpeg"/>
+            <graphic xml:id="sida19_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida19.jpeg"/>
+            <graphic xml:id="sida19_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida19.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida20">
          <figure>
             <label>Sida 20</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts och svart bläck.</figDesc>
-            <graphic xml:id="sida20_full" url="../assets/img/documents/tal2sida20.jpeg"/>
-            <graphic xml:id="sida20_thumb" url="../assets/img/thumbs/tal2sida20.jpeg"/>
+            <graphic xml:id="sida20_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida20.jpeg"/>
+            <graphic xml:id="sida20_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida20.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida21">
          <figure>
             <label>Sida 21</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida21_full" url="../assets/img/documents/tal2sida21.jpeg"/>
-            <graphic xml:id="sida21_thumb" url="../assets/img/thumbs/tal2sida21.jpeg"/>
+            <graphic xml:id="sida21_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida21.jpeg"/>
+            <graphic xml:id="sida21_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida21.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida22">
          <figure>
             <label>Sida 22</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida22_full" url="../assets/img/documents/tal2sida22.jpeg"/>
-            <graphic xml:id="sida22_thumb" url="../assets/img/thumbs/tal2sida22.jpeg"/>
+            <graphic xml:id="sida22_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida22.jpeg"/>
+            <graphic xml:id="sida22_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida22.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida23">
          <figure>
             <label>Sida 23</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida23_full" url="../assets/img/documents/tal2sida23.jpeg"/>
-            <graphic xml:id="sida23_thumb" url="../assets/img/thumbs/tal2sida23.jpeg"/>
+            <graphic xml:id="sida23_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida23.jpeg"/>
+            <graphic xml:id="sida23_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida23.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida24">
          <figure>
             <label>Sida 24</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida24_full" url="../assets/img/documents/tal2sida24.jpeg"/>
-            <graphic xml:id="sida24_thumb" url="../assets/img/thumbs/tal2sida24.jpeg"/>
+            <graphic xml:id="sida24_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida24.jpeg"/>
+            <graphic xml:id="sida24_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida24.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida25">
          <figure>
             <label>Sida 25</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida25_full" url="../assets/img/documents/tal2sida25.jpeg"/>
-            <graphic xml:id="sida25_thumb" url="../assets/img/thumbs/tal2sida25.jpeg"/>
+            <graphic xml:id="sida25_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida25.jpeg"/>
+            <graphic xml:id="sida25_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida25.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida26">
          <figure>
             <label>Sida 26</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida26_full" url="../assets/img/documents/tal2sida26.jpeg"/>
-            <graphic xml:id="sida26_thumb" url="../assets/img/thumbs/tal2sida26.jpeg"/>
+            <graphic xml:id="sida26_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida26.jpeg"/>
+            <graphic xml:id="sida26_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida26.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida27">
          <figure>
             <label>Sida 27</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida27_full" url="../assets/img/documents/tal2sida27.jpeg"/>
-            <graphic xml:id="sida27_thumb" url="../assets/img/thumbs/tal2sida27.jpeg"/>
+            <graphic xml:id="sida27_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida27.jpeg"/>
+            <graphic xml:id="sida27_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida27.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida28">
          <figure>
             <label>Sida 28</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida28_full" url="../assets/img/documents/tal2sida28.jpeg"/>
-            <graphic xml:id="sida28_thumb" url="../assets/img/thumbs/tal2sida28.jpeg"/>
+            <graphic xml:id="sida28_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida28.jpeg"/>
+            <graphic xml:id="sida28_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida28.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida29">
          <figure>
             <label>Sida 29</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida29_full" url="../assets/img/documents/tal2sida29.jpeg"/>
-            <graphic xml:id="sida29_thumb" url="../assets/img/thumbs/tal2sida29.jpeg"/>
+            <graphic xml:id="sida29_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida29.jpeg"/>
+            <graphic xml:id="sida29_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida29.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida30">
          <figure>
             <label>Sida 30</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida30_full" url="../assets/img/documents/tal2sida30.jpeg"/>
-            <graphic xml:id="sida30_thumb" url="../assets/img/thumbs/tal2sida30.jpeg"/>
+            <graphic xml:id="sida30_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida30.jpeg"/>
+            <graphic xml:id="sida30_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida30.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida31">
          <figure>
             <label>Sida 31</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida31_full" url="../assets/img/documents/tal2sida31.jpeg"/>
-            <graphic xml:id="sida31_thumb" url="../assets/img/thumbs/tal2sida31.jpeg"/>
+            <graphic xml:id="sida31_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida31.jpeg"/>
+            <graphic xml:id="sida31_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida31.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida32">
          <figure>
             <label>Sida 32</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida32_full" url="../assets/img/documents/tal2sida32.jpeg"/>
-            <graphic xml:id="sida32_thumb" url="../assets/img/thumbs/tal2sida32.jpeg"/>
+            <graphic xml:id="sida32_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida32.jpeg"/>
+            <graphic xml:id="sida32_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida32.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida33">
          <figure>
             <label>Sida 33</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida33_full" url="../assets/img/documents/tal2sida33.jpeg"/>
-            <graphic xml:id="sida33_thumb" url="../assets/img/thumbs/tal2sida33.jpeg"/>
+            <graphic xml:id="sida33_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida33.jpeg"/>
+            <graphic xml:id="sida33_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida33.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida34">
          <figure>
             <label>Sida 34</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida34_full" url="../assets/img/documents/tal2sida34.jpeg"/>
-            <graphic xml:id="sida34_thumb" url="../assets/img/thumbs/tal2sida34.jpeg"/>
+            <graphic xml:id="sida34_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida34.jpeg"/>
+            <graphic xml:id="sida34_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida34.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida35">
          <figure>
             <label>Sida 35</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida35_full" url="../assets/img/documents/tal2sida35.jpeg"/>
-            <graphic xml:id="sida35_thumb" url="../assets/img/thumbs/tal2sida35.jpeg"/>
+            <graphic xml:id="sida35_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida35.jpeg"/>
+            <graphic xml:id="sida35_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida35.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida36">
          <figure>
             <label>Sida 36</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts och svart bläck.</figDesc>
-            <graphic xml:id="sida36_full" url="../assets/img/documents/tal2sida36.jpeg"/>
-            <graphic xml:id="sida36_thumb" url="../assets/img/thumbs/tal2sida36.jpeg"/>
+            <graphic xml:id="sida36_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida36.jpeg"/>
+            <graphic xml:id="sida36_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida36.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida37">
          <figure>
             <label>Sida 37</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida37_full" url="../assets/img/documents/tal2sida37.jpeg"/>
-            <graphic xml:id="sida37_thumb" url="../assets/img/thumbs/tal2sida37.jpeg"/>
+            <graphic xml:id="sida37_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida37.jpeg"/>
+            <graphic xml:id="sida37_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida37.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida38">
          <figure>
             <label>Sida 38</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida38_full" url="../assets/img/documents/tal2sida38.jpeg"/>
-            <graphic xml:id="sida38_thumb" url="../assets/img/thumbs/tal2sida38.jpeg"/>
+            <graphic xml:id="sida38_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida38.jpeg"/>
+            <graphic xml:id="sida38_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida38.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida39">
          <figure>
             <label>Sida 39</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida39_full" url="../assets/img/documents/tal2sida39.jpeg"/>
-            <graphic xml:id="sida39_thumb" url="../assets/img/thumbs/tal2sida39.jpeg"/>
+            <graphic xml:id="sida39_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida39.jpeg"/>
+            <graphic xml:id="sida39_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida39.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida40">
          <figure>
             <label>Sida 40</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida40_full" url="../assets/img/documents/tal2sida40.jpeg"/>
-            <graphic xml:id="sida40_thumb" url="../assets/img/thumbs/tal2sida40.jpeg"/>
+            <graphic xml:id="sida40_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida40.jpeg"/>
+            <graphic xml:id="sida40_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida40.jpeg"/>
          </figure>
       </surface><surface xml:id="sida41">
          <figure>
             <label>Sida 41</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida41_full" url="../assets/img/documents/tal2sida41.jpeg"/>
-            <graphic xml:id="sida41_thumb" url="../assets/img/thumbs/tal2sida41.jpeg"/>
+            <graphic xml:id="sida41_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida41.jpeg"/>
+            <graphic xml:id="sida41_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida41.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida42">
          <figure>
             <label>Sida 42</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida42_full" url="../assets/img/documents/tal2sida42.jpeg"/>
-            <graphic xml:id="sida42_thumb" url="../assets/img/thumbs/tal2sida42.jpeg"/>
+            <graphic xml:id="sida42_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida42.jpeg"/>
+            <graphic xml:id="sida42_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida42.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida43">
          <figure>
             <label>Sida 43</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida43_full" url="../assets/img/documents/tal2sida43.jpeg"/>
-            <graphic xml:id="sida43_thumb" url="../assets/img/thumbs/tal2sida43.jpeg"/>
+            <graphic xml:id="sida43_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida43.jpeg"/>
+            <graphic xml:id="sida43_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida43.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida44">
          <figure>
             <label>Sida 44</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida44_full" url="../assets/img/documents/tal2sida44.jpeg"/>
-            <graphic xml:id="sida44_thumb" url="../assets/img/thumbs/tal2sida44.jpeg"/>
+            <graphic xml:id="sida44_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida44.jpeg"/>
+            <graphic xml:id="sida44_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida44.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida45">
          <figure>
             <label>Sida 45</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida45_full" url="../assets/img/documents/tal2sida45.jpeg"/>
-            <graphic xml:id="sida45_thumb" url="../assets/img/thumbs/tal2sida45.jpeg"/>
+            <graphic xml:id="sida45_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida45.jpeg"/>
+            <graphic xml:id="sida45_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida45.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida46">
          <figure>
             <label>Sida 46</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida46_full" url="../assets/img/documents/tal2sida46.jpeg"/>
-            <graphic xml:id="sida46_thumb" url="../assets/img/thumbs/tal2sida46.jpeg"/>
+            <graphic xml:id="sida46_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida46.jpeg"/>
+            <graphic xml:id="sida46_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida46.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida47">
          <figure>
             <label>Sida 47</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida47_full" url="../assets/img/documents/tal2sida47.jpeg"/>
-            <graphic xml:id="sida47_thumb" url="../assets/img/thumbs/tal2sida47.jpeg"/>
+            <graphic xml:id="sida47_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida47.jpeg"/>
+            <graphic xml:id="sida47_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida47.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida48">
          <figure>
             <label>Sida 48</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida48_full" url="../assets/img/documents/tal2sida48.jpeg"/>
-            <graphic xml:id="sida48_thumb" url="../assets/img/thumbs/tal2sida48.jpeg"/>
+            <graphic xml:id="sida48_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida48.jpeg"/>
+            <graphic xml:id="sida48_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida48.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida49">
          <figure>
             <label>Sida 49</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i svart bläck.</figDesc>
-            <graphic xml:id="sida49_full" url="../assets/img/documents/tal2sida49.jpeg"/>
-            <graphic xml:id="sida49_thumb" url="../assets/img/thumbs/tal2sida49.jpeg"/>
+            <graphic xml:id="sida49_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida49.jpeg"/>
+            <graphic xml:id="sida49_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida49.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida50">
          <figure>
             <label>Sida 50</label>
             <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida50_full" url="../assets/img/documents/tal2sida50.jpeg"/>
-            <graphic xml:id="sida50_thumb" url="../assets/img/thumbs/tal2sida50.jpeg"/>
+            <graphic xml:id="sida50_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida50.jpeg"/>
+            <graphic xml:id="sida50_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida50.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida51">
          <figure>
             <label>Sida 51</label>
             <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida51_full" url="../assets/img/documents/tal2sida51.jpeg"/>
-            <graphic xml:id="sida51_thumb" url="../assets/img/thumbs/tal2sida51.jpeg"/>
+            <graphic xml:id="sida51_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida51.jpeg"/>
+            <graphic xml:id="sida51_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida51.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="sida52">
          <figure>
             <label>Sida 52</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida52_full" url="../assets/img/documents/tal2sida52.jpeg"/>
-            <graphic xml:id="sida52_thumb" url="../assets/img/thumbs/tal2sida52.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida53">
-         <figure>
-            <label>Sida 53</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida53_full" url="../assets/img/documents/tal2sida53.jpeg"/>
-            <graphic xml:id="sida53_thumb" url="../assets/img/thumbs/tal2sida53.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida54">
-         <figure>
-            <label>Sida 54</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida54_full" url="../assets/img/documents/tal2sida54.jpeg"/>
-            <graphic xml:id="sida54_thumb" url="../assets/img/thumbs/tal2sida54.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida55">
-         <figure>
-            <label>Sida 55</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida55_full" url="../assets/img/documents/tal2sida55.jpeg"/>
-            <graphic xml:id="sida55_thumb" url="../assets/img/thumbs/tal2sida55.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida56">
-         <figure>
-            <label>Sida 56</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida56_full" url="../assets/img/documents/tal2sida56.jpeg"/>
-            <graphic xml:id="sida56_thumb" url="../assets/img/thumbs/tal2sida56.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida57">
-         <figure>
-            <label>Sida 57</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida57_full" url="../assets/img/documents/tal2sida57.jpeg"/>
-            <graphic xml:id="sida57_thumb" url="../assets/img/thumbs/tal2sida57.jpeg"/>
-         </figure>
-      </surface><surface xml:id="sida58">
-         <figure>
-            <label>Sida 58</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida58_full" url="../assets/img/documents/tal2sida58.jpeg"/>
-            <graphic xml:id="sida58_thumb" url="../assets/img/thumbs/tal2sida58.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida59">
-         <figure>
-            <label>Sida 59</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida59_full" url="../assets/img/documents/tal2sida59.jpeg"/>
-            <graphic xml:id="sida59_thumb" url="../assets/img/thumbs/tal2sida59.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida60">
-         <figure>
-            <label>Sida 60</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida60_full" url="../assets/img/documents/tal2sida60.jpeg"/>
-            <graphic xml:id="sida60_thumb" url="../assets/img/thumbs/tal2sida60.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida61">
-         <figure>
-            <label>Sida 61</label>
-            <figDesc>En inskannad sida från ett gulnat häfte med text i blyerts.</figDesc>
-            <graphic xml:id="sida61_full" url="../assets/img/documents/tal2sida61.jpeg"/>
-            <graphic xml:id="sida61_thumb" url="../assets/img/thumbs/tal2sida61.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida62">
-         <figure>
-            <label>Sida 62</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida62_full" url="../assets/img/documents/tal2sida62.jpeg"/>
-            <graphic xml:id="sida62_thumb" url="../assets/img/thumbs/tal2sida62.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida63">
-         <figure>
-            <label>Sida 63</label>
-            <figDesc>En inskannad tom sida från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida63_full" url="../assets/img/documents/tal2sida63.jpeg"/>
-            <graphic xml:id="sida63_thumb" url="../assets/img/thumbs/tal2sida63.jpeg"/>
-         </figure>
-      </surface>
-      <surface xml:id="sida64">
-         <figure>
-            <label>Sida 64</label>
-            <figDesc>Den inskannade tomma sista sidan från ett gulnat häfte.</figDesc>
-            <graphic xml:id="sida64_full" url="../assets/img/documents/tal2sida64.jpeg"/>
-            <graphic xml:id="sida64_thumb" url="../assets/img/thumbs/tal2sida64.jpeg"/>
+            <figDesc>Den inskannade sista sidan från ett gulnat häfte.</figDesc>
+            <graphic xml:id="sida52_full" url="../assets/img/jpg/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_sida52.jpeg"/>
+            <graphic xml:id="sida52_thumb" url="../assets/img/thumbs/AA001964_F_V_Elma_Danielsson_A2_Tal_Askersund_1910_thumb_sida52.jpeg"/>
          </figure>
       </surface>
    </facsimile>

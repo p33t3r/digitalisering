@@ -36,18 +36,8 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        <!-- <div class="row">
-                            <div class="col-sm">
-                                <h3>Bilder</h3>
-                            </div>
-                            <div class="col-sm">
-                                <h3>Transkription</h3>
-                            </div>
-                            <div class="col-sm">
-                                <h3>Noter</h3>
-                            </div>
-                        </div> -->
+                        <div class="diplomatic">
+                            
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
                             <!-- <xsl:for-each select="//tei:div[@type='page']"> -->
@@ -60,25 +50,20 @@
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
                                     <xsl:if test="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:graphic[1]/@url">
-                                        <div class="click-zoom">
-                                        <label>
-                                            <input type="checkbox"/>
-                                            <img class="img-full-v">
-                                                <xsl:attribute name="id">
-                                                    <xsl:value-of select="$facspreceding"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="src">
-                                                    <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:graphic[1]/@url"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
-                                                    <xsl:value-of select="//tei:titleStmt/tei:title"/> - <xsl:value-of select="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:label"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
-                                                    <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:figDesc"/>
-                                                </xsl:attribute>
-                                            </img>
-                                        </label>
-                                        </div>
+                                        <img class="img-full">
+                                            <xsl:attribute name="id">
+                                                <xsl:value-of select="$facspreceding"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:graphic[1]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:titleStmt/tei:title"/> – <xsl:value-of select="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:label"/> - Klicka för bild i full storlek.
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>
                                         <!-- add page numbers -->
                                         <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:label"/>]</p>
                                     </xsl:if>
@@ -86,52 +71,36 @@
                                 
                                 <div class="col-sm">
                                     <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                    <div class="click-zoom">
-                                        <label>
-                                            <input type="checkbox"/>
-                                            <img class="img-full-r">
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                    @src to locate the image file
-                                                    @title for a mouse-over effect
-                                                    @alt for alternative text (in case the image fails to load, 
-                                                        and so people with a visual impairment can still understant what the image displays 
-                                                  
-                                                  in the XPath expressions below, we use the variable $facs (declared above) 
-                                                        so we can use this page's @facs element with to find the corresponding <surface>
-                                                        (because it matches with the <surface's @xml:id) 
-                                            
-                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                        we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <!-- create an id for each image, so that other pages can link to a specific image --> 
-                                            <!-- <xsl:attribute name="id">
-                                                <xsl:value-of select="replace(//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label, ' ', '')"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute> -->
-                                            <xsl:attribute name="id">
-                                                <!-- <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/> -->
-                                                <xsl:value-of select="$facs"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:titleStmt/tei:title"/> - <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                            </img>
-                                        </label>
-                                    </div>
+                                    <a>
+                                        <!-- tif format https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/AA001964_F_V_Elma_Danielsson_A1_Tal_Nora_1910/AA001964_F_V_Elma_Danielsson_A1_Tal_Nora_1910_sida01.tif -->
+                                        <xsl:attribute name="href">
+                                            <xsl:text>https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/</xsl:text>
+                                            <xsl:value-of select="//tei:facsimile/@xml:id"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="//tei:facsimile/@xml:id"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="@facs"/>
+                                            <xsl:text>.tif</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">
+                                            <xsl:text>_blank</xsl:text>
+                                        </xsl:attribute>
+                                    <img class="img-full">
+                                        <xsl:attribute name="id">
+                                            <!-- <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/> -->
+                                            <xsl:value-of select="$facs"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:graphic[1]/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:titleStmt/tei:title"/> – <xsl:value-of select="//tei:surface[@xml:id = $facs]/tei:figure/tei:label"/> - Klicka för bild i full storlek.
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                    </a>
                                     <!-- add page numbers -->
                                     <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>]</p>
                                 </div>
@@ -139,14 +108,10 @@
                                 
                             <div class="row">    
                                 <div class='col-sm'>
-                                    <div class="diplomatic">
-                                        <xsl:apply-templates select="preceding::tei:div[1]"/>
-                                    </div>
+                                    <xsl:apply-templates select="preceding::tei:div[1]"/>
                                 </div>
                                 <div class='col-sm'>
-                                    <div class="diplomatic">
-                                        <xsl:apply-templates/>
-                                    </div>
+                                    <xsl:apply-templates/>
                                 </div>
                             </div>
                         </xsl:for-each>
@@ -156,25 +121,20 @@
                             <xsl:variable name="facs" select="//tei:div[last()]/@facs"/>
                             <div class="row">
                                 <div class="col-sm">
-                                    <div class="click-zoom">
-                                        <label>
-                                            <input type="checkbox"/>
-                                            <img class="img-full-v">
-                                                <xsl:attribute name="id">
-                                                    <xsl:value-of select="$facs"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="src">
-                                                    <xsl:value-of select="//tei:surface[@xml:id= $facs]/tei:figure/tei:graphic[1]/@url"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="title">
-                                                    <xsl:value-of select="//tei:titleStmt/tei:title"/> - <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="alt">
-                                                    <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
-                                                </xsl:attribute>
-                                            </img>
-                                        </label>
-                                    </div>
+                                    <img class="img-full">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of select="$facs"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:surface[@xml:id= $facs]/tei:figure/tei:graphic[1]/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:titleStmt/tei:title"/> – <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/> - Klicka för bild i full storlek.
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
                                     <!-- add page numbers -->
                                     <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>]</p>
                                 </div>
@@ -187,6 +147,8 @@
                                 <div class="col-sm"/>
                             </div>
                         </xsl:if>
+                        </div>
+                        
                         <div class="row">
                             <div class="col-sm">
                                 <p>

@@ -54,14 +54,6 @@ h1 {
     max-width: 1180px;
 }
 
-/*  main {
-    pointer-events: none;
-}
-
-main:hover {
-    background-color: rgba(17, 17, 17, 0.25);
-} */
-
 .col-md {
     max-width: 55%;
 }
@@ -86,7 +78,7 @@ main:hover {
     text-decoration: underline;
 }
 
-.fulltext {
+.fulltext, .intro {
     width: 55%;
     margin-left: 15%;
 }
@@ -112,6 +104,10 @@ main:hover {
     width: 100px;
 }
 
+.intro img {
+    margin-bottom: 1rem;
+}
+
 label {
     text-indent: initial;
     margin: 0;
@@ -127,7 +123,7 @@ header {
     width: 100%;
     border-bottom: 3px solid red;
 }
-header #header {
+#header {
     max-width: 1180px;
     margin: auto;
 }
@@ -249,7 +245,7 @@ del {
     color: red;
 }
 
-.reading .delInk, .fulltext .delInk {
+.fulltext .delInk {
     display: none;
 }
 
@@ -279,29 +275,16 @@ em, em .choice {
     font-style: italic;
 }
 
-#details {
-    padding: 2vw;
-    margin: 1vw;
-    text-align: center;    
-}
-
-.copyright {
-    width: 50%;
-    margin: auto;
-}
-
 .copyright_logos, .copyright_text {
     display: inline;
 }
 
 .copyright_logo {
-    width: 1vw;
-    margin:.15vw;
+    width: 2rem;
 }
 
 .thumbnail {
     margin: 5px;
-    /* border: 1px solid #111;*/
     width: 250px;
     opacity: .5;
 }
@@ -310,33 +293,18 @@ em, em .choice {
     opacity: 1;
 }
 
-.img-full-r {
-    z-index: 0;
+.img-full {
     position: relative;
 }
-
-.img-full-v {
-    z-index: 1;
+.img-full:hover {
     position: relative;
+    transform: scale(1.5);
+    z-index: 1000;
+    transition-delay: .5s;
+    cursor: alias;
 }
-
-.click-zoom input[type=checkbox] {
-  display: none
-}
-
-.click-zoom img {
-  transition: transform .1s ease;
-  cursor: zoom-in;
-}
-
-.click-zoom input[type=checkbox]:checked~img {
-  transform: scale(2);
-  cursor: zoom-out;
-  position: relative;
-  z-index: 200;
-  border: 0;
-  margin: 0;
-  padding: 0;
+* {
+    transition: .5s ease-in-out;
 }
 
 /*create tooltips from choice elements*/
