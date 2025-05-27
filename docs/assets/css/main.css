@@ -48,6 +48,7 @@ body {
 
 h1 {
     font-family: 'Josefin Sans', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+    font-size: min(3rem,4vw);
 }
 
 .container {
@@ -132,7 +133,7 @@ header {
     margin: auto;
 }
 header img {
-  width: 5rem;
+  width: min(5rem,10vw);
   float: left;
   margin-top: 0;
   margin-left: auto;
@@ -147,7 +148,7 @@ header img.elma {
     margin: 0 auto;
     padding-top: 2rem;
     max-width: 1180px;
-    font-size: 1.1rem;
+    font-size: min(1.1rem,3vw);
     line-height: 1.5rem;
 }
 #sitenav a {
