@@ -1,7 +1,8 @@
 /* @import "bootstrap.css"; */
 
-@import "tufte.css";
+@import "tufte.css"; /* see https://edwardtufte.github.io/tufte-css/ */
 
+/* Use the same fonts as aarkiv.se */
 @font-face {
   font-family: Arvo;
   src: url(../fonts/Arvo/Arvo-Regular.ttf) format(truetype);
@@ -16,7 +17,6 @@
   src: url(../fonts/Arvo/Arvo-Italic.ttf) format(truetype);
   font-style: italic;
 }
-
 @font-face {
   font-family: Josefin Sans;
   src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf) format(truetype);
@@ -27,9 +27,7 @@
   font-style: italic;
 }
 
-
-/*  Makes certain elements non-selectable */
-
+/*  Make certain elements non-selectable to make it easy to copy the text */
 .linenumber, .pagenumber, .sidenote, img {
     user-select: none;
     -webkit-user-select: none;
@@ -37,84 +35,11 @@
 }
 
 body {
-/*    background-color: #fffff8; */
     color: #111;
     width: 100%;
     max-width: none;
     font-family: 'Arvo', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
     padding: 0;
-    margin: 0;
-}
-
-h1 {
-    font-family: 'Josefin Sans', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
-    font-size: min(3rem,4vw);
-}
-
-.container {
-    max-width: 1180px;
-}
-
-.col-md {
-    max-width: 55%;
-}
-
-/* .col-sm {
-    max-width: 40%;
-} */
-
-.sidenote, .marginnote {
-    margin-right: -45%;
-    width: 40%;
-    font-size: .8rem;
-    text-indent: initial;
-}
-
-.sidenote-number::after, .sidenote::before {
-    font-family: inherit;
-    font-size: .8rem;
-}
-
-.sidenote a {
-    text-decoration: underline;
-}
-
-.fulltext, .intro {
-    width: 55%;
-    margin-left: 15%;
-}
-
-.diplomatic .sidenote {
-    margin-right: 0;
-    width: 30%
-}
-
-.fulltext .marginnote {
-    float: left;
-    clear: left;
-    margin-left: -30%;
-    opacity: .5;
-    font-size: .8rem;
-}
-.fulltext .marginnote:hover {
-    opacity: 1;
-}
-.fulltext .thumbnail {
-    width: 100px;
-}
-.fulltext .notes p {
-    padding-bottom: 1.1rem;
-}
-
-.intro {
-    padding-bottom: 1rem;
-}
-.intro img {
-    margin-bottom: 1rem;
-}
-
-label {
-    text-indent: initial;
     margin: 0;
 }
 
@@ -172,6 +97,10 @@ main {
     line-height: 1.5rem;
 }
 
+.container {
+    max-width: 1180px;
+}
+
 footer {
     width: 100%;
     position: relative;
@@ -182,14 +111,16 @@ footer {
     color: #fffff8;
 }
 
-* h1, h2, h3, nav, footer {
-    text-align: center;
-}
-
 h1 {
     margin: 0;
     text-decoration: underline 3px red;
     text-underline-offset: .4em;
+    font-family: 'Josefin Sans', 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+    font-size: min(3rem,4vw);
+}
+
+* h1, h2, h3, nav, footer {
+    text-align: center;
 }
 
 p {
@@ -200,30 +131,93 @@ p {
     padding-right: 0;
     vertical-align: baseline;
 }
-
 p:has(.verse), p:has(.list) {
-    margin-top: -1.5rem; /* to counteract the <br> before the first line */
+    margin-top: -1.5rem; /* to counteract the <br> before the first line in lists */
+}
+
+/* style sidenotes and marginnotes for the different views */
+.sidenote, .marginnote {
+    margin-right: -45%;
+    width: 40%;
+    font-size: .8rem;
+    text-indent: initial;
+}
+.sidenote-number::after, .sidenote::before {
+    font-family: inherit;
+    font-size: .8rem;
+}
+.sidenote a {
+    text-decoration: underline;
+}
+.diplomatic .sidenote {
+    margin-right: 0;
+    width: 30%
+}
+/*  fix the layout for the sidenotes */
+label {
+    text-indent: initial;
+    margin: 0;
+}
+
+/*  styles for the diplomatic view */
+.diplomatic .delPencil {
+    color: gray;
+}
+.diplomatic .delInk {
+    color: red;
+}
+
+/*  styles for the full text view */
+.fulltext, .intro {
+    width: 55%;
+    margin-left: 15%;
+}
+.fulltext .marginnote {
+    float: left;
+    clear: left;
+    margin-left: -30%;
+    opacity: .5;
+    font-size: .8rem;
+}
+.fulltext .marginnote:hover {
+    opacity: 1;
+}
+.fulltext .thumbnail {
+    width: 100px;
+}
+.fulltext .notes p {
+    padding-bottom: 1.1rem;
+}
+.fulltext .delInk {
+    display: none; /* don't display deleted sections in full text view */
+}
+
+/*  styles for the introduction */
+.intro {
+    padding-bottom: 1rem;
+}
+.intro img {
+    margin-bottom: 1rem;
 }
 
 u.double {
     text-decoration-style: double;
 }
-
 u.triple {
 	border-bottom: 3px double;
 	line-height: 1.7em;
 }
 
-span.indent {
+.indent {
     margin-left: 2em;
 }
 
-/* to fix indentation in already indented sections */
+/* fix indentation in already indented sections */
 .indent .indent {
     margin-left: 4em;
 }
 
-/*  to fix weird strike-through behaviour on Firefox and add colour */
+/*  fix weird strike-through behaviour on Firefox and add colour */
 del {
   text-decoration: underline .1em;
   text-underline-offset: -.3em;
@@ -231,6 +225,7 @@ del {
   text-decoration-color: red;
 }
 
+/* style the tei <unclear> element */
 .unclear::before {
     content: "{";
 }
@@ -238,28 +233,12 @@ del {
     content: "?}";
 }
 
-.delSpan {
-    color: blue;
-    }
-    
-.diplomatic .delPencil {
-    color: gray;
-}
-
-.diplomatic .delInk {
-    color: red;
-}
-
-.fulltext .delInk {
-    display: none;
-}
-
+/*  make line numbers and page numbers gray and smaller */
 .linenumber {
     margin-right: 2rem;
     color: gray;
     font-size: .8rem;
     }
-
 .pagenumber {
     color: gray;
     font-size: .8rem;
@@ -288,12 +267,12 @@ em, em .choice {
     width: 2rem;
 }
 
+/* styles pertaining to images */
 .thumbnail {
     margin: 5px;
     width: 250px;
     opacity: .5;
 }
-
 .thumbnail:hover {
     opacity: 1;
 }
@@ -308,11 +287,12 @@ em, em .choice {
     transition-delay: .5s;
     cursor: alias;
 }
+
 * {
-    transition: .5s ease-in-out;
+    transition: .5s ease-in-out; /* create smooth transitions */
 }
 
-/*create tooltips from choice elements*/
+/* create tooltips from choice elements */
 .choice {
   display: inline-block;
   position: relative;
@@ -323,12 +303,11 @@ em, em .choice {
   font-style: normal;
   transition:all .5s ease-in-out
 }
-
 .choice:hover {
     color:#069;border-bottom:0.05em dotted #069;
 }
 
-/*the tip*/
+/* the tip */
 .choice:before {
   content: attr(data-title);
   font-size: 14px;
