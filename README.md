@@ -1,4 +1,4 @@
-##Elma Danielssons tal
+##Elma Danielssons tal##
 
 *Elma Danielssons tal* är ett projekt som har genomförts inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2025 vid Högskolan i Borås, som en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och hur digitalisering kan användas för göra materialet tillgängligt på ett hållbart och meningsfullt sätt.
 
