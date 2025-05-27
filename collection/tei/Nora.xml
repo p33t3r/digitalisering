@@ -945,9 +945,9 @@
                </p>
                
                <p>
-                  <lb/>Arb. männ. lever
+                  <lb/><choice><abbr>Arb.</abbr><expan>Arbetande</expan></choice> <choice><abbr>männ.</abbr><expan>människan</expan></choice> lever
                   <lb/>inte för att
-                  <lb/>arbeta utan hon
+                  <lb/>arbeta<supplied>,</supplied> utan hon
                   <lb/>arbetar för att
                   <lb/>leva!
                </p>
@@ -1067,7 +1067,7 @@
                   <lb/><emph rend="double">sänghalm</emph>
                   <lb/>och <emph rend="double">jolpäron</emph>
                   <lb/><unclear>töcks ja få förban<pc>-</pc>
-                     <lb/>nat få så lite</unclear>
+                     <lb break="no"/>nat få så lite</unclear>
                </p>
             </div>
             
@@ -1475,10 +1475,10 @@
             <div type="page" n="59r" facs="sida59">
                <pb n="59r" facs="sida59" type="notes"/>
                <p><handShift medium="pencil"/>
-                  <lb/>Till kvinnorna
+                  <lb/>Till kvinnorna<supplied>:</supplied>
                </p>
                <p rend="right"><handShift medium="pencil"/>
-                  <lb/><emph>Rätt till arbete</emph>
+                  <lb/><emph>Rätt till arbete</emph><supplied>.</supplied>
                   <lb/><emph rend="double">Rösträtt</emph> – 
                   <lb/>och <del>likhet</del>
                   <lb/><emph rend="double">begränsning av</emph> 
@@ -1490,8 +1490,8 @@
                </p>
                
                <p><handShift medium="pencil"/>
-                  <lb/>Kristendomen och arbetarrörelsen
-                  <lb/>Den rike ynglingen
+                  <lb/>Kristendomen och arbetarrörelsen<supplied>.</supplied>
+                  <lb/>Den rike ynglingen<supplied>.</supplied>
                   <lb/>Hungra och törsta efter <choice><abbr>rättf.</abbr><expan>rättfärdighet</expan></choice>.
                   <lb/>Vandra i Jesu spår – älska sina
                   <lb/>medmänniskor. "Om man icke älskar sin

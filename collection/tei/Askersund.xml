@@ -1162,13 +1162,13 @@
                <p>
                   <lb/>Snus, ny sänghalm 
                   <lb/>och jolpäron! 
-                  <lb/>Gumman och tåget
+                  <lb/>Gumman och tåget<supplied>.</supplied>
                </p>
                
                <p>
                   <lb/>Exempel på min lön:
                   <lb/>Böcker, resor, höra och 
-                  <lb/>bevista möten
+                  <lb/>bevista möten<supplied>.</supplied>
                   <lb/>Inte <emph rend="double">snus</emph>, <emph rend="double">ny sänghalm</emph>
                   <lb/>och <emph rend="double">jolpäron</emph>! Snoilsky.
                </p>
@@ -1280,7 +1280,7 @@
                <pb n="40v" facs="sida40" type="notes"/>
                <p>
                   <lb/>Hur arbetsgivarna
-                  <lb/>ställa sig.
+                  <lb/><choice><orig>ställa</orig><reg>ställer</reg></choice> sig.
                </p>
                
                <p>
@@ -1493,7 +1493,7 @@
                <pb n="51r" facs="sida51" type="text"/>
                <p>
                   <lb/>Till kvinnorna: Rätten till arbete,
-                  <lb rend="indent"/>På anständiga villkor,
+                  <lb rend="indent"/><choice><sic>På</sic><corr>på</corr></choice> anständiga villkor<choice><sic>,</sic><corr>.</corr></choice>
                   <lb rend="indent"/><choice><abbr>Org.</abbr><expan>Organisering.</expan></choice> Skyddslagstiftning.
                   <lb rend="indent"/>Politiska rättigheter.
                   <lb rend="indent"/>Rösträtt, för sin egen skull,
@@ -1543,7 +1543,7 @@
                
                <p>
                   <lb/>Gör det inte så svårt genom er 
-                  <lb/><choice><orig>liknöjhet</orig><reg>liknöjdhet</reg></choice> för de få som vilja <unclear>något</unclear>
+                  <lb/><choice><orig>liknöjhet</orig><reg>liknöjdhet</reg></choice> för de få som <choice><orig>vilja</orig><reg>vill</reg></choice> <unclear>något</unclear><supplied>.</supplied>
                </p>
                
                <p>
