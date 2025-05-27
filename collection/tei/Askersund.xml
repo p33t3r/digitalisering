@@ -1025,7 +1025,7 @@
                </p>
                
                <p>
-                  <lb/>(<choice><orig>Parantes</orig><reg>Parentes</reg></choice>: Spring inte nu för att jag
+                  <lb/><sic>(</sic><choice><orig>Parantes</orig><reg>Parentes</reg></choice>: Spring inte nu för att jag
                   <lb rend="indent"/>kom att nämna ordet soci<pc>-</pc>
                   <lb break="no" rend="indent"/>alism. Turkiske sultanen
                   <lb rend="indent"/>och ingenjören.
@@ -1464,7 +1464,7 @@
                
                <p>
                   <lb/>Tull på <del><unclear/></del> råg, fläsk, <emph rend="triple">kaffetull!</emph>
-                  <lb/>Åkarpslagar 
+                  <lb/>Åkarpslagar<supplied>.</supplied>
                   <lb/>Avtalslagar. <del>och</del><note type="text-50">
                      Tillägg i vänster marginal:
                      <lb/>Vår 
@@ -1494,7 +1494,7 @@
                <p>
                   <lb/>Till kvinnorna: Rätten till arbete,
                   <lb rend="indent"/>På anständiga villkor,
-                  <lb rend="indent"/>Org. skyddslagstiftning.
+                  <lb rend="indent"/><choice><abbr>Org.</abbr><expan>Organisering.</expan></choice> Skyddslagstiftning.
                   <lb rend="indent"/>Politiska rättigheter.
                   <lb rend="indent"/>Rösträtt, för sin egen skull,
                   <note type="text-51">Tillägg i vänster marginal:
@@ -1513,10 +1513,10 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Den mindre brottsligheten
+                  <lb rend="indent"/>Den mindre brottsligheten<supplied>.</supplied>
                   <lb/>Kristendomen och socialismen.
                   <lb/>Socialismen kommer efter hand.
-                  <lb/>Vattenledningen
+                  <lb/>Vattenledningen<supplied>.</supplied>
                </p>
             </div>
             

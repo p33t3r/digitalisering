@@ -76,7 +76,7 @@
 
                 <footer>
                     <div class="row" id="footer">
-                        <div class="col-sm copyright">
+                        <div class="copyright">
                             <div class="copyright_logos">
                                 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                                     <img src="../assets/img/logos/cc.svg" class="copyright_logo"
@@ -85,7 +85,10 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div class="copyright_text"> 2025 <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>. </div>
+                            <div class="copyright_text"> 2025 <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>.</div>
+                            <a href="http://www.tei-c.org/">
+                                <img src="http://www.tei-c.org/About/Badges/powered-by-TEI.gif" alt="Powered by TEI"/>
+                            </a>
                         </div>
                     </div>
                 </footer>
