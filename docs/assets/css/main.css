@@ -95,15 +95,19 @@ h1 {
     opacity: .5;
     font-size: .8rem;
 }
-
 .fulltext .marginnote:hover {
     opacity: 1;
 }
-
 .fulltext .thumbnail {
     width: 100px;
 }
+.fulltext .notes p {
+    padding-bottom: 1.1rem;
+}
 
+.intro {
+    padding-bottom: 1rem;
+}
 .intro img {
     margin-bottom: 1rem;
 }

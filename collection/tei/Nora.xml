@@ -583,7 +583,7 @@
       <body>
          <div type="manuscript" n="1">
             <div type="page" n="01r" facs="sida01">
-               <pb n="01r" facs="sida01"/>
+               <pb n="01r" facs="sida01" type="text"/>
                <p>
                   <lb rend="indent"/>Nora, 1 <choice><orig>Maj</orig><reg>maj</reg></choice> 1910.
                </p>
@@ -607,7 +607,7 @@
             </div>
             
             <div type="page" n="02v" facs="sida02">
-               <pb n="02v" facs="sida02"/>
+               <pb n="02v" facs="sida02" type="notes"/>
                <p>
                   <lb/><unclear>Även</unclear> i Nora
                   <lb/><choice><abbr>dem.</abbr><expan>demonstreras</expan></choice> <choice><abbr>tillr.</abbr><expan>tillräckligt</expan></choice>
@@ -625,7 +625,7 @@
             </div>
             
             <div type="page" n="03r" facs="sida03">
-               <pb n="03r" facs="sida03"/>
+               <pb n="03r" facs="sida03" type="text"/>
                <p>
                   <lb/>Hur många gånger det demonstrera<unclear>ts</unclear>
                   <lb/>i <emph rend="double">Nora</emph>,
@@ -647,7 +647,7 @@
             </div>
             
             <div type="page" n="04v" facs="sida04">
-               <pb n="04r" facs="sida04"/>
+               <pb n="04r" facs="sida04" type="notes"/>
                <p>
                   <lb/><choice><abbr>Arb.</abbr><expan>Arbetet</expan></choice> är källan
                   <lb/>till all rikedom
@@ -656,7 +656,7 @@
             </div>
             
             <div type="page" n="05r" facs="sida05">
-              <pb n="05r" facs="sida05"/>
+              <pb n="05r" facs="sida05" type="text"/>
               <p part="F"> <!-- the final part of a paragraph that continues from the previous page -->
                   <lb/>det stora industriella produktionssättet med
                   <lb/>vinst- och lönesystem under "fri tävlan", som
@@ -679,7 +679,7 @@
             </div>
             
             <div type="page" n="06v" facs="sida06">
-               <pb n="06v" facs="sida06"/>
+               <pb n="06v" facs="sida06" type="notes"/>
                <p>
                   <lb/><choice><orig>Pänningmannen</orig><reg>Penningmannen</reg></choice> "ger"
                   <lb/>arbete – <choice><orig>framställes</orig><reg>framställs</reg></choice> som
@@ -698,7 +698,7 @@
             </div>
             
             <div type="page" n="07r" facs="sida07">
-               <pb n="07r" facs="sida07"/>
+               <pb n="07r" facs="sida07" type="text"/>
                <p part="F">
                   <lb/>en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
@@ -722,12 +722,12 @@
             </div>
             
             <div type="page" n="08v" facs="sida08">
-               <pb n="08v" facs="sida08" rend="empty"/>
+               <pb n="08v" facs="sida08" type="empty"/>
                <p>[tom]</p>
             </div>
 
             <div type="page" n="09r" facs="sida09">
-               <pb n="09r" facs="sida09"/>
+               <pb n="09r" facs="sida09" type="text"/>
                <p part="F">
                   <lb/>honom, när han så där ”gav” folk <choice><orig>arb.</orig><reg>arbete</reg></choice>!
                </p>
@@ -756,7 +756,7 @@
             </div>
 
             <div type="page" n="10v" facs="sida10">
-               <pb n="10v" facs="sida10"/>
+               <pb n="10v" facs="sida10" type="notes"/>
                <p>
                   <lb/>Möjligheten att
                   <lb/>få <choice><orig>arb.</orig><reg>arbete</reg></choice> skall inte
@@ -779,7 +779,7 @@
             </div>
             
             <div type="page" n="11r" facs="sida11">
-               <pb n="11r" facs="sida11"/>
+               <pb n="11r" facs="sida11" type="text"/>
                <p part="F">
                   <lb/>slumpen, <del>åt barmhärtigheten eller</del>
                   <lb/>eller barmhärtigheten eller sniken<pc>-</pc>
@@ -801,7 +801,7 @@
             </div>
 
             <div type="page" n="12v" facs="sida12">
-               <pb n="12v" facs="sida12"/>
+               <pb n="12v" facs="sida12" type="notes"/>
                <p>
                   <lb/>Det stora allt
                   <lb/>annat omfattande
@@ -816,7 +816,7 @@
             </div>
             
             <div type="page" n="13r" facs="sida13">
-               <pb n="13r" facs="sida13"/>
+               <pb n="13r" facs="sida13" type="text"/>
                <p part="M"> <!-- the middle part of a paragraph that has parts before and after it -->
                   <lb/>varav den är gjord, och dessa
                   <lb/>råämnen i sin tur tillbaka till
@@ -838,7 +838,7 @@
             </div>
 
             <div type="page" n="14v" facs="sida14">
-               <pb n="14v" facs="sida14"/>
+               <pb n="14v" facs="sida14" type="notes"/>
                <p>
                   <lb/>Robinson
                   <lb/>Kruse!
@@ -846,7 +846,7 @@
             </div>
             
             <div type="page" n="15r" facs="sida15">
-               <pb n="15r" facs="sida15"/>
+               <pb n="15r" facs="sida15" type="text"/>
                <p part="F">
                   <lb/><emph>praktiska</emph> tillämpningen av
                   <lb/>denna idé – <emph rend="double">det</emph>
@@ -867,7 +867,7 @@
             </div>
 
             <div type="page" n="16v" facs="sida16">
-               <pb n="16v" facs="sida16"/>
+               <pb n="16v" facs="sida16" type="notes"/>
                <p>
                   <lb/>Fredag – Vad är
                   <lb/>en bas utan en
@@ -877,7 +877,7 @@
             </div>
             
             <div type="page" n="17r" facs="sida17">
-               <pb n="17r" facs="sida17"/>
+               <pb n="17r" facs="sida17" type="text"/>
                <p part="F">
                   <lb break="no"/>ständig herre, och han hade både
                   <lb/><choice><orig>pängar</orig><reg>pengar</reg></choice> och vapen. Men hur fick
@@ -895,7 +895,7 @@
             </div>
 
             <div type="page" n="18v" facs="sida18">
-               <pb n="18v" facs="sida18"/>
+               <pb n="18v" facs="sida18" type="notes"/>
                <p part="I">
                   <lb/>Tills vi nå dithän,
                   <lb/>att den ena <choice><abbr>männ.</abbr><expan>människan</expan></choice>
@@ -917,7 +917,7 @@
             </div>
             
             <div type="page" n="19r" facs="sida19">
-               <pb n="19r" facs="sida19"/>
+               <pb n="19r" facs="sida19" type="text"/>
                <p part="I">
                   <lb/>Tills vi komma därhän, att
                   <lb/>den ena människan inte behö<pc>-</pc>
@@ -935,7 +935,7 @@
             </div>
 
             <div type="page" n="20v" facs="sida20">
-               <pb n="20v" facs="sida20"/>
+               <pb n="20v" facs="sida20" type="notes"/>
                <p part="F">
                   <lb/>Högre lön – kortare
                   <lb/>dag!<note type="text-20">Anteckning i blyerts i vänster marginal:
@@ -960,7 +960,7 @@
             </div>
             
             <div type="page" n="21r" facs="sida21">
-               <pb n="21r" facs="sida21"/>
+               <pb n="21r" facs="sida21" type="text"/>
                <p part="F">
                   <lb break="no"/>liga villkor som möjligt, <lb/>hålla <choice><orig>hop</orig><reg>ihop</reg></choice> om kravet:
                   <lb rend="indent"/><emph rend="double">Högre lön — kortare dag.</emph>
@@ -985,12 +985,12 @@
             </div>
 
             <div type="page" n="22v" facs="sida22">
-               <pb n="22v" facs="sida22" rend="empty"/>
+               <pb n="22v" facs="sida22" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="23r" facs="sida23">
-               <pb n="23r" facs="sida23"/>
+               <pb n="23r" facs="sida23" type="text"/>
                <p part="M">
                   <lb break="no"/>vandlas till ett lastdjur, en ma<pc>-</pc>
                   <lb break="no"/>skin, och det är det <emph rend="double">att det hos</emph>
@@ -1008,12 +1008,12 @@
             </div>
 
             <div type="page" n="24v" facs="sida24">
-               <pb n="24v" facs="sida24" rend="empty"/>
+               <pb n="24v" facs="sida24" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="25r" facs="sida25">
-               <pb n="25r" facs="sida25"/>
+               <pb n="25r" facs="sida25" type="text"/>
                <p part="F">
                   <lb break="no"/>, så <choice><orig>särskillt</orig><reg>särskilt</reg></choice> kort för <choice><orig>Er</orig><reg>er</reg></choice>,
                   <lb rend="indent"/><emph rend="double">industriarbetare</emph>, <emph>och så</emph>
@@ -1035,12 +1035,12 @@
             </div>
 
             <div type="page" n="26v" facs="sida26">
-               <pb n="26v" facs="sida26" rend="empty"/>
+               <pb n="26v" facs="sida26" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="27r" facs="sida27">
-               <pb n="27r" facs="sida27"/>
+               <pb n="27r" facs="sida27" type="text"/>
                <p part="M">
                   <lb break="no"/>stiga upp ur sina gravar och se
                   <lb/>våra materiella och andliga fram<pc>-</pc>
@@ -1060,7 +1060,7 @@
             </div>
 
             <div type="page" n="28v" facs="sida28">
-               <pb n="28v" facs="sida28"/>
+               <pb n="28v" facs="sida28" type="notes"/>
                <p>
                   <lb/><handShift medium="pencil"/><emph rend="double">Snus</emph>, <emph
                      rend="double">ny</emph>
@@ -1072,7 +1072,7 @@
             </div>
             
             <div type="page" n="29r" facs="sida29">
-               <pb n="29r" facs="sida29"/>
+               <pb n="29r" facs="sida29" type="text"/>
                <p part="F">
                   <lb/>nog aldrig!<sic>)</sic> En intelligent männi<pc>-</pc>
                   <lb break="no"/>ska säger alltså: Jag vill inte bara
@@ -1093,7 +1093,7 @@
             </div>
 
             <div type="page" n="30v" facs="sida30">
-               <pb n="30v" facs="sida30"/>
+               <pb n="30v" facs="sida30" type="notes"/>
                <p>
                   <lb/><handShift medium="pencil"/>Snus,
                   <lb/>ny sänghalm
@@ -1102,7 +1102,7 @@
             </div>
             
             <div type="page" n="35r" facs="sida35">
-               <pb n="35r" facs="sida35"/>
+               <pb n="35r" facs="sida35" type="text"/>
                <p part="M">
                   <lb/>de <unclear>över</unclear>modiga och brutala arbets<pc>-</pc>
                   <lb break="no"/>herrar, som <choice><orig>sitta</orig><reg>sitter</reg></choice> i <choice><abbr>Arbetsgiv.för</abbr><expan>arbetsgivarföreningen</expan></choice>
@@ -1119,7 +1119,7 @@
             </div>
 
             <div type="page" n="36v" facs="sida36">
-               <pb n="36v" facs="sida36"/>
+               <pb n="36v" facs="sida36" type="notes"/>
                <p>
                   <lb/>Exempel på min 
                   <lb/>verkliga lön!<note type="text-36">Anteckning i blyerts i vänster marginal:
@@ -1142,7 +1142,7 @@
             </div>
             
             <div type="page" n="37r" facs="sida37">
-               <pb n="37r" facs="sida37"/>
+               <pb n="37r" facs="sida37" type="text"/>
                <p part="M">
                   <lb/>lön för mitt slit, den kan vara av
                   <lb/>många slag efter vars och ens
@@ -1160,7 +1160,7 @@
             </div>
 
             <div type="page" n="38v" facs="sida38">
-               <pb n="38v" facs="sida38"/>
+               <pb n="38v" facs="sida38" type="notes"/>
                <p>
                   <lb/>Alltså en tripp till 
                   <lb/><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice>, <choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice>,
@@ -1178,7 +1178,7 @@
             </div>
             
             <div type="page" n="39r" facs="sida39">
-               <pb n="39r" facs="sida39"/>
+               <pb n="39r" facs="sida39" type="text"/>
                <p part="F">
                   <lb/><emph>verkliga lön</emph>, <emph>hans </emph><emph rend="double">andel</emph><emph> i kulturen</emph>.
                </p>
@@ -1200,7 +1200,7 @@
             </div>
 
             <div type="page" n="40v" facs="sida40">
-               <pb n="40v" facs="sida40"/>
+               <pb n="40v" facs="sida40" type="notes"/>
                <p>
                   <lb/>Nå, vart reser ni 
                   <lb/>nu då? Jo till 
@@ -1213,7 +1213,7 @@
             </div>
             
             <div type="page" n="41r" facs="sida41">
-               <pb n="41r" facs="sida41"/>
+               <pb n="41r" facs="sida41" type="text"/>
                <p part="F">
                   <lb/>Paris, London. Nå, reser ni nu dit?
                </p>
@@ -1236,7 +1236,7 @@
             </div>
 
             <div type="page" n="42v" facs="sida42">
-               <pb n="42v" facs="sida42"/>
+               <pb n="42v" facs="sida42" type="notes"/>
                <p>
                   <lb/>Hjalmar
                   <lb/>Branting
@@ -1254,7 +1254,7 @@
             </div>
             
             <div type="page" n="43r" facs="sida43">
-               <pb n="43r" facs="sida43"/>
+               <pb n="43r" facs="sida43" type="text"/>
                <p part="M">
                   <lb/>Branting tala, eller Ellen Key, eller vår
                   <lb/>geografiske upptäckare Hedin eller
@@ -1273,7 +1273,7 @@
             </div>
 
             <div type="page" n="44v" facs="sida44">
-               <pb n="44v" facs="sida44"/>
+               <pb n="44v" facs="sida44" type="notes"/>
                <p>
                   <lb/>Jämför med överklas<pc>-</pc>
                   <lb break="no"/>sen!
@@ -1288,7 +1288,7 @@
             </div>
             
             <div type="page" n="45r" facs="sida45">
-               <pb n="45r" facs="sida45"/>
+               <pb n="45r" facs="sida45" type="text"/>
                <p part="F">
                   <lb/>i att få göra just vad jag vill, som inte
                   <lb/>skadar någon annan!
@@ -1313,12 +1313,12 @@
             </div>
 
             <div type="page" n="46v" facs="sida46">
-               <pb n="46v" facs="sida46" rend="empty"/>
+               <pb n="46v" facs="sida46" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="47r" facs="sida47">
-               <pb n="47r" facs="sida47"/>
+               <pb n="47r" facs="sida47" type="text"/>
                <p>
                   <lg type="verse">
                      <lb/><l><choice><abbr>Vetensk.</abbr><expan>Vetenskapen</expan></choice>, konsten, rikedomen</l>
@@ -1344,12 +1344,12 @@
             </div>
 
             <div type="page" n="48v" facs="sida48">
-               <pb n="48v" facs="sida48" rend="empty"/>
+               <pb n="48v" facs="sida48" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="49r" facs="sida49">
-               <pb n="49r" facs="sida49"/>
+               <pb n="49r" facs="sida49" type="text"/>
                <p part="F">
                   <lb/>dagen och ändå ha det någorlunda
                   <lb/>behagligt, <lb rend="indent"/>om de plötsligt skulle
@@ -1365,12 +1365,12 @@
             </div>
             
             <div type="page" n="50v" facs="sida50">
-               <pb n="50v" facs="sida50" rend="empty"/>
+               <pb n="50v" facs="sida50" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="51r" facs="sida51">
-               <pb n="51r" facs="sida51"/>
+               <pb n="51r" facs="sida51" type="notes"/>
                <p><handShift medium="pencil"/>
                   <lb/>1) Först <choice><orig>rå</orig><reg>rår</reg></choice> de om verktygen
                   <lb/>och därmed <choice><orig>edra</orig><reg>era</reg></choice> existensmöjligheter<supplied>.</supplied>
@@ -1392,12 +1392,12 @@
             </div>
             
             <div type="page" n="52v" facs="sida52">
-               <pb n="52v" facs="sida52" rend="empty"/>
+               <pb n="52v" facs="sida52" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="53r" facs="sida53">
-               <pb n="53r" facs="sida53"/>
+               <pb n="53r" facs="sida53" type="notes"/>
                <p part="M"><handShift medium="pencil"/>
                   <lb break="no"/>mande varornas pris. Därför är
                   <lb/><emph rend="double">sockret</emph> så dyrt, <emph rend="double"><choice><orig>margarinen</orig><reg>margarinet</reg></choice></emph>, 
@@ -1417,12 +1417,12 @@
             </div>
             
             <div type="page" n="54v" facs="sida54">
-               <pb n="54v" facs="sida54" rend="empty"/>
+               <pb n="54v" facs="sida54" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="55r" facs="sida55">
-               <pb n="55r" facs="sida55"/>
+               <pb n="55r" facs="sida55" type="notes"/>
                <p part="F"><handShift medium="pencil"/>
                   <lb/>Därför <choice><orig>bekämpa</orig><reg>bekämpar</reg></choice> de så förbittrat alla
                   <lb/><choice><orig>edra</orig><reg>era</reg></choice> sammanslutningsförsök.
@@ -1443,12 +1443,12 @@
             </div>
             
             <div type="page" n="56v" facs="sida56">
-               <pb n="56v" facs="sida56" rend="empty"/>
+               <pb n="56v" facs="sida56" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="57r" facs="sida57">
-               <pb n="57r" facs="sida57"/>
+               <pb n="57r" facs="sida57" type="notes"/>
                <p part="F"><handShift medium="pencil"/>
                   <lb/>politiska uttryck. <emph rend="double">Försvaret!</emph>
                </p>
@@ -1468,12 +1468,12 @@
             </div>
             
             <div type="page" n="58v" facs="sida58">
-               <pb n="58v" facs="sida58" rend="empty"/>
+               <pb n="58v" facs="sida58" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="59r" facs="sida59">
-               <pb n="59r" facs="sida59"/>
+               <pb n="59r" facs="sida59" type="notes"/>
                <p><handShift medium="pencil"/>
                   <lb/>Till kvinnorna
                </p>
@@ -1501,7 +1501,7 @@
                </div>
             
             <div type="page" n="60v" facs="sida60">
-               <pb n="60v" facs="sida60"/>
+               <pb n="60v" facs="sida60" type="notes"/>
                <p><handShift medium="pencil"/>
                   <lb rend="indent"/>Hälsning från
                   <lb rend="indent"/>Malmö!
@@ -1518,7 +1518,7 @@
             </div>
             
             <div type="page" n="61r" facs="sida61">
-               <pb n="61r" facs="sida61"/>
+               <pb n="61r" facs="sida61" type="notes"/>
                <p><handShift medium="pencil"/>
                   <lb/><unclear>Händer sotiga</unclear>
                </p>
@@ -1546,17 +1546,17 @@
             </div>
             
             <div type="page" n="62v" facs="sida62">
-               <pb n="62v" facs="sida62" rend="empty"/>
+               <pb n="62v" facs="sida62" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="63r" facs="sida63">
-               <pb n="63r" facs="sida63" rend="empty"/>
+               <pb n="63r" facs="sida63" type="empty"/>
                <p>[tom]</p>
             </div>
             
             <div type="page" n="64v" facs="sida64">
-               <pb n="64v" facs="sida64" rend="empty"/>
+               <pb n="64v" facs="sida64" type="empty"/>
                <p>[tom]</p>
             </div>
          </div>

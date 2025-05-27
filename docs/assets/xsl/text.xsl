@@ -22,7 +22,7 @@
                 <header>
                     <div id="header">
                         <a href="https://aarkiv.se"><img src="../assets/img/logos/AArkiv%20Logga.png.jpg" title="Arbetarrörelsens arkiv i Skåne" alt="Logga för Arbetarrörelsens arkiv i Skåne" class="logga"/></a>
-                        <img src="../assets/img/Elma_fyrkant.png" title="Elma Danielsson 1911" alt="Elma Danielsson 1911" class="elma"/>
+                        <a href="../index.html"><img src="../assets/img/Elma_fyrkant.png" title="Elma Danielsson 1911" alt="Elma Danielsson 1911" class="elma"/></a>
                         <h1><xsl:apply-templates select="//tei:titleStmt/tei:title"/></h1>
                     </div>
                     <div id="sitenav">
@@ -37,12 +37,22 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <div class="fulltext">
-                            <xsl:for-each select="//tei:div[ends-with(@n, 'r')]">
-                            <!-- <xsl:for-each select="//tei:div[@type='manuscript']"> -->
-                                <xsl:if test="tei:pb[not(@rend='empty')]"> <!-- exclude empty pages -->
+                            <div class="row">
+                                <h2>Talet</h2>
+                            </div>
+                            <div class="text">
+                                <xsl:for-each select="//tei:pb[@type='text']/parent::tei:div">
                                     <xsl:apply-templates />
-                                </xsl:if>
-                            </xsl:for-each>
+                                </xsl:for-each>
+                            </div>
+                            <div class="row">
+                                <h2>Anteckningar</h2>
+                            </div>
+                            <div class="notes">
+                                <xsl:for-each select="//tei:pb[@type='notes']/parent::tei:div">
+                                    <xsl:apply-templates />
+                                </xsl:for-each>
+                            </div>
                         </div>
 
                         <div class="row">
@@ -52,6 +62,8 @@
                                     <br/>
                                     <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                 </p>
+                            </div>
+                            <div class="col-sm">
                                 <p>
                                     <b>Transkriberat av:</b>
                                     <br/>
@@ -88,7 +100,7 @@
     <xsl:template match="tei:teiHeader"/>
     
     <!-- create an image as a marginnote for fulltext view -->
-    <xsl:template match="tei:pb[not(@rend='empty')]">
+    <xsl:template match="tei:pb[not(@type='empty')]">
         <xsl:variable name="facs" select="@facs"/>
         <span class="marginnote">
             <a>
