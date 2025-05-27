@@ -50,6 +50,18 @@
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
                                     <xsl:if test="//tei:surface[@xml:id = $facspreceding]/tei:figure/tei:graphic[1]/@url">
+                                        <a>
+                                            <!-- tif format https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/AA001964_F_V_Elma_Danielsson_A1_Tal_Nora_1910/AA001964_F_V_Elma_Danielsson_A1_Tal_Nora_1910_sida01.tif -->
+                                            <xsl:attribute name="href">
+                                                <xsl:text>https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/</xsl:text>
+                                                <xsl:value-of select="//tei:facsimile/@xml:id"/>
+                                                <xsl:text>_</xsl:text>
+                                                <xsl:value-of select="$facspreceding"/>
+                                                <xsl:text>.tif</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="target">
+                                                <xsl:text>_blank</xsl:text>
+                                            </xsl:attribute>
                                         <img class="img-full">
                                             <xsl:attribute name="id">
                                                 <xsl:value-of select="$facspreceding"/>
@@ -64,6 +76,7 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </a>
                                         <!-- add page numbers -->
                                         <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facspreceding]/tei:figure/tei:label"/>]</p>
                                     </xsl:if>
@@ -76,10 +89,8 @@
                                         <xsl:attribute name="href">
                                             <xsl:text>https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/</xsl:text>
                                             <xsl:value-of select="//tei:facsimile/@xml:id"/>
-                                            <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="//tei:facsimile/@xml:id"/>
                                             <xsl:text>_</xsl:text>
-                                            <xsl:value-of select="@facs"/>
+                                            <xsl:value-of select="$facs"/>
                                             <xsl:text>.tif</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -87,7 +98,6 @@
                                         </xsl:attribute>
                                     <img class="img-full">
                                         <xsl:attribute name="id">
-                                            <!-- <xsl:value-of select="replace(//tei:surface[@xml:id=$facs]/tei:figure/tei:label, ' ', '')"/> -->
                                             <xsl:value-of select="$facs"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="src">
@@ -121,6 +131,17 @@
                             <xsl:variable name="facs" select="//tei:div[last()]/@facs"/>
                             <div class="row">
                                 <div class="col-sm">
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:text>https://archive.org/download/aa-001964-f-v-elma-danielsson-a-1/</xsl:text>
+                                            <xsl:value-of select="//tei:facsimile/@xml:id"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="$facs"/>
+                                            <xsl:text>.tif</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">
+                                            <xsl:text>_blank</xsl:text>
+                                        </xsl:attribute>
                                     <img class="img-full">
                                         <xsl:attribute name="id">
                                             <xsl:value-of select="$facs"/>
@@ -135,6 +156,7 @@
                                             <xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
+                                    </a>
                                     <!-- add page numbers -->
                                     <p class="pagenumber">[<xsl:value-of select="//tei:surface[@xml:id=$facs]/tei:figure/tei:label"/>]</p>
                                 </div>
