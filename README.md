@@ -1,6 +1,6 @@
-# Elma Danielssons tal
+# "Demonstrera alla dagar"
 
-*Elma Danielssons tal* är ett projekt som har genomförts inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2025 vid Högskolan i Borås, som en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och hur digitalisering kan användas för göra materialet tillgängligt på ett hållbart och meningsfullt sätt.
+*Elma Danielssons manuskript* är ett projekt som har genomförts inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2025 vid Högskolan i Borås, som en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och hur digitalisering kan användas för göra materialet tillgängligt på ett hållbart och meningsfullt sätt.
 
 Projektet har utgått från material hos Arbetarrörelsens arkiv i Skåne, i samlingen *Axel och Elma Danielssons arkiv*, som bland annat innehåller manuskripten till flera tal av Elma Danielsson. Projektets urval består av två tal skrivna av Elma Danielsson, [1:a majtal i Nora 1910](https://p33t3r.github.io/digitalisering/nora/diplomatic.html) och [Tal i Askersund från den 8 maj 1910](https://github.com/narminino/Digitalisering-for-bevarande-och-tillganglighet/tree/main).
 
