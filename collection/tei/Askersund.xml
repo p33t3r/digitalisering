@@ -522,7 +522,7 @@
             <div type="page" n="01r" facs="sida01">
                <pb n="01r" facs="sida01" type="text"/>
                <p>
-                  <lb rend="indent"/><choice><abbr>A-sund</abbr><expan>Askersund</expan></choice> 8 maj<sic>.</sic> <choice><abbr>10</abbr><expan>1910</expan></choice>
+                  <lb rend="indent"/><name type="place"><choice><abbr>A-sund</abbr><expan>Askersund</expan></choice></name> 8 maj<sic>.</sic> <choice><abbr>10</abbr><expan>1910</expan></choice>
                </p>
                
                <p>
@@ -534,11 +534,11 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Efter det svåraste år, som <choice><abbr>Sv.</abbr><expan>Sveriges</expan></choice>  <choice><abbr>klassm.</abbr><expan>klassmedvetna</expan></choice>
+                  <lb rend="indent"/>Efter det svåraste år, som <name type="place"><choice><abbr>Sv.</abbr><expan>Sveriges</expan></choice></name> <choice><abbr>klassm.</abbr><expan>klassmedvetna</expan></choice>
                   <lb/><choice><abbr>arb.</abbr><expan>arbetare</expan></choice> utstått – lockout- och storstrejksåret – <del>som</del>
                   <lb/><choice><orig>ha</orig><reg>har</reg></choice> de åter haft sin <choice><abbr>intern.</abbr><expan>internationella</expan></choice> mönstringsdag
                   <lb/>för att <del>framhålla</del> kräva sina förhållna <choice><abbr>mänskl.</abbr><expan>mänskliga</expan></choice>
-                  <lb/><choice><abbr>rättigh.</abbr><expan>rättigheter</expan></choice> 1 maj. Här i Askersund blev man inte
+                  <lb/><choice><abbr>rättigh.</abbr><expan>rättigheter</expan></choice> 1 maj. Här i <name type="place">Askersund</name> blev man inte
                   <lb/>färdig i tid, utan vi <choice><orig>komma</orig><reg>kommer</reg></choice> på sladden,
                   <lb/>men – bättre sent än aldrig!
                </p>
@@ -547,7 +547,7 @@
             <div type="page" n="02v" facs="sida02">
                <pb n="02v" facs="sida02" type="notes"/>
                <p>
-                  <lb/>Här i Askersund finns nu
+                  <lb/>Här i <name type="place">Askersund</name> finns nu
                   <lb/>emellertid inte någon
                   <lb/>storindustri
                   <lb/>och därför inte <choice><orig>häller</orig><reg>heller</reg></choice>
@@ -565,8 +565,8 @@
                   <lb/>Majdemonstrationens syfte:
                   <lb/>att demonstrera för lagstadgad
                   <lb/><emph rend="double">8-timmars normalarbetsdag.</emph>
-                  <lb/>Nu hör jag <del>ju</del> <choice><abbr>emell.</abbr><expan>emellertid</expan></choice> att inte här i Asker<pc>-</pc>
-                  <lb break="no"/>sund finns någon nämnvärd storin<pc>=</pc>
+                  <lb/>Nu hör jag <del>ju</del> <choice><abbr>emell.</abbr><expan>emellertid</expan></choice> att inte här i <name type="place">Asker<pc>-</pc>
+                  <lb break="no"/>sund</name> finns någon nämnvärd storin<pc>=</pc>
                   <lb break="no"/>dustri, och <del>därav följer</del> alltså inte
                   <lb/><choice><orig>häller</orig><reg>heller</reg></choice> därför någon sådan där skarp
                   <lb/>uppdelning av medborgarna i
@@ -594,12 +594,12 @@
                
                <p>
                   <lb/>Det fanns en tid, etc
-                  <lb/>då var familj
+                  <lb/>då var familj <supplied>…</supplied>
                </p>
                
                <p>
                   <lb/>Arbetet mödosamt – produkten 
-                  <lb/><choice><abbr>otill<sic>s</sic>fr.</abbr><expan>otillfredsställande</expan></choice>
+                  <lb/><choice><abbr>otill<sic>s</sic>fr.</abbr><expan>otillfredsställande</expan></choice><supplied>.</supplied>
                </p>
             </div>
             
@@ -640,7 +640,7 @@
                </p>
                
                <p>
-                  <lb rend="indent"/><choice><abbr>Uppf.</abbr><expan>Uppfinningar</expan></choice>
+                  <lb rend="indent"/><choice><abbr>Uppf.</abbr><expan>Uppfinningar</expan></choice><supplied>.</supplied>
                </p>
                
                <p>
@@ -677,7 +677,7 @@
                <p>
                   <lb/>När han skall fylla alla
                   <lb/>människors <choice><abbr>bestämm.</abbr><expan>bestämmelse</expan></choice><supplied>,</supplied> arbeta,
-                  <lb/>ser han sig avstängd <choice><abbr>fr.</abbr><expan>från</expan></choice> arbetsplatsen,
+                  <lb/>ser han sig avstängd <choice><abbr>fr.</abbr><expan>från</expan></choice> arbetsplatsen<choice><sic>,</sic><corr>.</corr></choice>
                </p>
                
                <p>
@@ -721,7 +721,7 @@
                <pb n="10v" facs="sida10" type="notes"/>
                <p>
                   <lb/>Arbetet en vittomfattande 
-                  <lb/>process
+                  <lb/>process<supplied>.</supplied>
                </p>
                
                <p>
@@ -772,7 +772,7 @@
                
                <p part="I">
                   <lb/><emph>"Spadarna <choice><orig>befinna</orig><reg>befinner</reg></choice> sig i andras</emph>
-                  <lb/><emph>händer."</emph> Uttryck av skalden Byron!<note type="gloss-13"><ref target="https://historyofinformation.com/detail.php?id=4654">Lord Byrons jungfrutal i överhuset.</ref> Se även <ref target="https://arbetet.se/2013/01/16/200-ar-sen-ludditerna-avrattades/">"200 år sen ludditerna avrättades"</ref> av Lars Henriksson i <emph>Arbetet</emph>.</note>
+                  <lb/><emph>händer."</emph> Uttryck av skalden <name type="person">Byron</name>!<note type="gloss-13"><ref target="https://historyofinformation.com/detail.php?id=4654">Lord Byrons jungfrutal i överhuset.</ref> Se även <ref target="https://arbetet.se/2013/01/16/200-ar-sen-ludditerna-avrattades/">"200 år sen ludditerna avrättades"</ref> av Lars Henriksson i <emph>Arbetet</emph>.</note>
                   <lb/>Om en sådan där arbetslös person
                   <lb/>begär anständig lön, finns det så
                   <lb/>många andra, villiga att arbeta för
@@ -829,7 +829,7 @@
                
                <p>
                   <lb/>Varav kommer fackföreningens 
-                  <lb/>styrka? Inte i Askersund! 
+                  <lb/>styrka? Inte i <name type="place">Askersund</name>! 
                   <lb/>Men i kulturländerna!
                </p>
             </div>
@@ -847,8 +847,8 @@
                
                <p>
                   <lb/><emph>Vad är det som gör fackförenings<pc>-</pc></emph>
-                  <lb break="no"/><emph>rörelsen </emph><add><unclear>solidariteten</unclear></add><emph> så stark</emph>? Inte här i Asker<pc>=</pc>
-                  <lb break="no"/>sund, där det inte finns någon in<pc>-</pc>
+                  <lb break="no"/><emph>rörelsen </emph><add><unclear>solidariteten</unclear></add><emph> så stark</emph>? Inte här i <name type="place">Asker<pc>=</pc>
+                  <lb break="no"/>sund</name>, där det inte finns någon in<pc>-</pc>
                   <lb break="no"/>dustri<supplied>,</supplied> utan i våra industricentra
                   <lb/>och i de stora <emph>kulturländerna</emph>?
                </p>
@@ -894,7 +894,7 @@
                </p>
                
                <p>
-                  <lb rend="indent"/><emph rend="double">I</emph> och <emph rend="double">på</emph> jorden
+                  <lb rend="indent"/><emph rend="double">I</emph> och <emph rend="double">på</emph> jorden<supplied>.</supplied>
                </p>
                
                <p>
@@ -930,7 +930,7 @@
                <p>
                   <lb/>Kapitalet är resultatet 
                   <lb/>av arbete och skulle 
-                  <lb/>aldrig etc
+                  <lb/>aldrig<supplied>,</supplied> etc<supplied>.</supplied>
                </p>
                
                <p>
@@ -942,7 +942,7 @@
                </p>
                
                <p>
-                  <lb/>Till jorden
+                  <lb/>Till jorden<supplied>.</supplied>
                </p>
             </div>
             
@@ -1008,11 +1008,11 @@
             <div type="page" n="26v" facs="sida26">
                <pb n="26v" facs="sida26" type="notes"/>
                <p>
-                  <lb/>Dynamomaskinen
+                  <lb/>Dynamomaskinen<supplied>.</supplied>
                </p>
                
                <p>
-                  <lb rend="indent"/><emph rend="triple">Robinson!</emph>
+                  <lb rend="indent"/><emph rend="triple"><name type="person">Robinson</name>!</emph>
                   <lb/>Vad är en jorddrott, en kapitalist<supplied>,</supplied>
                   <lb/>en bas – <emph rend="triple">utan en slav!</emph>
                </p>
@@ -1033,10 +1033,10 @@
                </p>
                
                <p>
-                  <lb/>Robinson. Hur beroende man är av
+                  <lb/><name type="person">Robinson</name>. Hur beroende man är av
                   <lb rend="indent"/>det grova <choice><abbr>arb.</abbr><expan>arbetet</expan></choice> <choice><orig>se</orig><reg>ser</reg></choice> vi av vår
                   <lb rend="indent"/>gamle äventyrshjälte.
-                  <lb rend="indent"/>Robinson – Fredag!
+                  <lb rend="indent"/><name type="person">Robinson</name> – <name type="person">Fredag</name>!
                </p>
             </div>
             
@@ -1089,7 +1089,7 @@
                </p>
                
                <p>
-                  <lb/>Inte ett lastdjur
+                  <lb/>Inte ett lastdjur<supplied>.</supplied>
                </p>
             </div>
             
@@ -1125,8 +1125,8 @@
                   <lb/>dagen stryker med!
                   <lb/>Det är det enda liv 
                   <lb/>varom jag vet något! 
-                  <lb/>Rydberg:
-                  <lb/>Drivs du etc
+                  <lb/><name type="person">Rydberg</name>:
+                  <lb/>Drivs du etc<supplied>.</supplied>
                </p>
             </div>
             
@@ -1149,7 +1149,7 @@
                
                <p>
                   <lg type="verse">
-                     <lb/><l>Drivs du inom Grottes stätta,</l>
+                     <lb/><l>Drivs du inom <name type="person">Grottes</name> stätta,</l>
                      <lb/><l>bärs du ut som lik.</l>
                      <lb/><l>Grymhet är det ej i detta<supplied>;</supplied></l>
                      <lb/><l>blott aritmetik!<note type="gloss-33">Ur "Den nya Grottesången" i Viktor Rydberg: <emph>Dikter. Andra samlingen</emph> (1891) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/RydbergV/titlar/Dikter1891/sida/75/faksimil">Litteraturbanken</ref>. Ej ordagrant citerad. Originalet har andra skiljetecken, "Drevs" i stället för "Drivs" och "vräks" i stället för "bärs".</note></l>
@@ -1170,7 +1170,7 @@
                   <lb/>Böcker, resor, höra och 
                   <lb/>bevista möten<supplied>.</supplied>
                   <lb/>Inte <emph rend="double">snus</emph>, <emph rend="double">ny sänghalm</emph>
-                  <lb/>och <emph rend="double">jolpäron</emph>! Snoilsky.
+                  <lb/>och <emph rend="double">jolpäron</emph>! <name type="person">Snoilsky</name>.
                </p>
             </div>
             
@@ -1197,7 +1197,7 @@
                
                <p>
                   <lb rend="indent"/>Kan inte nöja sig med lika
-                  <lb/><choice><orig>litet</orig><reg>lite</reg></choice> som <emph rend="double"><choice><sic>Per</sic><corr>Pär</corr></choice> Agust i Strix</emph><note type="gloss-35">Karaktär i en berättelse av Alfred Engström, se <ref target="https://tidningar.kb.se/t857vtghr6p5p99k/part/2/page/4">Strix (1898):52 i Svenska tidningar hos KB</ref></note>:
+                  <lb/><choice><orig>litet</orig><reg>lite</reg></choice> som <emph rend="double"><name type="person"><choice><sic>Per</sic><corr>Pär</corr></choice> Agust</name> i Strix</emph><note type="gloss-35">Karaktär i en berättelse av Alfred Engström, se <ref target="https://tidningar.kb.se/t857vtghr6p5p99k/part/2/page/4">Strix (1898):52 i Svenska tidningar hos KB</ref></note>:
                </p>
             </div>
             
@@ -1222,7 +1222,7 @@
             <div type="page" n="37r" facs="sida37">
                <pb n="37r" facs="sida37" type="text"/>
                <p>
-                  <lb/>Snoilsky:
+                  <lb/><name type="person">Snoilsky</name>:
                </p>
                
                <p>
@@ -1239,7 +1239,7 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Amerika.
+                  <lb rend="indent"/><name type="place">Amerika</name>.
                   <lb/>Se på överklassen och var inte
                   <lb/>så anspråkslösa!
                </p>
@@ -1360,7 +1360,7 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Isidor Flodström har dock 
+                  <lb rend="indent"/><name type="person">Isidor Flodström</name><note type="gloss-45">Statistiker och författare. <ref target="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14262">Svenskt biografiskt lexikon (art av Karl Lindman)</ref></note> har dock 
                   <lb/><del><unclear/></del> sagt att lockoutens moraliska 
                   <lb/>berättigande är betydligt mindre
                   <lb/>än strejkens!
@@ -1380,7 +1380,7 @@
             <div type="page" n="46v" facs="sida46">
                <pb n="46v" facs="sida46" type="notes"/>
                <p>
-                  <lb/>Trefaldiga organisationer
+                  <lb/>Trefaldiga organisationer<supplied>:</supplied>
                </p>
                
                <p>

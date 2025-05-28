@@ -585,7 +585,7 @@
             <div type="page" n="01r" facs="sida01">
                <pb n="01r" facs="sida01" type="text"/>
                <p>
-                  <lb rend="indent"/>Nora, 1 <choice><orig>Maj</orig><reg>maj</reg></choice> 1910.
+                  <lb rend="indent"/><name type="place">Nora</name>, 1 <choice><orig>Maj</orig><reg>maj</reg></choice> 1910.
                </p>
                <p>
                   <lb rend="indent"/>Demonstranter!
@@ -600,7 +600,7 @@
                
                <p>
                   <lb rend="indent"/>Ett tjog gånger väl <choice><orig>ha</orig><reg>har</reg></choice> vi nu lytt
-                  <lb/>parollen <choice><abbr>fr.</abbr><expan>från</expan></choice> <choice><abbr>int.</abbr><expan>internationella</expan></choice> <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kongressen i Paris
+                  <lb/>parollen <choice><abbr>fr.</abbr><expan>från</expan></choice> <choice><abbr>int.</abbr><expan>internationella</expan></choice> <choice><abbr>sociald.</abbr><expan>socialdemokratiska</expan></choice> kongressen i <name type="place">Paris</name>
                   <lb/>1899<note type="gloss-01">Felskrivning för <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/andra-internationalen">Andra internationalens konstituerande kongress i Paris</ref> <emph>1889?</emph></note> att <emph>demonstrera</emph>
                   <lb rend="indent"/>för lagstadgad 8-timmars arbetsdag.
                </p>
@@ -609,7 +609,7 @@
             <div type="page" n="02v" facs="sida02">
                <pb n="02v" facs="sida02" type="notes"/>
                <p>
-                  <lb/><unclear>Även</unclear> i Nora
+                  <lb/><unclear>Även</unclear> i <name type="place">Nora</name>
                   <lb/><choice><abbr>dem.</abbr><expan>demonstreras</expan></choice> <choice><abbr>tillr.</abbr><expan>tillräckligt</expan></choice>
                   <lb/>många gånger för
                   <lb/>att inte huvudtemat
@@ -628,7 +628,7 @@
                <pb n="03r" facs="sida03" type="text"/>
                <p>
                   <lb/>Hur många gånger det demonstrera<unclear>ts</unclear>
-                  <lb/>i <emph rend="double">Nora</emph>,
+                  <lb/>i <emph rend="double"><name type="place">Nora</name></emph>,
                   <lb/>vet jag inte, men <choice><abbr>förmodl.</abbr><expan>förmodligen</expan></choice> är det tillräckligt
                   <lb/>många gånger för att inte själva
                   <lb rend="indent"/><emph rend="double">huvudtemat skall kunna varieras.</emph>
@@ -702,7 +702,7 @@
                <p part="F">
                   <lb/>en sådan där mänsklighetens välgörare.
                   <lb/>Det är gamle brukspatron <name type="person">Lars Larsson</name>
-                  <lb/>i Hjulsjö<note type="gloss-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan rend="pencil" spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
+                  <lb/>i <name type="place">Hjulsjö</name><note type="gloss-07"><ref target="https://sv.wikipedia.org/wiki/Lars_Larsson_i_Bredsjö">Lars Larsson i Bredsjö</ref></note>. <delSpan rend="pencil" spanTo="#a7"/>Alla <del>människor sjöngo hans</del>
                   <lb/>hans dagsverkare och hyttarbetare
                   <lb/>och alla andra människor med <choice><orig>sjön<pc>-</pc>
                      <lb break="no"/>go</orig><reg>sjöng</reg></choice> hans lov från morgon till kväll.
@@ -741,7 +741,7 @@
  <emph>på</emph> jorden,
                   <lb/><emph rend="double">malm</emph> och <emph rend="double">skog</emph>. <name type="person"><choice>
                         <abbr>L. L.</abbr><expan>Lars Larsson</expan></choice></name> hade mycket
-                  <lb/>skog uppåt Falutrakten! Men ändå hette
+                  <lb/>skog uppåt <name type="place">Falutrakten</name>! Men ändå hette
                   <lb/>det så ödmjukt och tacksamt: <emph rend="double">han gav</emph>
                   <lb rend="indent"/><emph rend="double">arbete!</emph><anchor xml:id="a9"/><note type="text-09">Hela detta stycke är överstruket med två lodräta linjer i blyerts.</note>
                </p>
@@ -840,8 +840,8 @@
             <div type="page" n="14v" facs="sida14">
                <pb n="14v" facs="sida14" type="notes"/>
                <p>
-                  <lb/>Robinson
-                  <lb/>Kruse!
+                  <lb/><name type="person">Robinson
+                  <lb/>Kruse!</name>
                </p>
             </div>
             
@@ -855,13 +855,13 @@
                </p>
                
                <p part="I">
-                  <lb/>Robinson:
+                  <lb/><name type="person">Robinson</name>:
                   <lb rend="indent"/>Hur beroende man är av det
                   <lb/>grova föraktade arbetet, hur det
                   <lb/>är detta, varpå det i första hand kom<pc>-</pc>
                   <lb break="no"/>mer an, <choice><orig>lära</orig><reg>lär</reg></choice> vi <choice><abbr>t. o. m.</abbr><expan>till och med</expan></choice> av
                   <lb rend="indent"/>vår gamle äventyrshjälte
-                  <lb rend="indent"/>Robinson Kruse.
+                  <lb rend="indent"/><name type="person">Robinson Kruse</name>.
                   <lb rend="indent"/>På sin obebodda <supplied>ö</supplied> var han full<pc>-</pc>
                </p>
             </div>
@@ -869,7 +869,7 @@
             <div type="page" n="16v" facs="sida16">
                <pb n="16v" facs="sida16" type="notes"/>
                <p>
-                  <lb/>Fredag – Vad är
+                  <lb/><name type="person">Fredag</name> – Vad är
                   <lb/>en bas utan en
                   <lb/>slav – se där
                   <lb/>exemplets lärdom!
@@ -881,13 +881,13 @@
                <p part="F">
                   <lb break="no"/>ständig herre, och han hade både
                   <lb/><choice><orig>pängar</orig><reg>pengar</reg></choice> och vapen. Men hur fick
-                  <lb/><del>han</del><add>Robinson</add> inte knoga! Själv bygga sitt hus,
+                  <lb/><del>han</del><add><name type="person">Robinson</name></add> inte knoga! Själv bygga sitt hus,
                   <lb/>skaffa villebråd, odla jord och tämja
                   <lb/>husdjur <del>och</del><add>samt</add> hela tiden längta efter <choice><abbr>männskl.</abbr><expan>mänskligt</expan></choice>
-                  <lb/>sällskap. Först när <emph>Fredag</emph> kommit i
+                  <lb/>sällskap. Först när <emph><name type="person">Fredag</name></emph> kommit i
                   <lb/>hans väg, och han genom ett bösskott
                   <lb/>övertygat honom om sin överhöghet,
-                  <lb/>blev det drägligt för <del>honom</del><add>Robinson Kruse</add> och lätt<pc>-</pc>
+                  <lb/>blev det drägligt för <del>honom</del><add><name type="person">Robinson Kruse</name></add> och lätt<pc>-</pc>
                   <lb break="no"/>nad i arbetet. <emph rend="triple">Vad är en bas utan</emph>
                   <lb/><emph rend="triple">en slav?</emph> är den enkla lärdomen
                   <lb/>av exemplet!
@@ -955,7 +955,7 @@
                <p>
                   <lb/>Alla skäl för förkortad
                   <lb/>dag omtuggade –
-                  <lb/>även i Nora!
+                  <lb/>även i <name type="place">Nora</name>!
                </p>
             </div>
             
@@ -976,7 +976,7 @@
                <p part="I">
                   <lb rend="indent"/>Alla skäl, som <choice><orig>tala</orig><reg>talar</reg></choice> för <choice><abbr>förk.</abbr><expan>förkortning</expan></choice> av
                   <lb/>arbetstiden, <choice><orig>äro</orig><reg>är</reg></choice> säkert omtuggade
-                  <lb/>tillräckligt även i Nora.
+                  <lb/>tillräckligt även i <name type="place">Nora</name>.
                   <lb/>Jag bryr mig inte om att repetera
                   <lb/>dem. Det finns <add><handShift medium="pencil"/>ett skäl som går utanpå</add><del>inte mer än <emph>ett</emph></del>
                   <lb/><add><handShift medium="pencil"/>alla andra,<handShift medium="ink"/></add><del>verkligt skäl,</del> varför arbetaren inte
@@ -1163,17 +1163,17 @@
                <pb n="38v" facs="sida38" type="notes"/>
                <p>
                   <lb/>Alltså en tripp till 
-                  <lb/><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice>, <choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice>,
-                  <lb/>Malmö, Köpenhamn,
-                  <lb/>Berlin Paris, London.
+                  <lb/><name type="place"><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice></name>, <name type="place"><choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice></name>,
+                  <lb/><name type="place">Malmö</name>, <name type="place">Köpenhamn</name>,
+                  <lb/><name type="place">Berlin</name><supplied>,</supplied> <name type="place">Paris</name>, <name type="place">London</name>.
                   <lb/>Men det blir 
-                  <lb rend="indent"/>bara Amerika, 
+                  <lb rend="indent"/>bara <name type="place">Amerika</name>, 
                   <lb/>där de prickade 
                   <lb/>betygen inte 
                   <lb rend="indent"/><choice><orig>gälla</orig><reg>gäller</reg></choice>!
-                  <lb/>Höra Branting
-                  <lb/>tala en gång, eller Ellen
-                  <lb/>Key, Heidenstam, Hedin etc.
+                  <lb/>Höra <name type="person">Branting</name>
+                  <lb/>tala en gång, eller <name type="person">Ellen
+                  <lb/>Key</name>, <name type="person">Heidenstam</name>, <name type="person">Hedin</name><supplied>,</supplied> etc.
                </p>
             </div>
             
@@ -1188,14 +1188,14 @@
                   <lb/>vi <choice><orig>ha</orig><reg>har</reg></choice> sådana präktiga kommu<pc>-</pc>
                   <lb break="no"/>nikationer, som inte <choice><orig>funnos</orig><reg>fanns</reg></choice> på
                   <lb/>farfars farfars tid; vi <choice><orig>få</orig><reg>får</reg></choice> snart flyg<pc>-</pc>
-                  <lb break="no"/>skepp! — allså en tripp till <emph rend="triple"><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice></emph>,
-                  <lb/>upp till <emph rend="triple"><choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice></emph> för att se
+                  <lb break="no"/>skepp! — allså en tripp till <emph rend="triple"><name type="place"><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice></name></emph>,
+                  <lb/>upp till <emph rend="triple"><name type="place"><choice><orig>Avasaksa</orig><reg>Aavasaksa</reg></choice></name></emph> för att se
                   <lb/><del/>midnattssolen, en <del>tripp till</del>
-                  <lb/>kanalresa mellan <choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice> och Göte<pc>-</pc>
-                  <lb break="no"/>borg, en tripp ner till <emph rend="triple">Malmö</emph>, till
-                  <lb/>arbetarnas <emph>Folkets park</emph>, till Kö<pc>-</pc>
-                  <lb break="no"/><emph rend="double">penhamn</emph>, till <emph rend="double">Berlin</emph>, ner
-                  <lb/>till <emph rend="double">Dresdens</emph> tavelgallerier, till
+                  <lb/>kanalresa mellan <name type="place"><choice><abbr>Sthlm</abbr><expan>Stockholm</expan></choice></name> och <name type="place">Göte<pc>-</pc>
+                  <lb break="no"/>borg</name>, en tripp ner till <emph rend="triple"><name type="place">Malmö</name></emph>, till
+                  <lb/>arbetarnas <emph><name type="place">Folkets park</name></emph>, till <name type="place">Kö<pc>-</pc>
+                  <lb break="no"/><emph rend="double">penhamn</emph></name>, till <emph rend="double"><name type="place">Berlin</name></emph>, ner
+                  <lb/>till <emph rend="double"><name type="place">Dresdens</name></emph> tavelgallerier, till
                </p>
             </div>
 
@@ -1204,23 +1204,23 @@
                <p>
                   <lb/>Nå, vart reser ni 
                   <lb/>nu då? Jo till 
-                  <lb rend="indent"/>Amerika!
+                  <lb rend="indent"/><name type="place">Amerika</name>!
                   <lb/>Skramla <choice><orig>hop</orig><reg>ihop</reg></choice> <choice><orig>respän<pc>-</pc>
-                     <lb break="no"/>gar</orig><reg>respengar</reg></choice>
+                     <lb break="no"/>gar</orig><reg>respengar</reg></choice><supplied>.</supplied>
                   <lb rend="indent"/><del>Mer än 20 gånger</del>
-                  <lb/><del>ha vi följt parollen!</del>
+                  <lb/><del><choice><orig>ha</orig><reg>har</reg></choice> vi följt parollen!</del>
                </p>
             </div>
             
             <div type="page" n="41r" facs="sida41">
                <pb n="41r" facs="sida41" type="text"/>
                <p part="F">
-                  <lb/>Paris, London. Nå, reser ni nu dit?
+                  <lb/><name type="place">Paris</name>, <name type="place">London</name>. Nå, reser ni nu dit?
                </p>
                
                <p part="I">
                   <lb/><choice><orig>Nää</orig><reg>Nej</reg></choice>, när ni <choice><orig>resa</orig><reg>reser</reg></choice>,
-                  <lb rend="indent"/>så blir det till — <emph rend="triple">Amerika,</emph>
+                  <lb rend="indent"/>så blir det till — <emph rend="triple"><name type="place">Amerika</name>,</emph>
                   <lb/>och knappast <del/> för att komma
                   <lb/>igen till <choice><orig>en|älskad</orig><reg>en älskad</reg></choice> fosterjord! Under
                   <lb/>det år som gått, <choice><orig>ha</orig><reg>har</reg></choice> ju arbetarna haft
@@ -1228,23 +1228,23 @@
                   <lb/>skramla <choice><orig>hop</orig><reg>ihop</reg></choice> <choice><orig>respängar</orig><reg>respengar</reg></choice> åt kamrater,
                   <lb/>som skulle svältas ihjäl enligt ar<pc>-</pc>
                   <lb break="no"/>betsgivarnas dekret,<del>! Men</del> men
-                  <lb/>som i Amerika inte skadas av sina prickade
+                  <lb/>som i <name type="place">Amerika</name> inte skadas av sina prickade
                   <lb/>betyg. Min verkliga lön kan vidare be<pc>-</pc>
                   <lb break="no"/>stå i att en enda gång i livet, ifall
-                  <lb/>jag bor i en avkrok<supplied>,</supplied> få höra Hjalmar
+                  <lb/>jag bor i en avkrok<supplied>,</supplied> få höra <name type="person">Hjalmar</name>
                </p>
             </div>
 
             <div type="page" n="42v" facs="sida42">
                <pb n="42v" facs="sida42" type="notes"/>
                <p>
-                  <lb/>Hjalmar
-                  <lb/>Branting
+                  <lb/><name type="person">Hjalmar
+                  <lb/>Branting</name><supplied>.</supplied>
                </p>
                
                <p>
                   <lb/>Vara samman
-                  <lb/>med familjen
+                  <lb/>med familjen<supplied>.</supplied>
                </p>
                
                <p>
@@ -1256,10 +1256,10 @@
             <div type="page" n="43r" facs="sida43">
                <pb n="43r" facs="sida43" type="text"/>
                <p part="M">
-                  <lb/>Branting tala, eller Ellen Key, eller vår
-                  <lb/>geografiske upptäckare Hedin eller
-                  <lb/><del>B</del> Heidenstam eller vår store sångare
-                  <lb/>John Forsell, eller se en stor scenisk
+                  <lb/><name type="person">Branting</name> tala, eller <name type="person">Ellen Key</name>, eller vår
+                  <lb/>geografiske upptäckare <name type="person">Hedin</name> eller
+                  <lb/><del>B</del> <name type="person">Heidenstam</name> eller vår store sångare
+                  <lb/><name type="person">John Forsell</name>, eller se en stor scenisk
                   <lb/>konstnär. Lönen för min möda på
                   <lb/>fältet, i <choice><abbr>fabr.</abbr><expan>fabriken</expan></choice>, eller hyttan och <emph rend="triple">gruvan</emph>
                   <lb/>är att få tillbringa en stund med
@@ -1282,8 +1282,8 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Snoilsky!
-                  <lb/>Vetensk
+                  <lb rend="indent"/><name type="person">Snoilsky</name>!
+                  <lb/><choice><abbr>Vetensk</abbr><expan>Vetenskapen</expan></choice><supplied>.</supplied>
                </p>
             </div>
             
@@ -1306,7 +1306,7 @@
                </p>
                
                <p>
-                  <lb rend="indent"/>Hör vad Snoilsky säger för att
+                  <lb rend="indent"/>Hör vad <name type="person">Snoilsky</name> säger för att
                   <lb/>varna överklassen för dess <del>övermod,</del>
                   <lb/><del>som <unclear/></del> snikenhet och övermod:
                </p>
@@ -1331,7 +1331,6 @@
                      <lb/><l>Kunna säga: se vårt kött och blod!<note type="gloss-47">Ur "Emigrationen" i Carl Snoilsky: <emph>Dikter. Tredje samlingen</emph> (1883) <ref target="https://litteraturbanken.se/f%C3%B6rfattare/SnoilskyC/titlar/Dikter3/sida/261/faksimil">Litteraturbanken</ref>. Ej ordagrant citerad. Originalet har andra skiljetecken och "se <emph>mitt</emph> kött och blod!"</note></l>
                   </lg>
                </p>
-                  
                
                <p part="I">
                   <lb rend="indent"/>Jag vädjar till belackarna,
@@ -1504,7 +1503,7 @@
                <pb n="60v" facs="sida60" type="notes"/>
                <p><handShift medium="pencil"/>
                   <lb rend="indent"/>Hälsning från
-                  <lb rend="indent"/>Malmö!
+                  <lb rend="indent"/><name type="place">Malmö</name>!
                </p>
                
                <p><handShift medium="pencil"/>
@@ -1524,7 +1523,7 @@
                </p>
                
                <p><handShift medium="pencil"/>
-                  <lb/>Danko.<note type="gloss-61">Se <ref target="https://tidningar.kb.se/8k48hv6c6v3hx36r/part/2/page/3?q=%22dankos%20brinnande%20hj%C3%A4rta%22">"Dankos brinnande hjärta"</ref> av Maxim Gorkij, i <emph>Arbetet</emph> 19 december 1903.</note>
+                  <lb/><name type="person">Danko</name>.<note type="gloss-61">Se <ref target="https://tidningar.kb.se/8k48hv6c6v3hx36r/part/2/page/3?q=%22dankos%20brinnande%20hj%C3%A4rta%22">"Dankos brinnande hjärta"</ref> av Maxim Gorkij, i <emph>Arbetet</emph> 19 december 1903.</note>
                </p>
                
                <p><handShift medium="pencil"/>

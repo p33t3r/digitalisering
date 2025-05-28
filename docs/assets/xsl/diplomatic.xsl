@@ -33,7 +33,7 @@
                         <a href="index.html">Bilder</a>
                     </div>
                 </header>
-                <main id="manuscript">
+                <main>
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <div class="diplomatic">
@@ -201,8 +201,8 @@
                                 </a>
                             </div>
                             <div class="copyright_text"> 2025 <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>.</div>
-                            <a href="http://www.tei-c.org/">
-                                <img src="http://www.tei-c.org/About/Badges/powered-by-TEI.gif" alt="Powered by TEI"/>
+                            <a href="https://www.tei-c.org/">
+                                <img src="https://www.tei-c.org/About/Badges/powered-by-TEI.gif" alt="Powered by TEI"/>
                             </a>
                         </div>
                     </div>

@@ -170,39 +170,36 @@ label {
     color: red;
 }
 
-/*  styles for the full text view */
+/*  styles for the introduction and the full text view */
 .fulltext, .intro {
     width: 55%;
     margin-left: 15%;
+    padding-bottom: 2rem;
 }
+
+/*  styles for the introduction */
+.intro img {
+    margin-bottom: 1rem;
+}
+
+/*  styles for the full text view */
 .fulltext .marginnote {
     float: left;
     clear: left;
     margin-left: -30%;
-    opacity: .5;
     font-size: .8rem;
-}
-.fulltext .marginnote:hover {
-    opacity: 1;
 }
 .fulltext .thumbnail {
     width: 100px;
 }
 .fulltext .notes p {
-    padding-bottom: 1.1rem;
+    padding-bottom: 1.2rem;
 }
 .fulltext .delInk {
     display: none; /* don't display deleted sections in full text view */
 }
 
-/*  styles for the introduction */
-.intro {
-    padding-bottom: 1rem;
-}
-.intro img {
-    margin-bottom: 1rem;
-}
-
+/*  styles for double and triple underlines */
 u.double {
     text-decoration-style: double;
 }
@@ -295,7 +292,7 @@ em, em .choice {
     transition: .5s ease-in-out; /* create smooth transitions */
 }
 
-/* create tooltips from choice elements */
+/* create tooltips from choice elements – from https://codepen.io/deineko/pen/YZeQJP */
 .choice {
   display: inline-block;
   position: relative;
